@@ -50,6 +50,10 @@
                 display: none;
             }
 
+            .topo {
+                display: none;
+            }
+
             /* menu */
             .arrow-button {
                 position: fixed;
@@ -81,7 +85,7 @@
 
             .arrow-button:hover {
                 color: white;
-                background-color: navy;
+                background-color: magenta;
             }
 
             .hidden-pages {
@@ -99,7 +103,7 @@
             .page a {
                 text-decoration: none;
                 background-color: #f2f2f2;
-                color: #333;
+                color: #666;
                 height: 100%;
                 display: flex;
                 padding: 15px 0px 15px 15px;
@@ -112,10 +116,11 @@
                 padding-left: 35px;
                 text-align: left;
                 position: relative;
+
             }
 
             .page a:hover {
-                background-color: navy;
+                background-color: magenta;
                 color: white;
             }
 
@@ -396,88 +401,52 @@
                 display: none;
             }
 
-            /* menu */
             .arrow-button {
-                position: fixed;
-                display: flex;
-                align-items: center;
-                top: 1px;
-                right: 1px;
+                display: none;
+            }
+
+
+            /* topo */
+            .topo {
                 background-color: #f2f2f2;
+            }
+
+            #div-pai {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-evenly;
+                width: 100%;
+                align-items: center;
+                text-align: center;
+            }
+
+            .div-filha a {
+                padding: 25px;
+                text-decoration: none;
+                font-size: 15px;
                 color: rgba(0, 0, 0, .5);
-                letter-spacing: 2px;
-                width: 75px;
-                height: 40px;
-                font-size: 12px;
-                border: 2px solid white;
                 font-family: Arial, Helvetica, sans-serif;
+                display: inline-block;
+                justify-content: left;
+                align-items: center;
                 text-align: center;
                 display: flex;
-                align-items: center;
-                justify-content: center;
-                cursor: pointer;
-                z-index: 999;
-                transition: 0.5s;
-            }
-
-            .arrow-button i {
-                margin-right: 10px;
-            }
-
-            .arrow-button:hover {
-                color: white;
-                background-color: navy;
-            }
-
-            .hidden-pages {
-                display: none;
-                position: fixed;
-                top: 45px;
-                right: 1px;
-                width: 250px;
-                background-color: #f2f2f2;
-                z-index: 998;
-                opacity: 0;
-                transition: opacity 0.3s ease;
-            }
-
-            .page a {
-                text-decoration: none;
-                background-color: #f2f2f2;
-                color: #333;
-                height: 100%;
-                display: flex;
-                padding: 15px 0px 15px 15px;
-                cursor: pointer;
+                transition: 0.3s;
                 letter-spacing: 1px;
-                font-family: Arial, Helvetica, sans-serif;
-                font-weight: bold;
-                font-size: 13px;
-                transition: background-color 0.3s ease, color 0.3s ease;
-                padding-left: 60px;
-                text-align: left;
-                position: relative;
+
             }
 
-            .page a:hover {
-                background-color: navy;
-                color: white;
+            .div-filha a:hover {
+                background-color: magenta;
+                color: #f2f2f2;
+                transition: 0.3s;
             }
 
-            .page a i {
-                position: absolute;
-                left: 0;
-                top: 50%;
-                transform: translateY(-50%);
-                font-size: 13px;
-                margin-left: 20px;
+            a i {
+                margin-right: 15px;
             }
 
-            .show-pages {
-                opacity: 1;
-            }
-
-            /* menu */
+            /* topo */
 
             /* efeitos */
             /* efeito opacity normal */
@@ -738,36 +707,36 @@
             <i class="fas fa-bars"></i>
             <h3>Menu</h3>
             <div class="hidden-pages" id="hidden-pages">
-                <div style="border-top: 1px solid navy; border-left: 1px solid navy; border-right: 1px solid navy;"
+                <div style="border-top: 1px solid magenta; border-left: 1px solid magenta; border-right: 1px solid magenta;"
                     class="page">
                     <a href="../pages/home.html"><i class="fas fa-home"></i>Home</a>
                 </div>
                 <div class="page">
-                    <a style="border-top: 1px solid navy; border-left: 1px solid navy; border-right: 1px solid navy;"
+                    <a style="border-top: 1px solid magenta; border-left: 1px solid magenta; border-right: 1px solid magenta;"
                         href="../pages/solucoes.html"><i class="fas fa-cogs"></i>Soluções</a>
                 </div>
                 <div class="page">
-                    <a style="border-top: 1px solid navy; border-left: 1px solid navy; border-right: 1px solid navy;"
+                    <a style="border-top: 1px solid magenta; border-left: 1px solid magenta; border-right: 1px solid magenta;"
                         href="../pages/identidade-visual.html"><i class="fas fa-eye"></i>Identidade Visual</a>
                 </div>
                 <div class="page">
-                    <a style="border-top: 1px solid navy; border-left: 1px solid navy; border-right: 1px solid navy;"
+                    <a style="border-top: 1px solid magenta; border-left: 1px solid magenta; border-right: 1px solid magenta;"
                         href="../pages/quem-somos.html"><i class="fas fa-users"></i>Quem somos</a>
                 </div>
                 <div class="page">
-                    <a style="border-top: 1px solid navy; border-left: 1px solid navy; border-right: 1px solid navy;"
+                    <a style="border-top: 1px solid magenta; border-left: 1px solid magenta; border-right: 1px solid magenta;"
                         href="../pages/duvidas.html"><i class="fas fa-question"></i>Dúvidas</a>
                 </div>
                 <div class="page">
-                    <a style="border-top: 1px solid navy; border-left: 1px solid navy; border-right: 1px solid navy;"
+                    <a style="border-top: 1px solid magenta; border-left: 1px solid magenta; border-right: 1px solid magenta;"
                         href="../pages/contato.html"><i class="fas fa-envelope"></i>Contato</a>
                 </div>
                 <div class="page">
-                    <a style="border-top: 1px solid navy; border-left: 1px solid navy; border-right: 1px solid navy; border-bottom: 1px solid navy;"
+                    <a style="border-top: 1px solid magenta; border-left: 1px solid magenta; border-right: 1px solid magenta;"
                         href="#"><i class="fas fa-headphones"></i>Suporte</a>
                 </div>
                 <div class="page">
-                    <a style="border-left: 1px solid navy; border-right: 1px solid navy; border-bottom: 1px solid navy;"
+                    <a style="border-top: 1px solid magenta; border-left: 1px solid magenta; border-right: 1px solid magenta; border-bottom: 1px solid magenta;"
                         href="../pages/privacidade.html"><i class="fas fa-shield-alt"></i></i>Política de
                         Privacidade</a>
                 </div>
@@ -775,262 +744,306 @@
         </div>
         <!-- menu -->
 
-        <section>
-            <!-- bloco icons lateral direita -->
-            <div class="box">
-                <a class="inicio" title="Inicio" href="#top"> <img src="../icons/seta-cima.png" alt=""></a>
-                <a class="whats" title="Olá, vamos conversar no WhatsApp!"
-                    href="https://api.whatsapp.com/send?phone=46999344203&text=Olá%20Ana%20Julia%2C%20estou%20ansioso(a)%20para%20descobrir%20seus%20incríveis%20métodos%20no%20Instagram%21"
-                    target="_blank"> <img src="../icons/whatsapp.png" alt=""></a>
-                <a class="insta" title="Olá, Venha explorar comigo no Instagram!"
-                    href="https://www.instagram.com/anaju_socialmedia/" target="_blank"><img
-                        src="../icons/instagram.png" alt=""></a>
-            </div>
-            <!-- bloco icons lateral direita -->
+        <!-- topo -->
+        <header class="topo">
+            <div id="div-pai">
 
-            <!-- bloco 7 -->
-            <div class="bloco7">
-                <h1 class="init-hidden-cima bordered-text">Perguntas frequentes</h1>
-                <p>Esclarecendo suas principais dúvidas:</p>
-                <div class="duvidas">
-                    <div class="pergunta init-hidden-cima" onclick="mostrarResposta(1)"> <i class="fas fa-plus"></i>O
-                        que é gerenciamento de redes
-                        sociais no Instagram?</div>
-                    <div class="resposta" id="resposta1">
-                        <p>O gerenciamento de redes sociais no Instagram é o processo de
-                            criar, programar e publicar conteúdo relevante para uma conta ou perfil no Instagram, com o
-                            objetivo de alcançar um público-alvo e melhorar a presença da marca.</p>
-                    </div> <br>
+                <div class="div-filha">
 
-                    <div class="pergunta init-hidden-cima" onclick="mostrarResposta(2)"> <i
-                            class="fas fa-plus"></i>Quais são os benefícios de
-                        contratar um serviço de gerenciamento de
-                        Instagram?
-                    </div>
-                    <div class="resposta" id="resposta2">
-                        <p>Os benefícios incluem economia de tempo, expertise em estratégias
-                            de marketing, aumento do engajamento e seguidores, além de uma presença consistente e
-                            profissional no Instagram.</p>
-                    </div> <br>
+                    <a href="../pages/home.html"><i class="fas fa-home"></i>Home</a>
+                </div>
 
-                    <div class="pergunta init-hidden-cima" onclick="mostrarResposta(3)"> <i class="fas fa-plus"></i>Como
-                        os serviços de social media
-                        ajudam a aumentar o alcance no
-                        Instagram?</div>
-                    <div class="resposta" id="resposta3">
-                        <p>Os serviços de social media aplicam estratégias de marketing
-                            digital, como o uso de hashtags relevantes, parcerias com influenciadores e promoção de
-                            conteúdo de qualidade, para aumentar o alcance das postagens e atrair novos seguidores.</p>
-                    </div> <br>
+                <div class="div-filha">
+                    <a href="../pages/solucoes.html"><i class="fas fa-cogs"></i>Soluções</a>
+                </div>
 
-                    <div class="pergunta init-hidden-cima" onclick="mostrarResposta(4)"> <i class="fas fa-plus"></i>Como
-                        são criados os conteúdos
-                        para o Instagram por esses serviços?
-                    </div>
-                    <div class="resposta" id="resposta4">
-                        <p>Os conteúdos são criados com base na identidade da marca,
-                            objetivos de marketing e preferências do público. Podem incluir imagens, vídeos, carrosséis
-                            e stories, desenvolvidos para engajar a audiência.</p>
-                    </div> <br>
+                <div class="div-filha">
+                    <a href="../pages/identidade-visual.html"><i class="fas fa-eye"></i>Identidade Visual</a>
+                </div>
 
-                    <div class="pergunta init-hidden-cima" onclick="mostrarResposta(5)"> <i class="fas fa-plus"></i>Como
-                        os serviços de social
-                        media interagem com os seguidores no
-                        Instagram?</div>
-                    <div class="resposta" id="resposta5">
-                        <p>Os serviços de social media respondem a comentários, mensagens
-                            diretas e interações nas postagens, garantindo um relacionamento positivo e próximo com os
-                            seguidores, aumentando o engajamento e construindo lealdade à marca.</p>
-                    </div><br>
+                <div class="div-filha">
+                    <a href="../pages/quem-somos.html"><i class="fas fa-users"></i>Quem somos</a>
+                </div>
 
-                    <div class="pergunta init-hidden-cima" onclick="mostrarResposta(6)"> <i
-                            class="fas fa-plus"></i>Quais métricas são monitoradas
-                        pelos serviços de social media no
-                        Instagram?</div>
-                    <div class="resposta" id="resposta6">
-                        <p>As métricas monitoradas incluem o número de seguidores, alcance
-                            das postagens, taxa de engajamento, cliques em links, compartilhamentos e conversões, entre
-                            outros, para avaliar a eficácia das estratégias.</p>
-                    </div><br>
+                <div class="div-filha">
+                    <a href="../pages/duvidas.html"><i class="fas fa-question"></i>Dúvidas</a>
+                </div>
 
-                    <div class="pergunta init-hidden-cima" onclick="mostrarResposta(7)"> <i class="fas fa-plus"></i>Como
-                        os serviços de social media
-                        lidam com críticas ou feedback
-                        negativo no Instagram?</div>
-                    <div class="resposta" id="resposta7">
-                        <p>Os serviços de social media respondem de forma diplomática e
-                            empática, buscando resolver problemas e transformar feedback negativo em oportunidades de
-                            melhoria.</p>
-                    </div><br>
+                <div class="div-filha">
+                    <a href="../pages/contato.html"><i class="fas fa-envelope"></i>Contato</a>
+                </div>
 
-                    <div class="pergunta init-hidden-cima" onclick="mostrarResposta(8)"> <i
-                            class="fas fa-plus"></i>Quais estratégias são usadas
-                        para aumentar o número de seguidores no
-                        Instagram?</div>
-                    <div class="resposta" id="resposta8">
-                        <p>Algumas estratégias incluem seguir perfis relevantes, usar
-                            hashtags populares e específicas, criar conteúdo atrativo e participar de parcerias com
-                            outros perfis ou influenciadores.</p>
-                    </div><br>
+                <div class="div-filha">
+                    <a href="#"><i class="fas fa-headphones"></i>Suporte</a>
+                </div>
 
-                    <div class="pergunta init-hidden-cima" onclick="mostrarResposta(9)"> <i class="fas fa-plus"></i>Como
-                        os serviços de social media
-                        acompanham as tendências do
-                        Instagram?</div>
-                    <div class="resposta" id="resposta9">
-                        <p>Eles estão constantemente pesquisando e monitorando novidades e
-                            tendências na plataforma, como novos recursos, mudanças nos algoritmos e preferências do
-                            público, para adaptar as estratégias de forma eficaz.</p>
-                    </div><br>
-
-                    <div class="pergunta init-hidden-cima" onclick="mostrarResposta(10)"> <i
-                            class="fas fa-plus"></i>Como os serviços de social
-                        media medem o retorno do investimento (ROI)
-                        no Instagram?</div>
-                    <div class="resposta" id="resposta10">
-                        <p>Para medir o ROI no Instagram, os serviços de social media
-                            rastreiam os resultados de suas campanhas, como conversões, vendas diretas, tráfego para o
-                            site e outras metas estabelecidas. Ferramentas de análise e métricas são utilizadas para
-                            atribuir o valor gerado pelas estratégias de mídia social, comparando os custos com os
-                            resultados alcançados. Com essas informações, é possível determinar o sucesso das ações e
-                            fazer ajustes necessários para otimizar o retorno do investimento.</p>
-                    </div><br>
+                <div class="div-filha">
+                    <a href="../pages/privacidade.html"><i class="fas fa-shield-alt"></i>Privacidade</a>
                 </div>
             </div>
-            <!-- bloco 7  -->
 
-        </section>
+    </div>
 
-        <!-- direitos reservados -->
-        <div class="direitos">
-            <div class="direitos1">
-                <p>&copy; 2023 -
-                    <a target="_blank" href="https://www.copyright.gov/what-is-copyright/"> Ana Julia</a> | Todos os
-                    direitos reservados.
-                </p>
-            </div>
-            <hr>
-            <div class="direitos2">Desenvolvido por
-                <a target="_blank" href="https://www.linkedin.com/in/brunoferreiraadev">Bruno Ferreira</a>
+    </header>
+    <!-- topo -->
+
+
+    <section>
+        <!-- bloco icons lateral direita -->
+        <div class="box">
+            <a class="inicio" title="Inicio" href="#top"> <img src="../icons/seta-cima.png" alt=""></a>
+            <a class="whats" title="Olá, vamos conversar no WhatsApp!"
+                href="https://api.whatsapp.com/send?phone=46999344203&text=Olá%20Ana%20Julia%2C%20estou%20ansioso(a)%20para%20descobrir%20seus%20incríveis%20métodos%20no%20Instagram%21"
+                target="_blank"> <img src="../icons/whatsapp.png" alt=""></a>
+            <a class="insta" title="Olá, Venha explorar comigo no Instagram!"
+                href="https://www.instagram.com/anaju_socialmedia/" target="_blank"><img src="../icons/instagram.png"
+                    alt=""></a>
+        </div>
+        <!-- bloco icons lateral direita -->
+
+        <!-- bloco 7 -->
+        <div class="bloco7">
+            <h1 class="init-hidden-cima bordered-text">Perguntas frequentes</h1>
+            <p>Esclarecendo suas principais dúvidas:</p>
+            <div class="duvidas">
+                <div class="pergunta init-hidden-cima" onclick="mostrarResposta(1)"> <i class="fas fa-plus"></i>O
+                    que é gerenciamento de redes
+                    sociais no Instagram?</div>
+                <div class="resposta" id="resposta1">
+                    <p>O gerenciamento de redes sociais no Instagram é o processo de
+                        criar, programar e publicar conteúdo relevante para uma conta ou perfil no Instagram, com o
+                        objetivo de alcançar um público-alvo e melhorar a presença da marca.</p>
+                </div> <br>
+
+                <div class="pergunta init-hidden-cima" onclick="mostrarResposta(2)"> <i class="fas fa-plus"></i>Quais
+                    são os benefícios de
+                    contratar um serviço de gerenciamento de
+                    Instagram?
+                </div>
+                <div class="resposta" id="resposta2">
+                    <p>Os benefícios incluem economia de tempo, expertise em estratégias
+                        de marketing, aumento do engajamento e seguidores, além de uma presença consistente e
+                        profissional no Instagram.</p>
+                </div> <br>
+
+                <div class="pergunta init-hidden-cima" onclick="mostrarResposta(3)"> <i class="fas fa-plus"></i>Como
+                    os serviços de social media
+                    ajudam a aumentar o alcance no
+                    Instagram?</div>
+                <div class="resposta" id="resposta3">
+                    <p>Os serviços de social media aplicam estratégias de marketing
+                        digital, como o uso de hashtags relevantes, parcerias com influenciadores e promoção de
+                        conteúdo de qualidade, para aumentar o alcance das postagens e atrair novos seguidores.</p>
+                </div> <br>
+
+                <div class="pergunta init-hidden-cima" onclick="mostrarResposta(4)"> <i class="fas fa-plus"></i>Como
+                    são criados os conteúdos
+                    para o Instagram por esses serviços?
+                </div>
+                <div class="resposta" id="resposta4">
+                    <p>Os conteúdos são criados com base na identidade da marca,
+                        objetivos de marketing e preferências do público. Podem incluir imagens, vídeos, carrosséis
+                        e stories, desenvolvidos para engajar a audiência.</p>
+                </div> <br>
+
+                <div class="pergunta init-hidden-cima" onclick="mostrarResposta(5)"> <i class="fas fa-plus"></i>Como
+                    os serviços de social
+                    media interagem com os seguidores no
+                    Instagram?</div>
+                <div class="resposta" id="resposta5">
+                    <p>Os serviços de social media respondem a comentários, mensagens
+                        diretas e interações nas postagens, garantindo um relacionamento positivo e próximo com os
+                        seguidores, aumentando o engajamento e construindo lealdade à marca.</p>
+                </div><br>
+
+                <div class="pergunta init-hidden-cima" onclick="mostrarResposta(6)"> <i class="fas fa-plus"></i>Quais
+                    métricas são monitoradas
+                    pelos serviços de social media no
+                    Instagram?</div>
+                <div class="resposta" id="resposta6">
+                    <p>As métricas monitoradas incluem o número de seguidores, alcance
+                        das postagens, taxa de engajamento, cliques em links, compartilhamentos e conversões, entre
+                        outros, para avaliar a eficácia das estratégias.</p>
+                </div><br>
+
+                <div class="pergunta init-hidden-cima" onclick="mostrarResposta(7)"> <i class="fas fa-plus"></i>Como
+                    os serviços de social media
+                    lidam com críticas ou feedback
+                    negativo no Instagram?</div>
+                <div class="resposta" id="resposta7">
+                    <p>Os serviços de social media respondem de forma diplomática e
+                        empática, buscando resolver problemas e transformar feedback negativo em oportunidades de
+                        melhoria.</p>
+                </div><br>
+
+                <div class="pergunta init-hidden-cima" onclick="mostrarResposta(8)"> <i class="fas fa-plus"></i>Quais
+                    estratégias são usadas
+                    para aumentar o número de seguidores no
+                    Instagram?</div>
+                <div class="resposta" id="resposta8">
+                    <p>Algumas estratégias incluem seguir perfis relevantes, usar
+                        hashtags populares e específicas, criar conteúdo atrativo e participar de parcerias com
+                        outros perfis ou influenciadores.</p>
+                </div><br>
+
+                <div class="pergunta init-hidden-cima" onclick="mostrarResposta(9)"> <i class="fas fa-plus"></i>Como
+                    os serviços de social media
+                    acompanham as tendências do
+                    Instagram?</div>
+                <div class="resposta" id="resposta9">
+                    <p>Eles estão constantemente pesquisando e monitorando novidades e
+                        tendências na plataforma, como novos recursos, mudanças nos algoritmos e preferências do
+                        público, para adaptar as estratégias de forma eficaz.</p>
+                </div><br>
+
+                <div class="pergunta init-hidden-cima" onclick="mostrarResposta(10)"> <i class="fas fa-plus"></i>Como os
+                    serviços de social
+                    media medem o retorno do investimento (ROI)
+                    no Instagram?</div>
+                <div class="resposta" id="resposta10">
+                    <p>Para medir o ROI no Instagram, os serviços de social media
+                        rastreiam os resultados de suas campanhas, como conversões, vendas diretas, tráfego para o
+                        site e outras metas estabelecidas. Ferramentas de análise e métricas são utilizadas para
+                        atribuir o valor gerado pelas estratégias de mídia social, comparando os custos com os
+                        resultados alcançados. Com essas informações, é possível determinar o sucesso das ações e
+                        fazer ajustes necessários para otimizar o retorno do investimento.</p>
+                </div><br>
             </div>
         </div>
-        <!-- direitos reservados -->
+        <!-- bloco 7  -->
 
-        <!-- direitos reservados-cel -->
-        <div class="direitos-cel">
-            <div class="direitos1-cel">
-                <p>&copy; 2023 -
-                    <a target="_blank" href="https://www.copyright.gov/what-is-copyright/"> Ana Julia</a><br>Todos
-                    os
-                    direitos reservados.
-                </p>
-            </div>
-            <hr>
-            <div class="direitos2-cel">Desenvolvido por
-                <a target="_blank" href="https://www.linkedin.com/in/brunoferreiraadev"><br>Bruno Ferreira</a>
-            </div>
+    </section>
+
+    <!-- direitos reservados -->
+    <div class="direitos">
+        <div class="direitos1">
+            <p>&copy; 2023 -
+                <a target="_blank" href="https://www.copyright.gov/what-is-copyright/"> Ana Julia</a> | Todos os
+                direitos reservados.
+            </p>
         </div>
-        <!-- direitos reservados-cel -->
+        <hr>
+        <div class="direitos2">Desenvolvido por
+            <a target="_blank" href="https://www.linkedin.com/in/brunoferreiraadev">Bruno Ferreira</a>
+        </div>
+    </div>
+    <!-- direitos reservados -->
 
-        <script>
-            // Crie um único objeto observer
-            const observer = new IntersectionObserver(entries => {
-                Array.from(entries).forEach(entry => {
-                    if (entry.intersectionRatio >= 0.1) {
-                        if (entry.target.classList.contains('init-hidden-normal')) {
-                            entry.target.classList.add('init-hidden-off-normal');
-                            entry.target.classList.remove('init-hidden-normal');
-                        } else if (entry.target.classList.contains('init-hidden-cima')) {
-                            entry.target.classList.add('init-from-cima');
-                        } else if (entry.target.classList.contains('init-hidden-esquerda')) {
-                            entry.target.classList.add('init-from-esquerda');
-                        }
+    <!-- direitos reservados-cel -->
+    <div class="direitos-cel">
+        <div class="direitos1-cel">
+            <p>&copy; 2023 -
+                <a target="_blank" href="https://www.copyright.gov/what-is-copyright/"> Ana Julia</a><br>Todos
+                os
+                direitos reservados.
+            </p>
+        </div>
+        <hr>
+        <div class="direitos2-cel">Desenvolvido por
+            <a target="_blank" href="https://www.linkedin.com/in/brunoferreiraadev"><br>Bruno Ferreira</a>
+        </div>
+    </div>
+    <!-- direitos reservados-cel -->
+
+    <script>
+        // Crie um único objeto observer
+        const observer = new IntersectionObserver(entries => {
+            Array.from(entries).forEach(entry => {
+                if (entry.intersectionRatio >= 0.1) {
+                    if (entry.target.classList.contains('init-hidden-normal')) {
+                        entry.target.classList.add('init-hidden-off-normal');
+                        entry.target.classList.remove('init-hidden-normal');
+                    } else if (entry.target.classList.contains('init-hidden-cima')) {
+                        entry.target.classList.add('init-from-cima');
+                    } else if (entry.target.classList.contains('init-hidden-esquerda')) {
+                        entry.target.classList.add('init-from-esquerda');
                     }
-                });
-            }, {
-                threshold: [0.1]
-            });
-
-            Array.from(document.querySelectorAll('.init-hidden-normal, .init-hidden-cima, .init-hidden-esquerda')).forEach(element => {
-                observer.observe(element);
-            });
-            // Crie um único objeto observer
-
-            // função para recarregar a página e voltar no início do site
-            window.addEventListener('beforeunload', function () {
-                window.scrollTo(0, 0);
-            });
-            window.addEventListener('beforeunload', function () {
-                window.scrollTo({
-                    top: 0,
-                    behavior: 'smooth'
-                });
-            });
-            // função para recarregar a página e voltar no início do site
-
-            //comando para subir o site ao topo quando clicar na div inicio
-            const botao = document.querySelector(".inicio");
-            const inicio = document.querySelector("#top"); // Adicione um ID à tag <body> para referenciá-la aqui
-            botao.addEventListener("click", function (event) {
-                event.preventDefault();
-                inicio.scrollIntoView({ behavior: "smooth" });
-            });
-            window.addEventListener("scroll", function () {
-                if (window.scrollY === 0) {
-                    botao.classList.remove("visible");
-                } else {
-                    botao.classList.add("visible");
                 }
             });
-            //comando para subir o site ao topo quando clicar na div inicio
+        }, {
+            threshold: [0.1]
+        });
 
-            // função para expandir e recolher as páginas
-            function togglePages() {
-                const pages = document.getElementById('hidden-pages');
-                if (pages.style.display === 'none' || pages.style.display === '') {
-                    pages.style.display = 'block';
-                    setTimeout(() => {
-                        pages.classList.add('show-pages');
-                    }, 10);
-                } else {
-                    pages.classList.remove('show-pages');
-                    setTimeout(() => {
-                        pages.style.display = 'none';
-                    }, 300);
-                }
+        Array.from(document.querySelectorAll('.init-hidden-normal, .init-hidden-cima, .init-hidden-esquerda')).forEach(element => {
+            observer.observe(element);
+        });
+        // Crie um único objeto observer
+
+        // função para recarregar a página e voltar no início do site
+        window.addEventListener('beforeunload', function () {
+            window.scrollTo(0, 0);
+        });
+        window.addEventListener('beforeunload', function () {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+        // função para recarregar a página e voltar no início do site
+
+        //comando para subir o site ao topo quando clicar na div inicio
+        const botao = document.querySelector(".inicio");
+        const inicio = document.querySelector("#top"); // Adicione um ID à tag <body> para referenciá-la aqui
+        botao.addEventListener("click", function (event) {
+            event.preventDefault();
+            inicio.scrollIntoView({ behavior: "smooth" });
+        });
+        window.addEventListener("scroll", function () {
+            if (window.scrollY === 0) {
+                botao.classList.remove("visible");
+            } else {
+                botao.classList.add("visible");
             }
-            // função para expandir e recolher as páginas
+        });
+        //comando para subir o site ao topo quando clicar na div inicio
 
-            // Função para ocultar as páginas ao clicar fora do botão e das páginas
-            document.addEventListener('click', function (event) {
-                const target = event.target;
-                const pages = document.getElementById('hidden-pages');
-
-                if (!target.closest('.arrow-button') && !target.closest('.hidden-pages')) {
-                    pages.classList.remove('show-pages');
-                    setTimeout(() => {
-                        pages.style.display = 'none';
-                    }, 300);
-                }
-
-            });
-            // Função para ocultar as páginas ao clicar fora do botão e das páginas
-
-            // funcao das perguntas e respostas
-            function mostrarResposta(numero) {
-                var resposta = document.getElementById('resposta' + numero);
-
-                if (resposta.style.display !== 'block') {
-                    resposta.style.display = 'block';
-
-                } else {
-                    resposta.style.display = 'none';
-                }
+        // função para expandir e recolher as páginas
+        function togglePages() {
+            const pages = document.getElementById('hidden-pages');
+            if (pages.style.display === 'none' || pages.style.display === '') {
+                pages.style.display = 'block';
+                setTimeout(() => {
+                    pages.classList.add('show-pages');
+                }, 10);
+            } else {
+                pages.classList.remove('show-pages');
+                setTimeout(() => {
+                    pages.style.display = 'none';
+                }, 300);
             }
+        }
+        // função para expandir e recolher as páginas
+
+        // Função para ocultar as páginas ao clicar fora do botão e das páginas
+        document.addEventListener('click', function (event) {
+            const target = event.target;
+            const pages = document.getElementById('hidden-pages');
+
+            if (!target.closest('.arrow-button') && !target.closest('.hidden-pages')) {
+                pages.classList.remove('show-pages');
+                setTimeout(() => {
+                    pages.style.display = 'none';
+                }, 300);
+            }
+
+        });
+        // Função para ocultar as páginas ao clicar fora do botão e das páginas
+
+        // funcao das perguntas e respostas
+        function mostrarResposta(numero) {
+            var resposta = document.getElementById('resposta' + numero);
+
+            if (resposta.style.display !== 'block') {
+                resposta.style.display = 'block';
+
+            } else {
+                resposta.style.display = 'none';
+            }
+        }
             // funcao das perguntas e respostas
 
-        </script>
-        <script src="../javascript/preloader.js"></script>
+    </script>
+    <script src="../javascript/preloader.js"></script>
 
 </body>
 
