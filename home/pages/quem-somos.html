@@ -53,6 +53,10 @@
                 display: none;
             }
 
+            footer {
+                display: none;
+            }
+
             /* menu */
             .arrow-button {
                 position: fixed;
@@ -457,25 +461,25 @@
                 text-align: center;
             }
 
+
             .div-filha a {
                 padding: 25px;
                 text-decoration: none;
-                font-size: 15px;
+                font-size: 16px;
                 color: rgba(0, 0, 0, .5);
-                font-family: Arial, Helvetica, sans-serif;
+                font-family: monospace;
                 display: inline-block;
+                font-weight: bold;
                 justify-content: left;
                 align-items: center;
                 text-align: center;
                 display: flex;
                 transition: 0.3s;
                 letter-spacing: 1px;
-
             }
 
             .div-filha a:hover {
-                background-color: magenta;
-                color: #f2f2f2;
+                color: blue;
                 transition: 0.3s;
             }
 
@@ -604,12 +608,19 @@
 
             /* bloco icons lateral direita */
 
+
+            /* blocopai */
+            .blocopai {
+                display: flex;
+            }
+
+
+            /* blocopai */
+
             /* bloco 3 */
             .bloco3 {
                 width: 100%;
                 height: 100%;
-                display: flex;
-                background-color: darkturquoise;
             }
 
             .bloco3 h1 {
@@ -617,24 +628,30 @@
                 text-align: center;
                 letter-spacing: 1px;
                 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-                font-size: 40px;
+                font-size: 30px;
             }
 
             .bloco3a,
             .bloco3b {
-                padding: 50px 0px 50px 0px;
-                width: 50%;
+                width: 100%;
                 align-items: center;
                 justify-content: center;
             }
 
             .bloco3a {
+                padding: 50px 0px;
+                background-color: darkturquoise;
                 display: flex;
                 align-items: flex-start;
             }
 
+            .bloco3b {
+                padding-bottom: 50px;
+                background-color: darkturquoise;
+            }
+
             .bloco3 img {
-                width: 80%;
+                width: 50%;
                 border-radius: 50%;
                 border: 5px solid white;
             }
@@ -642,16 +659,69 @@
             .bloco3 p {
                 color: #f2f2f2;
                 font-family: Arial, Helvetica, sans-serif;
-                line-height: 30px;
-                font-size: 20px;
+                line-height: 25px;
+                font-size: 18px;
                 letter-spacing: 1px;
                 width: 90%;
                 text-align: left;
                 margin: 0 auto;
-                padding-top: 40px;
+                padding-top: 30px;
             }
 
             /* bloco 3 */
+
+            /* bloco 4 */
+            .bloco4 {
+                width: 100%;
+                height: 100%;
+            }
+
+            .bloco4 h1 {
+                color: white;
+                text-align: center;
+                letter-spacing: 1px;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                font-size: 30px;
+            }
+
+            .bloco4a,
+            .bloco4b {
+                width: 100%;
+                align-items: center;
+                justify-content: center;
+            }
+
+            .bloco4a {
+                padding: 50px 0px;
+                background-color: magenta;
+                display: flex;
+                align-items: flex-start;
+            }
+
+            .bloco4b {
+                padding-bottom: 50px;
+                background-color: magenta;
+            }
+
+            .bloco4 img {
+                width: 50%;
+                border-radius: 50%;
+                border: 5px solid white;
+            }
+
+            .bloco4 p {
+                color: #f2f2f2;
+                font-family: Arial, Helvetica, sans-serif;
+                line-height: 25px;
+                font-size: 18px;
+                letter-spacing: 1px;
+                width: 90%;
+                text-align: left;
+                margin: 0 auto;
+                padding-top: 30px;
+            }
+
+            /* bloco 4 */
 
             /* bloco 8 rodape*/
             .bloco8 {
@@ -725,6 +795,131 @@
             }
 
             /* bloco 8 rodape*/
+
+            /* rodape */
+            footer {
+                background-color: navy;
+                color: white;
+                text-align: center;
+                position: relative;
+                display: flex;
+                height: 400px;
+                justify-content: center;
+            }
+
+            /* 1 */
+            .footer-content1 {
+                width: 33%;
+                justify-content: center;
+                display: flex;
+                align-items: center;
+            }
+
+            .footer-content1 a {
+                border-radius: 50%;
+            }
+
+            .footer-content1 img {
+                width: 200px;
+                height: 200px;
+                object-fit: cover;
+                border: 3px solid cyan;
+                border-radius: 50%;
+            }
+
+            /* 1 */
+
+            /* 2 */
+            .footer-content2 {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: flex-start;
+                width: 33%;
+            }
+
+            .footer-item2 {
+                text-align: center;
+                display: flex;
+                width: 100%;
+                margin: 0 auto;
+                margin: 5px 0px;
+                align-items: center;
+                justify-content: center;
+                border-left: 1px solid cyan;
+                border-right: 1px solid cyan;
+            }
+
+            .footer-item2 a {
+                width: 180px;
+                text-decoration: none;
+                color: #f2f2f2;
+                border-bottom: 1px solid navy;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 15px;
+                letter-spacing: 1px;
+                text-align: center;
+                display: flex;
+                justify-content: left;
+                padding-bottom: 3px;
+                align-items: center;
+                transition: 0.3s;
+            }
+
+            .footer-item2 i {
+                width: 10px;
+                padding-right: 20px;
+            }
+
+            .footer-item2 a:hover {
+                border-bottom: 1px solid cyan;
+                color: cyan;
+                transition: 0.3s;
+            }
+
+            /* 2 */
+
+            /* 3 */
+            .footer-content3 {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 20px;
+                width: 33%;
+            }
+
+            .social-icons {
+                display: flex;
+                flex-direction: column;
+            }
+
+            .social-icons i {
+                display: inline-flex;
+                background-color: navy;
+                color: white;
+                text-decoration: none;
+                margin-bottom: 20px;
+                transition: color 0.3s;
+                width: 1px;
+                height: 1px;
+                font-size: 45px;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .social-icons a {
+                width: 1px;
+                height: 1px;
+                margin: 40px;
+            }
+
+            .social-icons i:hover {
+                color: cyan;
+            }
+
+            /* 3 */
+
+            /* rodape */
 
             /* direitos reservados */
             .direitos {
@@ -804,10 +999,10 @@
                     <a style="border-top: 1px solid magenta; border-left: 1px solid magenta; border-right: 1px solid magenta;"
                         href="../pages/contato.html"><i class="fas fa-envelope"></i>Contato</a>
                 </div>
-                <div class="page">
+                <!-- <div class="page">
                     <a style="border-top: 1px solid magenta; border-left: 1px solid magenta; border-right: 1px solid magenta;"
                         href="#"><i class="fas fa-headphones"></i>Suporte</a>
-                </div>
+                </div> -->
                 <div class="page">
                     <a style="border-top: 1px solid magenta; border-left: 1px solid magenta; border-right: 1px solid magenta; border-bottom: 1px solid magenta;"
                         href="../pages/privacidade.html"><i class="fas fa-shield-alt"></i></i>Política de
@@ -846,9 +1041,9 @@
                     <a href="../pages/contato.html"><i class="fas fa-envelope"></i>Contato</a>
                 </div>
 
-                <div class="div-filha">
+                <!-- <div class="div-filha">
                     <a href="#"><i class="fas fa-headphones"></i>Suporte</a>
-                </div>
+                </div> -->
 
                 <div class="div-filha">
                     <a href="../pages/privacidade.html"><i class="fas fa-shield-alt"></i>Privacidade</a>
@@ -861,7 +1056,6 @@
     <!-- topo -->
 
     <section>
-
         <!-- bloco icons lateral direita -->
         <div class="box">
             <a class="inicio" title="Inicio" href="#top"> <img src="../icons/seta-cima.png" alt=""></a>
@@ -874,71 +1068,115 @@
         </div>
         <!-- bloco icons lateral direita -->
 
-        <!-- bloco 3 -->
-        <div class="bloco3">
-            <div class="bloco3a">
-                <img class="init-hidden-normal" title="Ana Julia" src="../image/ana2.png" alt="">
+        <div class="blocopai">
+            <!-- bloco 3 -->
+            <div class="bloco3">
+                <div class="bloco3a">
+                    <img class="init-hidden-normal" title="Ana Julia" src="../image/ana2.png" alt="">
+                </div>
+                <div class="bloco3b">
+                    <h1 class="init-hidden-cima">Quem é Ana Julia?</h1>
+                    <p class="init-hidden-cima">Ana Júlia, Social Midia por paixão. Busca ajudar as pessoas a realizar
+                        seus
+                        sonhos por meio do poder
+                        das
+                        redes sociais. E assim como os sonhos são únicos, cada pessoa e marca também são únicas.
+                        <br><br>
+                        É por isso que sua abordagem de trabalho se baseia em transmitir a verdadeira essência por trás
+                        de
+                        cada
+                        perfil, alinhando-se aos princípios e valores de cada um.<br><br>
+                        Através de uma Identidade Estratégica irá mostrar ao seu público quem você realmente é,
+                        permitindo
+                        que
+                        seus seguidores reconheçam sua marca em sua verdadeira essência.<br><br>
+                        VISIBILIDADE COM AUTENTICIDADE!
+                    </p>
+                </div>
             </div>
-            <div class="bloco3b">
-                <h1 class="init-hidden-cima">Quem é Ana Julia?</h1>
-                <p class="init-hidden-cima">Ana Júlia, Social Midia por paixão. Busca ajudar as pessoas a realizar
-                    seus
-                    sonhos por meio do poder
-                    das
-                    redes sociais. E assim como os sonhos são únicos, cada pessoa e marca também são únicas.
-                    <br><br>
-                    É por isso que sua abordagem de trabalho se baseia em transmitir a verdadeira essência por trás
-                    de
-                    cada
-                    perfil, alinhando-se aos princípios e valores de cada um.<br><br>
-                    Através de uma Identidade Estratégica irá mostrar ao seu público quem você realmente é,
-                    permitindo
-                    que
-                    seus seguidores reconheçam sua marca em sua verdadeira essência.<br><br>
-                    VISIBILIDADE COM AUTENTICIDADE!
-                </p>
-            </div>
-        </div>
-        <!-- bloco 3 -->
+            <!-- bloco 3 -->
 
-        <!-- bloco 8 rodape -->
-        <div class="bloco8">
-            <div class="titulos">
-                <h2 class="init-hidden-cima bordered-text2">Guiando o Futuro: "Nossa Missão, Visão e Valores"!</h2>
+            <!-- bloco 4 -->
+            <div class="bloco4">
+                <div class="bloco4a">
+                    <img class="init-hidden-normal" title="Ana Julia" src="../image/ana2.png" alt="">
+                </div>
+                <div class="bloco4b">
+                    <h1 class="init-hidden-cima">Quem é Ana Julia?</h1>
+                    <p class="init-hidden-cima">Ana Julia, Social Midia por paixão. Busca ajudar as pessoas a realizar
+                        seus
+                        sonhos por meio do poder
+                        das
+                        redes sociais. E assim como os sonhos são únicos, cada pessoa e marca também são únicas.
+                        <br><br>
+                        É por isso que sua abordagem de trabalho se baseia em transmitir a verdadeira essência por trás
+                        de
+                        cada
+                        perfil, alinhando-se aos princípios e valores de cada um.<br><br>
+                        Através de uma Identidade Estratégica irá mostrar ao seu público quem você realmente é,
+                        permitindo
+                        que
+                        seus seguidores reconheçam sua marca em sua verdadeira essência.<br><br>
+                        VISIBILIDADE COM AUTENTICIDADE!
+                    </p>
+                </div>
             </div>
-            <div class="missao">
-                <h1 class="init-hidden"> <i class="fas fa-flag-checkered"></i>
-                    MISSÃO</h1>
-                <p class="init-hidden-cima">Impulsionar o sucesso no Instagram através de estratégias eficazes de
-                    social
-                    media.</p>
-            </div>
-            <div class="visao">
-                <h1 class="init-hidden"> <i class="fas fa-eye"></i>
-                    VISÃO</h1>
-                <p class="init-hidden-cima">Ser referência como profissionais de social media no Instagram,
-                    oferecendo
-                    soluções inovadoras e
-                    estabelecendo autoridade para os clientes.</p>
-            </div>
-            <div class="valores">
-                <h1 class="init-hidden"> <i class="fas fa-heart"></i>
-                    VALORES</h1>
-                <p class="init-hidden-cima">Excelência, criatividade, integridade, orientação ao cliente e inovação.
-                </p>
-            </div>
+            <!-- bloco 4 -->
+
+
         </div>
-        <!-- bloco 8 rodape -->
+
 
     </section>
+    <!-- footer -->
+    <footer>
+        <div class="footer-content1">
+            <a title="Início" href="../pages/home.html"><img src="../image/ana2.png" alt=""></a>
+        </div>
+        <div class="footer-content2">
+            <div class="footer-item2">
+                <a href="../pages/home.html"><i class="fas fa-home"></i>Home</a>
+            </div>
+            <div class="footer-item2">
+                <a href="../pages/solucoes.html"><i class="fas fa-cogs"></i>Soluções</a>
+            </div>
+            <div class="footer-item2">
+                <a href="../pages/identidade-visual.html"><i class="fas fa-eye"></i>Identidade Visual</a>
+            </div>
+            <div class="footer-item2">
+                <a href="../pages/quem-somos.html"><i class="fas fa-users"></i>Quem somos</a>
+            </div>
+            <div class="footer-item2">
+                <a href="../pages/duvidas.html"><i class="fas fa-question"></i>Dúvidas</a>
+            </div>
+            <div class="footer-item2">
+                <a href="../pages/contato.html"><i class="fas fa-envelope"></i>Contato</a>
+            </div>
+            <div class="footer-item2">
+                <a href="../pages/privacidade.html"><i class="fas fa-shield-alt"></i>Privacidade</a>
+            </div>
+        </div>
+        <div class="footer-content3">
+            <div class="social-icons">
+                <a title="Facebook" href="#"><i class="fab fa-facebook"></i></a>
+                <a title="Olá, vamos conversar no WhatsApp!"
+                    href="https://api.whatsapp.com/send?phone=46999344203&text=Olá%20Ana%20Julia%2C%20estou%20ansioso(a)%20para%20descobrir%20seus%20incríveis%20métodos%20no%20Instagram%21"
+                    target="_blank"><i class="fab fa-whatsapp"></i></a>
+            </div>
+            <div class="social-icons">
+                <a title="Olá, Venha explorar comigo no Instagram!" href="https://www.instagram.com/anaju_socialmedia/"
+                    target="_blank"><i class="fab fa-instagram"></i></a>
+                <a title="Youtube" href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+    </footer>
+    <!-- footer -->
 
     <!-- direitos reservados -->
     <div class="direitos">
         <div class="direitos1">
             <p>&copy; 2023 -
-                <a target="_blank" href="https://www.copyright.gov/what-is-copyright/"> Agência Marketing</a> |
-                Todos
-                os
+                <a target="_blank" href="https://www.copyright.gov/what-is-copyright/"> Ana Julia</a> | Todos os
                 direitos reservados.
             </p>
         </div>
@@ -948,13 +1186,11 @@
         </div>
     </div>
     <!-- direitos reservados -->
-
     <!-- direitos reservados-cel -->
     <div class="direitos-cel">
         <div class="direitos1-cel">
             <p>&copy; 2023 -
-                <a target="_blank" href="https://www.copyright.gov/what-is-copyright/"> Agência
-                    Marketing</a><br>Todos
+                <a target="_blank" href="https://www.copyright.gov/what-is-copyright/"> Ana Julia</a><br>Todos
                 os
                 direitos reservados.
             </p>
@@ -965,7 +1201,6 @@
         </div>
     </div>
     <!-- direitos reservados-cel -->
-
     <script>
         // Crie um único objeto observer
         const observer = new IntersectionObserver(entries => {
