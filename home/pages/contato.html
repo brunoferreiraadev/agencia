@@ -491,41 +491,7 @@
 
             /* formulario google forms */
 
-            /* direitos reservados */
-            .direitos-cel {
-                width: 100%;
-                display: flex;
-                background-color: #f2f2f2;
-                justify-content: center;
-            }
-
-            .direitos1-cel,
-            .direitos2-cel {
-                width: 50%;
-                font-size: 12px;
-                font-family: Arial, Helvetica, sans-serif;
-                color: rgba(0, 0, 0, .6);
-                font-weight: bold;
-                letter-spacing: 2px;
-                text-align: center;
-                justify-content: center;
-                align-items: center;
-                line-height: 20px;
-                padding: 5px 0px;
-            }
-
-            .direitos1-cel a {
-                text-decoration: none;
-                color: rgba(0, 0, 0, .8);
-            }
-
-            .direitos2-cel a {
-                text-decoration: none;
-                color: rgba(0, 0, 0, .8);
-            }
-
-            /* direitos reservados */
-
+            /* footer-cel */
             .footer-cel1 {
                 background-color: navy;
                 justify-content: center;
@@ -561,19 +527,57 @@
 
             .footer-cel2 {
                 background-color: navy;
-                padding: 15px 0px;
+                padding: 20px 0px;
             }
 
             .footer-cel2 i {
                 border-radius: 5px;
                 color: #f2f2f2;
                 font-size: 30px;
-                margin: 0px 15px;
+                margin: 0px 20px;
             }
 
             .footer-cel2 i:hover {
                 color: cyan;
             }
+
+            /* footer-cel */
+
+            /* direitos reservados */
+            .direitos-cel {
+                width: 100%;
+                display: flex;
+                background-color: #f2f2f2;
+                justify-content: center;
+            }
+
+            .direitos1-cel,
+            .direitos2-cel {
+                width: 50%;
+                font-size: 12px;
+                font-family: Arial, Helvetica, sans-serif;
+                color: rgba(0, 0, 0, .6);
+                font-weight: bold;
+                letter-spacing: 2px;
+                text-align: center;
+                justify-content: center;
+                align-items: center;
+                line-height: 20px;
+                padding: 5px 0px;
+            }
+
+            .direitos1-cel a {
+                text-decoration: none;
+                color: rgba(0, 0, 0, .8);
+            }
+
+            .direitos2-cel a {
+                text-decoration: none;
+                color: rgba(0, 0, 0, .8);
+            }
+
+            /* direitos reservados */
+
         }
 
         @media (min-width: 768px) {
@@ -1013,8 +1017,12 @@
                 width: 200px;
                 height: 200px;
                 object-fit: cover;
-                border: 3px solid cyan;
+                border: 5px solid #f2f2f2;
                 border-radius: 50%;
+            }
+
+            .footer-content1 img:hover {
+                border: 5px solid cyan;
             }
 
             /* 1 */
@@ -1036,8 +1044,8 @@
                 margin: 5px 0px;
                 align-items: center;
                 justify-content: center;
-                border-left: 1px solid cyan;
-                border-right: 1px solid cyan;
+                border-left: 1px solid #f2f2f2;
+                border-right: 1px solid #f2f2f2;
             }
 
             .footer-item2 a {
@@ -1053,7 +1061,6 @@
                 justify-content: left;
                 padding-bottom: 3px;
                 align-items: center;
-                transition: 0.3s;
             }
 
             .footer-item2 i {
@@ -1064,7 +1071,6 @@
             .footer-item2 a:hover {
                 border-bottom: 1px solid cyan;
                 color: cyan;
-                transition: 0.3s;
             }
 
             /* 2 */
@@ -1089,7 +1095,6 @@
                 color: white;
                 text-decoration: none;
                 margin-bottom: 20px;
-                transition: color 0.3s;
                 width: 1px;
                 height: 1px;
                 font-size: 45px;
@@ -1272,7 +1277,7 @@
         <!-- titulo contato -->
 
         <!-- bloco1 -->
-        <!-- <div class="bloco1 init-hidden-cima">
+        <div class="bloco1 init-hidden-cima">
             <div class="bloco1a">
                 <h1><i class="fas fa-phone init-hidden"></i>Ligue para nós
                 </h1>
@@ -1306,7 +1311,7 @@
                 </span>
             </div>
 
-        </div> -->
+        </div>
         <!-- bloco1 -->
 
         <!-- opcao2 -->
@@ -1316,21 +1321,19 @@
         <!-- opcao2 -->
 
         <!-- formulario google -->
-        <!-- <div class="gforms init-hidden-normal">
+        <div class="gforms init-hidden-normal">
             <h1>Entraremos em contato</h1>
             <p>Preencha o formulário rápido, fácil e prático!</p>
             <a title="Formulário do Google Forms" target="_blank" href="#"><i class="fas fa-arrow-right"></i>clique
                 aqui agora mesmo!<i class="fas fa-arrow-left"></i></a>
-        </div> -->
+        </div>
         <!-- formulario google -->
 
     </section>
 
     <!-- footer -->
     <footer>
-
         <div class="footer-cel">
-
             <div class="footer-cel2">
                 <a title="Facebook" href="#"><i class="fab fa-facebook"></i></a>
                 <a title="Olá, vamos conversar no WhatsApp!"
@@ -1340,7 +1343,6 @@
                     target="_blank"><i class="fab fa-instagram"></i></a>
                 <a title="Youtube" href="#"><i class="fab fa-youtube"></i></a>
             </div>
-
 
             <div class="footer-cel1">
                 <a href="../pages/home.html"><i class="fas fa-home"></i>Home</a>
@@ -1366,13 +1368,10 @@
                 <a href="../pages/contato.html"><i class="fas fa-envelope"></i>Contato</a>
             </div>
 
-            <div style="padding-bottom: 10px;" class="footer-cel1">
+            <div style="padding-bottom: 20px;" class="footer-cel1">
                 <a href="../pages/privacidade.html"><i class="fas fa-shield-alt"></i>Privacidade</a>
             </div>
-
-
         </div>
-
 
         <div class="footer1">
             <div class="footer-content1">
