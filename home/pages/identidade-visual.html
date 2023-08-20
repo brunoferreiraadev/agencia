@@ -53,7 +53,7 @@
                 display: none;
             }
 
-            footer {
+            .footer1 {
                 display: none;
             }
 
@@ -87,8 +87,8 @@
             }
 
             .arrow-button:hover {
-                color: white;
-                background-color: magenta;
+                color: #f2f2f2;
+                background-color: navy;
             }
 
             .hidden-pages {
@@ -123,8 +123,8 @@
             }
 
             .page a:hover {
-                background-color: magenta;
-                color: white;
+                background-color: navy;
+                color: #f2f2f2;
             }
 
             .page a i {
@@ -336,13 +336,12 @@
                 text-align: center;
             }
 
-
             .div-filha a {
                 padding: 25px;
                 text-decoration: none;
-                font-size: 16px;
+                font-size: 15px;
+                font-family: Arial, Helvetica, sans-serif;
                 color: rgba(0, 0, 0, .5);
-                font-family: monospace;
                 display: inline-block;
                 font-weight: bold;
                 justify-content: left;
@@ -484,7 +483,7 @@
             }
 
             /* rodape */
-            footer {
+            .footer1 {
                 background-color: navy;
                 color: white;
                 text-align: center;
@@ -659,28 +658,28 @@
             <i class="fas fa-bars"></i>
             <h3>Menu</h3>
             <div class="hidden-pages" id="hidden-pages">
-                <div style="border-top: 1px solid magenta; border-left: 1px solid magenta; border-right: 1px solid magenta;"
+                <div style="border-top: 1px solid navy; border-left: 1px solid navy; border-right: 1px solid navy;"
                     class="page">
                     <a href="../pages/home.html"><i class="fas fa-home"></i>Home</a>
                 </div>
                 <div class="page">
-                    <a style="border-top: 1px solid magenta; border-left: 1px solid magenta; border-right: 1px solid magenta;"
+                    <a style="border-top: 1px solid navy; border-left: 1px solid navy; border-right: 1px solid navy;"
                         href="../pages/solucoes.html"><i class="fas fa-cogs"></i>Soluções</a>
                 </div>
                 <div class="page">
-                    <a style="border-top: 1px solid magenta; border-left: 1px solid magenta; border-right: 1px solid magenta;"
+                    <a style="border-top: 1px solid navy; border-left: 1px solid navy; border-right: 1px solid navy;"
                         href="../pages/identidade-visual.html"><i class="fas fa-eye"></i>Identidade Visual</a>
                 </div>
                 <div class="page">
-                    <a style="border-top: 1px solid magenta; border-left: 1px solid magenta; border-right: 1px solid magenta;"
+                    <a style="border-top: 1px solid navy; border-left: 1px solid navy; border-right: 1px solid navy;"
                         href="../pages/quem-somos.html"><i class="fas fa-users"></i>Quem somos</a>
                 </div>
                 <div class="page">
-                    <a style="border-top: 1px solid magenta; border-left: 1px solid magenta; border-right: 1px solid magenta;"
+                    <a style="border-top: 1px solid navy; border-left: 1px solid navy; border-right: 1px solid navy;"
                         href="../pages/duvidas.html"><i class="fas fa-question"></i>Dúvidas</a>
                 </div>
                 <div class="page">
-                    <a style="border-top: 1px solid magenta; border-left: 1px solid magenta; border-right: 1px solid magenta;"
+                    <a style="border-top: 1px solid navy; border-left: 1px solid navy; border-right: 1px solid navy;"
                         href="../pages/contato.html"><i class="fas fa-envelope"></i>Contato</a>
                 </div>
                 <!-- <div class="page">
@@ -688,7 +687,7 @@
                         href="#"><i class="fas fa-headphones"></i>Suporte</a>
                 </div> -->
                 <div class="page">
-                    <a style="border-top: 1px solid magenta; border-left: 1px solid magenta; border-right: 1px solid magenta; border-bottom: 1px solid magenta;"
+                    <a style="border-top: 1px solid navy; border-left: 1px solid navy; border-right: 1px solid navy; border-bottom: 1px solid navy;"
                         href="../pages/privacidade.html"><i class="fas fa-shield-alt"></i></i>Política de
                         Privacidade</a>
                 </div>
@@ -756,77 +755,83 @@
 
     <!-- footer -->
     <footer>
-        <div class="footer-content1">
-            <a title="Início" href="../pages/home.html"><img src="../image/ana2.png" alt=""></a>
+        <div class="footer1">
+            <div class="footer-content1">
+                <a title="Início" href="../pages/home.html"><img src="../image/ana2.png" alt=""></a>
+            </div>
+            <div class="footer-content2">
+                <div class="footer-item2">
+                    <a href="../pages/home.html"><i class="fas fa-home"></i>Home</a>
+                </div>
+                <div class="footer-item2">
+                    <a href="../pages/solucoes.html"><i class="fas fa-cogs"></i>Soluções</a>
+                </div>
+                <div class="footer-item2">
+                    <a href="../pages/identidade-visual.html"><i class="fas fa-eye"></i>Identidade Visual</a>
+                </div>
+                <div class="footer-item2">
+                    <a href="../pages/quem-somos.html"><i class="fas fa-users"></i>Quem somos</a>
+                </div>
+                <div class="footer-item2">
+                    <a href="../pages/duvidas.html"><i class="fas fa-question"></i>Dúvidas</a>
+                </div>
+                <div class="footer-item2">
+                    <a href="../pages/contato.html"><i class="fas fa-envelope"></i>Contato</a>
+                </div>
+                <div class="footer-item2">
+                    <a href="../pages/privacidade.html"><i class="fas fa-shield-alt"></i>Privacidade</a>
+                </div>
+            </div>
+            <div class="footer-content3">
+                <div class="social-icons">
+                    <a title="Facebook" href="#"><i class="fab fa-facebook"></i></a>
+                    <a title="Olá, vamos conversar no WhatsApp!"
+                        href="https://api.whatsapp.com/send?phone=46999344203&text=Olá%20Ana%20Julia%2C%20estou%20ansioso(a)%20para%20descobrir%20seus%20incríveis%20métodos%20no%20Instagram%21"
+                        target="_blank"><i class="fab fa-whatsapp"></i></a>
+                </div>
+                <div class="social-icons">
+                    <a title="Olá, Venha explorar comigo no Instagram!"
+                        href="https://www.instagram.com/anaju_socialmedia/" target="_blank"><i
+                            class="fab fa-instagram"></i></a>
+                    <a title="Youtube" href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
         </div>
-        <div class="footer-content2">
-            <div class="footer-item2">
-                <a href="../pages/home.html"><i class="fas fa-home"></i>Home</a>
+
+        <div class="footer2">
+            <!-- direitos reservados -->
+            <div class="direitos">
+                <div class="direitos1">
+                    <p>&copy; 2023 -
+                        <a target="_blank" href="https://www.copyright.gov/what-is-copyright/"> Ana Julia</a> | Todos os
+                        direitos reservados.
+                    </p>
+                </div>
+                <hr>
+                <div class="direitos2">Desenvolvido por
+                    <a target="_blank" href="https://www.linkedin.com/in/brunoferreiraadev">Bruno Ferreira</a>
+                </div>
             </div>
-            <div class="footer-item2">
-                <a href="../pages/solucoes.html"><i class="fas fa-cogs"></i>Soluções</a>
+            <!-- direitos reservados -->
+            <!-- direitos reservados-cel -->
+            <div class="direitos-cel">
+                <div class="direitos1-cel">
+                    <p>&copy; 2023 -
+                        <a target="_blank" href="https://www.copyright.gov/what-is-copyright/"> Ana Julia</a><br>Todos
+                        os
+                        direitos reservados.
+                    </p>
+                </div>
+                <hr>
+                <div class="direitos2-cel">Desenvolvido por
+                    <a target="_blank" href="https://www.linkedin.com/in/brunoferreiraadev"><br>Bruno Ferreira</a>
+                </div>
             </div>
-            <div class="footer-item2">
-                <a href="../pages/identidade-visual.html"><i class="fas fa-eye"></i>Identidade Visual</a>
-            </div>
-            <div class="footer-item2">
-                <a href="../pages/quem-somos.html"><i class="fas fa-users"></i>Quem somos</a>
-            </div>
-            <div class="footer-item2">
-                <a href="../pages/duvidas.html"><i class="fas fa-question"></i>Dúvidas</a>
-            </div>
-            <div class="footer-item2">
-                <a href="../pages/contato.html"><i class="fas fa-envelope"></i>Contato</a>
-            </div>
-            <div class="footer-item2">
-                <a href="../pages/privacidade.html"><i class="fas fa-shield-alt"></i>Privacidade</a>
-            </div>
-        </div>
-        <div class="footer-content3">
-            <div class="social-icons">
-                <a title="Facebook" href="#"><i class="fab fa-facebook"></i></a>
-                <a title="Olá, vamos conversar no WhatsApp!"
-                    href="https://api.whatsapp.com/send?phone=46999344203&text=Olá%20Ana%20Julia%2C%20estou%20ansioso(a)%20para%20descobrir%20seus%20incríveis%20métodos%20no%20Instagram%21"
-                    target="_blank"><i class="fab fa-whatsapp"></i></a>
-            </div>
-            <div class="social-icons">
-                <a title="Olá, Venha explorar comigo no Instagram!" href="https://www.instagram.com/anaju_socialmedia/"
-                    target="_blank"><i class="fab fa-instagram"></i></a>
-                <a title="Youtube" href="#"><i class="fab fa-youtube"></i></a>
-            </div>
+            <!-- direitos reservados-cel -->
         </div>
     </footer>
     <!-- footer -->
 
-    <!-- direitos reservados -->
-    <div class="direitos">
-        <div class="direitos1">
-            <p>&copy; 2023 -
-                <a target="_blank" href="https://www.copyright.gov/what-is-copyright/"> Ana Julia</a> | Todos os
-                direitos reservados.
-            </p>
-        </div>
-        <hr>
-        <div class="direitos2">Desenvolvido por
-            <a target="_blank" href="https://www.linkedin.com/in/brunoferreiraadev">Bruno Ferreira</a>
-        </div>
-    </div>
-    <!-- direitos reservados -->
-    <!-- direitos reservados-cel -->
-    <div class="direitos-cel">
-        <div class="direitos1-cel">
-            <p>&copy; 2023 -
-                <a target="_blank" href="https://www.copyright.gov/what-is-copyright/"> Ana Julia</a><br>Todos
-                os
-                direitos reservados.
-            </p>
-        </div>
-        <hr>
-        <div class="direitos2-cel">Desenvolvido por
-            <a target="_blank" href="https://www.linkedin.com/in/brunoferreiraadev"><br>Bruno Ferreira</a>
-        </div>
-    </div>
-    <!-- direitos reservados-cel -->
 
     <script>
         // Crie um único objeto observer
