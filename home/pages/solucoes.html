@@ -29,163 +29,132 @@
     <style>
         @media (max-width: 767px) {
 
-            /* bloco 5 */
-            .bloco5 {
-                width: 100%;
-                background-color: blue;
-                text-align: center;
-                justify-content: center;
-                align-items: center;
-                display: flex;
-                flex-direction: column;
-                padding-bottom: 30px;
+            /* bloco5-cel */
+
+            main {
+                display: none;
             }
 
-            .bloco5 h1 {
+            .bloco5-cel {
+                width: 100%;
+                justify-content: center;
+                text-align: center;
+                align-items: center;
+            }
+
+            .bloco5-cel-titulo h1 {
                 color: white;
                 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
                 letter-spacing: 2px;
-                margin: 50px 20px 15px 20px;
+                margin: 50px 10px 0px 10px;
                 font-size: 30px;
             }
 
-            .bloco5 p {
+            .bloco5-cel-titulo p {
+                margin: 0 auto;
+                padding: 15px;
                 width: 70%;
                 color: #ff0099;
                 font-family: Arial, Helvetica, sans-serif;
                 letter-spacing: 1px;
-                margin: 40px 20px 80px 20px;
                 font-size: 13px;
+                justify-content: center;
+                align-items: center;
                 text-align: center;
                 font-weight: bold;
                 line-height: 20px;
                 background-color: #f2f2f2;
-                padding: 15px;
                 border: 3px solid #ff0099;
             }
 
-            .pai {
-                width: 100%;
-                text-align: center;
-                box-sizing: border-box;
+            .bloco5-cel-pai {
+                margin: 20px;
+            }
+
+            .filhos {
                 border: 3px solid #f2f2f2;
-                align-items: center;
                 border-radius: 15px 15px 0px 0px;
-                background-color: #f2f2f2;
             }
 
-            .pai h3 {
-                border-radius: 12px 12px 0px 0px;
-                color: #f2f2f2;
+            .filhos .fa-puzzle-piece {
                 font-size: 20px;
+            }
+
+            .filhos h3 {
+                border-radius: 15px 15px 0px 0px;
+                border-bottom: 1px solid #f2f2f2;
+                color: #f2f2f2;
+                background-color: navy;
                 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-                letter-spacing: 2px;
-                text-transform: uppercase;
-                padding: 15px 0px;
-                background-color: navy;
-                width: 100%;
-                display: inline-flex;
-                align-items: center;
-                justify-content: center;
-            }
-
-            .pai .filho {
-                display: flex;
-                width: 300px;
-                background-color: #f2f2f2;
-                justify-content: center;
-                align-items: center;
-            }
-
-            .pai i {
+                letter-spacing: 1px;
                 font-size: 20px;
-                margin-right: 15px;
-            }
-
-            .pai a i {
-                font-size: 13px;
-                vertical-align: middle;
-                margin-right: 15px;
-            }
-
-            .pai a {
-                text-decoration: none;
-                color: #f2f2f2;
-                background-color: #ff0099;
-                width: 100%;
-                display: block;
-                margin: 0 auto;
-                justify-content: center;
-                padding: 10px 0px;
-                font-family: Arial, Helvetica, sans-serif;
-                font-size: 13px;
-                letter-spacing: 1px;
-                font-weight: bold;
-                text-transform: uppercase;
-                transition: 0.5s;
+                padding: 15px 0px;
                 align-items: center;
+                justify-content: center;
+                display: inline-flex;
+                width: 100%;
+                text-transform: uppercase;
             }
 
-            .pai a:hover {
-                background-color: navy;
+            .filhos h4 {
                 color: #f2f2f2;
-                transition: 0.5s;
-            }
-
-            .pai .filho p {
-                width: 80%;
-                margin: 0;
-                padding: 25px 0px;
-                color: #666;
-                font-family: Arial, Helvetica, sans-serif;
-                font-weight: bold;
-                letter-spacing: 1px;
-                font-size: 13px;
-                text-align: left;
-                line-height: 20px;
-                word-wrap: break-word;
-                border: none;
-            }
-
-            .pai h4 {
-                color: #f2f2f2;
+                background-color: #1E90FF;
                 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
                 letter-spacing: 1px;
                 font-size: 18px;
+                padding: 8px 0px;
                 font-weight: normal;
-                padding: 6px 0px;
-                background-color: dodgerblue;
-                border-top: 1px solid #f2f2f2;
-
             }
 
-            .principal {
-                width: 100%;
-                display: flex;
-                flex-wrap: wrap;
+            .filhos p {
+                margin: 0 auto;
+                padding: 35px;
+                background-color: #f2f2f2;
+                text-align: left;
+                font-size: 13px;
+                font-family: Arial, Helvetica, sans-serif;
+                color: #666;
+                font-weight: bold;
+                line-height: 20px;
+                background-color: #f2f2f2;
+                letter-spacing: 1px;
             }
 
-            .direita,
-            .esquerda {
-                margin: 0px 20px 50px 20px;
+            .filhos a {
+                padding: 8px 0px;
                 display: flex;
+                background-color: #ff0099;
+                color: #f2f2f2;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 13px;
+                font-weight: bold;
+                text-decoration: none;
+                letter-spacing: 1px;
+                text-align: center;
                 justify-content: center;
-                width: 100%;
-                flex: 1;
+                text-transform: uppercase;
+                align-items: center;
             }
 
-            /* bloco 5 */
+            .filhos a:hover {
+                background-color: navy;
+            }
+
+            .filhos i {
+                font-size: 13px;
+                vertical-align: middle;
+                margin-right: 15px;
+                display: flex;
+            }
+
+            /* bloco5-cel */
         }
 
         @media (min-width: 768px) {
 
-            /* section {
-                width: 100%;
-                padding: 0;
-                margin: 0;
-                box-sizing: border-box;
-                overflow-x: hidden;
-            } */
+            .bloco5-cel {
+                display: none;
+            }
 
             /* bloco 5 */
             .bloco5 {
@@ -431,7 +400,7 @@
     </header>
     <!-- topo -->
 
-    <section>
+    <section style="background-color: #0000FF;">
 
         <!-- bloco icons lateral direita -->
         <div class="box">
@@ -445,173 +414,232 @@
         </div>
         <!-- bloco icons lateral direita -->
 
-        <!-- bloco 5 -->
-        <div class="bloco5">
-            <h1 class="init-hidden-cima">Impulsione agora seu <span style="color: #ff0099;">Instagram!</span></h1>
-            <p class="init-hidden-cima">Com <span style="color: navy; font-weight: bold;">9
-                    módulos</span>
-                personalizados,
-                impulsionamos sua presença
-                digital,
-                aumentamos a
-                visibilidade da marca
-                e engajamos o público de forma estratégica. <br> <br> Venha conosco alcançar novos patamares em sua
-                jornada
-                digital!</p>
 
-            <div class="principal">
-                <div class="direita">
-                    <div class="pai init-hidden-cima">
-                        <h3><i class="fas fa-puzzle-piece"></i>módulo 1</h3>
-                        <h4>Titulo do Módulo</h4>
-                        <div class="filho">
-                            <p>Conteúdo da div filho.asavsvfsdvbrdvsvbfdbbdfbefergfConteúdo
-                                da div
-                                filho.asavsvfsdvbrdvsvbfdbbdfbefergfConteúdo da div
-                                filho.asavsvfsdvbrdvsvbfdbbdfbefergfConteúdo da div
-                                filho.asavsvfsdvbrdvsvbfdbbdfbefergf
-                            </p>
-
-                        </div>
-                        <a class="init-hidden-cima" title="Olá, vamos conversar no WhatsApp!"
-                            href="https://api.whatsapp.com/send?phone=46999344203&text=Olá%20Ana%20Julia%2C%20estou%20ansioso(a)%20para%20descobrir%20seus%20incríveis%20métodos%20no%20Instagram%21"
-                            target="_blank"> <i class="fas fa-rocket"></i>eu quero começar!</a>
-                    </div>
-                </div>
-
-                <div class="esquerda">
-                    <div class="pai init-hidden-cima">
-                        <h3><i class="fas fa-puzzle-piece"></i>módulo 2</h3>
-                        <h4>Titulo do Módulo</h4>
-                        <div class="filho">
-                            <p>Conteúdo da div filho.asavsvfsdvbrdvsvbfdbbdfbefergfConteúdo da div
-                                filho.asavsvfsdvbrdvsvbfdbbdfbefergfConteúdo da div
-                                filho.asavsvfsdvbrdvsvbfdbbdfbefergfConteúdo da div
-                                filho.asavsvfsdvbrdvsvbfdbbdfbefergf
-                            </p>
-                        </div>
-                        <a class="init-hidden-cima" title="Olá, vamos conversar no WhatsApp!"
-                            href="https://api.whatsapp.com/send?phone=46999344203&text=Olá%20Ana%20Julia%2C%20estou%20ansioso(a)%20para%20descobrir%20seus%20incríveis%20métodos%20no%20Instagram%21"
-                            target="_blank"> <i class="fas fa-rocket"></i>eu quero começar!</a>
-                    </div>
-                </div>
-
-                <div class="direita">
-                    <div class="pai init-hidden-cima">
-                        <h3><i class="fas fa-puzzle-piece"></i>módulo 3</h3>
-                        <h4>Titulo do Módulo</h4>
-                        <div class="filho">
-                            <p>Conteúdo da div filho.asavsvfsdvbrdvsvbfdbbdfbefergfConteúdo da div
-                                filho.asavsvfsdvbrdvsvbfdbbdfbefergfConteúdo da div
-                                filho.asavsvfsdvbrdvsvbfdbbdfbefergfConteúdo da div
-                                filho.asavsvfsdvbrdvsvbfdbbdfbefergf
-                            </p>
-                        </div>
-                        <a class="init-hidden-cima" title="Olá, vamos conversar no WhatsApp!"
-                            href="https://api.whatsapp.com/send?phone=46999344203&text=Olá%20Ana%20Julia%2C%20estou%20ansioso(a)%20para%20descobrir%20seus%20incríveis%20métodos%20no%20Instagram%21"
-                            target="_blank"> <i class="fas fa-rocket"></i>eu quero começar!</a>
-                    </div>
-                </div>
-                <div class="esquerda">
-                    <div class="pai init-hidden-cima">
-                        <h3><i class="fas fa-puzzle-piece"></i>módulo 4</h3>
-                        <h4>Titulo do Módulo</h4>
-                        <div class="filho">
-                            <p>Conteúdo da div filho.asavsvfsdvbrdvsvbfdbbdfbefergfConteúdo da div
-                                filho.asavsvfsdvbrdvsvbfdbbdfbefergfConteúdo da div
-                                filho.asavsvfsdvbrdvsvbfdbbdfbefergfConteúdo da div
-                                filho.asavsvfsdvbrdvsvbfdbbdfbefergf
-                            </p>
-                        </div>
-                        <a class="init-hidden-cima" title="Olá, vamos conversar no WhatsApp!"
-                            href="https://api.whatsapp.com/send?phone=46999344203&text=Olá%20Ana%20Julia%2C%20estou%20ansioso(a)%20para%20descobrir%20seus%20incríveis%20métodos%20no%20Instagram%21"
-                            target="_blank"> <i class="fas fa-rocket"></i>eu quero começar!</a>
-                    </div>
-                </div>
-                <div class="direita">
-                    <div class="pai init-hidden-cima">
-                        <h3><i class="fas fa-puzzle-piece"></i>módulo 5</h3>
-                        <h4>Titulo do Módulo</h4>
-                        <div class="filho">
-                            <p>Conteúdo da div filho.asavsvfsdvbrdvsvbfdbbdfbefergfConteúdo da div
-                                filho.asavsvfsdvbrdvsvbfdbbdfbefergfConteúdo da div
-                                filho.asavsvfsdvbrdvsvbfdbbdfbefergfConteúdo da div
-                                filho.asavsvfsdvbrdvsvbfdbbdfbefergf
-                            </p>
-                        </div>
-                        <a class="init-hidden-cima" title="Olá, vamos conversar no WhatsApp!"
-                            href="https://api.whatsapp.com/send?phone=46999344203&text=Olá%20Ana%20Julia%2C%20estou%20ansioso(a)%20para%20descobrir%20seus%20incríveis%20métodos%20no%20Instagram%21"
-                            target="_blank"> <i class="fas fa-rocket"></i>eu quero começar!</a>
-                    </div>
-                </div>
-                <div class="esquerda">
-                    <div class="pai init-hidden-cima">
-                        <h3><i class="fas fa-puzzle-piece"></i>módulo 6</h3>
-                        <h4>Titulo do Módulo</h4>
-                        <div class="filho">
-                            <p>Conteúdo da div filho.asavsvfsdvbrdvsvbfdbbdfbefergfConteúdo da div
-                                filho.asavsvfsdvbrdvsvbfdbbdfbefergfConteúdo da div
-                                filho.asavsvfsdvbrdvsvbfdbbdfbefergfConteúdo da div
-                                filho.asavsvfsdvbrdvsvbfdbbdfbefergf
-                            </p>
-                        </div>
-                        <a class="init-hidden-cima" title="Olá, vamos conversar no WhatsApp!"
-                            href="https://api.whatsapp.com/send?phone=46999344203&text=Olá%20Ana%20Julia%2C%20estou%20ansioso(a)%20para%20descobrir%20seus%20incríveis%20métodos%20no%20Instagram%21"
-                            target="_blank"> <i class="fas fa-rocket"></i>eu quero começar!</a>
-                    </div>
-                </div>
-                <div class="direita">
-                    <div class="pai init-hidden-cima">
-                        <h3><i class="fas fa-puzzle-piece"></i>módulo 7</h3>
-                        <h4>Titulo do Módulo</h4>
-                        <div class="filho">
-                            <p>Conteúdo da div filho.asavsvfsdvbrdvsvbfdbbdfbefergfConteúdo da div
-                                filho.asavsvfsdvbrdvsvbfdbbdfbefergfConteúdo da div
-                                filho.asavsvfsdvbrdvsvbfdbbdfbefergfConteúdo da div
-                                filho.asavsvfsdvbrdvsvbfdbbdfbefergf
-                            </p>
-                        </div>
-                        <a class="init-hidden-cima" title="Olá, vamos conversar no WhatsApp!"
-                            href="https://api.whatsapp.com/send?phone=46999344203&text=Olá%20Ana%20Julia%2C%20estou%20ansioso(a)%20para%20descobrir%20seus%20incríveis%20métodos%20no%20Instagram%21"
-                            target="_blank"> <i class="fas fa-rocket"></i>eu quero começar!</a>
-                    </div>
-                </div>
-                <div class="esquerda">
-                    <div class="pai init-hidden-cima">
-                        <h3><i class="fas fa-puzzle-piece"></i>módulo 8</h3>
-                        <h4>Titulo do Módulo</h4>
-                        <div class="filho">
-                            <p>Conteúdo da div filho.asavsvfsdvbrdvsvbfdbbdfbefergfConteúdo da div
-                                filho.asavsvfsdvbrdvsvbfdbbdfbefergfConteúdo da div
-                                filho.asavsvfsdvbrdvsvbfdbbdfbefergfConteúdo da div
-                                filho.asavsvfsdvbrdvsvbfdbbdfbefergf
-                            </p>
-                        </div>
-                        <a class="init-hidden-cima" title="Olá, vamos conversar no WhatsApp!"
-                            href="https://api.whatsapp.com/send?phone=46999344203&text=Olá%20Ana%20Julia%2C%20estou%20ansioso(a)%20para%20descobrir%20seus%20incríveis%20métodos%20no%20Instagram%21"
-                            target="_blank"> <i class="fas fa-rocket"></i>eu quero começar!</a>
-                    </div>
-                </div>
-                <div class="direita">
-                    <div class="pai init-hidden-cima">
-                        <h3><i class="fas fa-puzzle-piece"></i>módulo 9</h3>
-                        <h4>Titulo do Módulo</h4>
-                        <div class="filho">
-                            <p>Conteúdo da div filho.asavsvfsdvbrdvsvbfdbbdfbefergfConteúdo da div
-                                filho.asavsvfsdvbrdvsvbfdbbdfbefergfConteúdo da div
-                                filho.asavsvfsdvbrdvsvbfdbbdfbefergfConteúdo da div
-                                filho.asavsvfsdvbrdvsvbfdbbdfbefergf
-                            </p>
-                        </div>
-                        <a class="init-hidden-cima" title="Olá, vamos conversar no WhatsApp!"
-                            href="https://api.whatsapp.com/send?phone=46999344203&text=Olá%20Ana%20Julia%2C%20estou%20ansioso(a)%20para%20descobrir%20seus%20incríveis%20métodos%20no%20Instagram%21"
-                            target="_blank"> <i class="fas fa-rocket"></i>eu quero começar!</a>
-                    </div>
-                </div>
-
-            </div>
-
+        <main>
             <!-- bloco 5 -->
+
+            <div class="bloco5">
+                <h1 class="init-hidden-cima">Impulsione agora seu <span style="color: #ff0099;">Instagram!</span></h1>
+                <p class="init-hidden-cima">Com <span style="color: navy; font-weight: bold;">9
+                        módulos</span>
+                    personalizados,
+                    impulsionamos sua presença
+                    digital,
+                    aumentamos a
+                    visibilidade da marca
+                    e engajamos o público de forma estratégica. <br> <br> Venha conosco alcançar novos patamares em sua
+                    jornada
+                    digital!</p>
+
+                <div class="principal">
+                    <div class="direita">
+                        <div class="pai init-hidden-cima">
+                            <h3><i class="fas fa-puzzle-piece"></i>módulo 1</h3>
+                            <h4>Titulo do Módulo</h4>
+                            <div class="filho">
+                                <p>Conteúdo da div filho.asavsvfsdvbrdvsvbfdbbdfbefergfConteúdo
+                                    da div
+                                    filho.asavsvfsdvbrdvsvbfdbbdfbefergfConteúdo da div
+                                    filho.asavsvfsdvbrdvsvbfdbbdfbefergfConteúdo da div
+                                    filho.asavsvfsdvbrdvsvbfdbbdfbefergf
+                                </p>
+
+                            </div>
+                            <a class="init-hidden-cima" title="Olá, vamos conversar no WhatsApp!"
+                                href="https://api.whatsapp.com/send?phone=46999344203&text=Olá%20Ana%20Julia%2C%20estou%20ansioso(a)%20para%20descobrir%20seus%20incríveis%20métodos%20no%20Instagram%21"
+                                target="_blank"> <i class="fas fa-rocket"></i>eu quero começar!</a>
+                        </div>
+                    </div>
+
+                    <div class="esquerda">
+                        <div class="pai init-hidden-cima">
+                            <h3><i class="fas fa-puzzle-piece"></i>módulo 2</h3>
+                            <h4>Titulo do Módulo</h4>
+                            <div class="filho">
+                                <p>Conteúdo da div filho.asavsvfsdvbrdvsvbfdbbdfbefergfConteúdo da div
+                                    filho.asavsvfsdvbrdvsvbfdbbdfbefergfConteúdo da div
+                                    filho.asavsvfsdvbrdvsvbfdbbdfbefergfConteúdo da div
+                                    filho.asavsvfsdvbrdvsvbfdbbdfbefergf
+                                </p>
+                            </div>
+                            <a class="init-hidden-cima" title="Olá, vamos conversar no WhatsApp!"
+                                href="https://api.whatsapp.com/send?phone=46999344203&text=Olá%20Ana%20Julia%2C%20estou%20ansioso(a)%20para%20descobrir%20seus%20incríveis%20métodos%20no%20Instagram%21"
+                                target="_blank"> <i class="fas fa-rocket"></i>eu quero começar!</a>
+                        </div>
+                    </div>
+
+                    <div class="direita">
+                        <div class="pai init-hidden-cima">
+                            <h3><i class="fas fa-puzzle-piece"></i>módulo 3</h3>
+                            <h4>Titulo do Módulo</h4>
+                            <div class="filho">
+                                <p>Conteúdo da div filho.asavsvfsdvbrdvsvbfdbbdfbefergfConteúdo da div
+                                    filho.asavsvfsdvbrdvsvbfdbbdfbefergfConteúdo da div
+                                    filho.asavsvfsdvbrdvsvbfdbbdfbefergfConteúdo da div
+                                    filho.asavsvfsdvbrdvsvbfdbbdfbefergf
+                                </p>
+                            </div>
+                            <a class="init-hidden-cima" title="Olá, vamos conversar no WhatsApp!"
+                                href="https://api.whatsapp.com/send?phone=46999344203&text=Olá%20Ana%20Julia%2C%20estou%20ansioso(a)%20para%20descobrir%20seus%20incríveis%20métodos%20no%20Instagram%21"
+                                target="_blank"> <i class="fas fa-rocket"></i>eu quero começar!</a>
+                        </div>
+                    </div>
+                    <div class="esquerda">
+                        <div class="pai init-hidden-cima">
+                            <h3><i class="fas fa-puzzle-piece"></i>módulo 4</h3>
+                            <h4>Titulo do Módulo</h4>
+                            <div class="filho">
+                                <p>Conteúdo da div filho.asavsvfsdvbrdvsvbfdbbdfbefergfConteúdo da div
+                                    filho.asavsvfsdvbrdvsvbfdbbdfbefergfConteúdo da div
+                                    filho.asavsvfsdvbrdvsvbfdbbdfbefergfConteúdo da div
+                                    filho.asavsvfsdvbrdvsvbfdbbdfbefergf
+                                </p>
+                            </div>
+                            <a class="init-hidden-cima" title="Olá, vamos conversar no WhatsApp!"
+                                href="https://api.whatsapp.com/send?phone=46999344203&text=Olá%20Ana%20Julia%2C%20estou%20ansioso(a)%20para%20descobrir%20seus%20incríveis%20métodos%20no%20Instagram%21"
+                                target="_blank"> <i class="fas fa-rocket"></i>eu quero começar!</a>
+                        </div>
+                    </div>
+                    <div class="direita">
+                        <div class="pai init-hidden-cima">
+                            <h3><i class="fas fa-puzzle-piece"></i>módulo 5</h3>
+                            <h4>Titulo do Módulo</h4>
+                            <div class="filho">
+                                <p>Conteúdo da div filho.asavsvfsdvbrdvsvbfdbbdfbefergfConteúdo da div
+                                    filho.asavsvfsdvbrdvsvbfdbbdfbefergfConteúdo da div
+                                    filho.asavsvfsdvbrdvsvbfdbbdfbefergfConteúdo da div
+                                    filho.asavsvfsdvbrdvsvbfdbbdfbefergf
+                                </p>
+                            </div>
+                            <a class="init-hidden-cima" title="Olá, vamos conversar no WhatsApp!"
+                                href="https://api.whatsapp.com/send?phone=46999344203&text=Olá%20Ana%20Julia%2C%20estou%20ansioso(a)%20para%20descobrir%20seus%20incríveis%20métodos%20no%20Instagram%21"
+                                target="_blank"> <i class="fas fa-rocket"></i>eu quero começar!</a>
+                        </div>
+                    </div>
+                    <div class="esquerda">
+                        <div class="pai init-hidden-cima">
+                            <h3><i class="fas fa-puzzle-piece"></i>módulo 6</h3>
+                            <h4>Titulo do Módulo</h4>
+                            <div class="filho">
+                                <p>Conteúdo da div filho.asavsvfsdvbrdvsvbfdbbdfbefergfConteúdo da div
+                                    filho.asavsvfsdvbrdvsvbfdbbdfbefergfConteúdo da div
+                                    filho.asavsvfsdvbrdvsvbfdbbdfbefergfConteúdo da div
+                                    filho.asavsvfsdvbrdvsvbfdbbdfbefergf
+                                </p>
+                            </div>
+                            <a class="init-hidden-cima" title="Olá, vamos conversar no WhatsApp!"
+                                href="https://api.whatsapp.com/send?phone=46999344203&text=Olá%20Ana%20Julia%2C%20estou%20ansioso(a)%20para%20descobrir%20seus%20incríveis%20métodos%20no%20Instagram%21"
+                                target="_blank"> <i class="fas fa-rocket"></i>eu quero começar!</a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- bloco 5 -->
+
+        </main>
+
+        <!-- bloco5-cel -->
+        <div class="bloco5-cel">
+            <div class="bloco5-cel-titulo">
+                <h1 class="init-hidden-cima">Impulsione agora seu <span style="color: #ff0099;">Instagram!</span>
+                </h1>
+                <br><br><br>
+                <p class="init-hidden-cima">Com <span style="color: navy; font-weight: bold;">9 módulos</span>
+                    personalizados,
+                    impulsionamos sua presença
+                    digital,
+                    aumentamos a
+                    visibilidade da marca
+                    e engajamos o público de forma estratégica. <br> <br> Venha conosco alcançar novos patamares em
+                    sua
+                    jornada
+                    digital!</p>
+            </div><br><br><br>
+
+            <div class="bloco5-cel-pai">
+
+                <div class="filhos init-hidden-esquerda">
+                    <h3><i class="fas fa-puzzle-piece"></i>módulo 1</h3>
+                    <h4>Titulo do módulo</h4>
+                    <p>Exemplos populares de plataformas de mídia social incluem Facebook, Instagram, Twitter,
+                        LinkedIn,
+                        TikTok e YouTube. Essas plataformas desempenham papéis diversos na vida das pessoas, desde
+                        manter contato com amigos e familiares até se informar sobre notícias, entretenimento,
+                        tendências e oportunidades de negócios. <br></p>
+                    <a title="Olá, vamos conversar no WhatsApp!"
+                        href="https://api.whatsapp.com/send?phone=46999344203&text=Olá%20Ana%20Julia%2C%20estou%20ansioso(a)%20para%20descobrir%20seus%20incríveis%20métodos%20no%20Instagram%21"
+                        target="_blank"> <i class="fas fa-rocket"></i>eu quero começar!</a>
+                </div><br><br><br>
+
+                <div class="filhos init-hidden-esquerda">
+                    <h3><i class="fas fa-puzzle-piece"></i>módulo 2</h3>
+                    <h4>Titulo do módulo</h4>
+                    <p>Exemplos populares de plataformas de mídia social incluem Facebook, Instagram, Twitter,
+                        LinkedIn,
+                        TikTok e YouTube. Essas plataformas desempenham papéis diversos na vida das pessoas, desde
+                        manter contato com amigos e familiares até se informar sobre notícias, entretenimento,
+                        tendências e oportunidades de negócios. <br></p>
+                    <a title="Olá, vamos conversar no WhatsApp!"
+                        href="https://api.whatsapp.com/send?phone=46999344203&text=Olá%20Ana%20Julia%2C%20estou%20ansioso(a)%20para%20descobrir%20seus%20incríveis%20métodos%20no%20Instagram%21"
+                        target="_blank"> <i class="fas fa-rocket"></i>eu quero começar!</a>
+                </div><br><br><br>
+
+                <div class="filhos init-hidden-esquerda">
+                    <h3><i class="fas fa-puzzle-piece"></i>módulo 3</h3>
+                    <h4>Titulo do módulo</h4>
+                    <p>Exemplos populares de plataformas de mídia social incluem Facebook, Instagram, Twitter,
+                        LinkedIn,
+                        TikTok e YouTube. Essas plataformas desempenham papéis diversos na vida das pessoas, desde
+                        manter contato com amigos e familiares até se informar sobre notícias, entretenimento,
+                        tendências e oportunidades de negócios. <br></p>
+                    <a title="Olá, vamos conversar no WhatsApp!"
+                        href="https://api.whatsapp.com/send?phone=46999344203&text=Olá%20Ana%20Julia%2C%20estou%20ansioso(a)%20para%20descobrir%20seus%20incríveis%20métodos%20no%20Instagram%21"
+                        target="_blank"> <i class="fas fa-rocket"></i>eu quero começar!</a>
+                </div><br><br><br>
+
+                <div class="filhos init-hidden-esquerda">
+                    <h3><i class="fas fa-puzzle-piece"></i>módulo 4</h3>
+                    <h4>Titulo do módulo</h4>
+                    <p>Exemplos populares de plataformas de mídia social incluem Facebook, Instagram, Twitter,
+                        LinkedIn,
+                        TikTok e YouTube. Essas plataformas desempenham papéis diversos na vida das pessoas, desde
+                        manter contato com amigos e familiares até se informar sobre notícias, entretenimento,
+                        tendências e oportunidades de negócios. <br></p>
+                    <a title="Olá, vamos conversar no WhatsApp!"
+                        href="https://api.whatsapp.com/send?phone=46999344203&text=Olá%20Ana%20Julia%2C%20estou%20ansioso(a)%20para%20descobrir%20seus%20incríveis%20métodos%20no%20Instagram%21"
+                        target="_blank"> <i class="fas fa-rocket"></i>eu quero começar!</a>
+                </div><br><br><br>
+
+                <div class="filhos init-hidden-esquerda">
+                    <h3><i class="fas fa-puzzle-piece"></i>módulo 5</h3>
+                    <h4>Titulo do módulo</h4>
+                    <p>Exemplos populares de plataformas de mídia social incluem Facebook, Instagram, Twitter,
+                        LinkedIn,
+                        TikTok e YouTube. Essas plataformas desempenham papéis diversos na vida das pessoas, desde
+                        manter contato com amigos e familiares até se informar sobre notícias, entretenimento,
+                        tendências e oportunidades de negócios. <br></p>
+                    <a title="Olá, vamos conversar no WhatsApp!"
+                        href="https://api.whatsapp.com/send?phone=46999344203&text=Olá%20Ana%20Julia%2C%20estou%20ansioso(a)%20para%20descobrir%20seus%20incríveis%20métodos%20no%20Instagram%21"
+                        target="_blank"> <i class="fas fa-rocket"></i>eu quero começar!</a>
+                </div><br><br><br>
+
+                <div class="filhos init-hidden-esquerda">
+                    <h3><i class="fas fa-puzzle-piece"></i>módulo 6</h3>
+                    <h4>Titulo do módulo</h4>
+                    <p>Exemplos populares de plataformas de mídia social incluem Facebook, Instagram, Twitter,
+                        LinkedIn,
+                        TikTok e YouTube. Essas plataformas desempenham papéis diversos na vida das pessoas, desde
+                        manter contato com amigos e familiares até se informar sobre notícias, entretenimento,
+                        tendências e oportunidades de negócios. <br></p>
+                    <a title="Olá, vamos conversar no WhatsApp!"
+                        href="https://api.whatsapp.com/send?phone=46999344203&text=Olá%20Ana%20Julia%2C%20estou%20ansioso(a)%20para%20descobrir%20seus%20incríveis%20métodos%20no%20Instagram%21"
+                        target="_blank"> <i class="fas fa-rocket"></i>eu quero começar!</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- bloco5-cel -->
 
     </section>
 
