@@ -7,6 +7,7 @@
     }
 
     .bloco5-cel {
+        background-color: black;
         padding-bottom: 80px;
         width: 100%;
         justify-content: center;
@@ -18,25 +19,25 @@
         color: white;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         letter-spacing: 1px;
-        margin: 50px 10px 0px 10px;
+        padding-top: 50px;
+        margin: 0px 10px 50px 10px;
         font-size: 30px;
     }
 
     .bloco5-cel-titulo p {
         margin: 0 auto;
-        padding: 15px;
-        width: 70%;
+        padding: 20px;
+        width: 75%;
         color: #ff0099;
         font-family: Arial, Helvetica, sans-serif;
         letter-spacing: 1px;
-        font-size: 13px;
+        font-size: 15px;
         justify-content: center;
         align-items: center;
-        text-align: center;
+        text-align: left;
         font-weight: bold;
         line-height: 20px;
         background-color: #f2f2f2;
-        border: 3px solid #ff0099;
     }
 
     .bloco5-cel-pai {
@@ -45,7 +46,6 @@
 
     .filhos {
         border: 3px solid #f2f2f2;
-        border-radius: 15px 15px 0px 0px;
     }
 
     .filhos .fa-puzzle-piece {
@@ -53,7 +53,6 @@
     }
 
     .filhos h3 {
-        border-radius: 15px 15px 0px 0px;
         border-bottom: 1px solid #f2f2f2;
         color: #f2f2f2;
         background-color: navy;
@@ -69,21 +68,22 @@
     }
 
     .filhos h4 {
-        color: #f2f2f2;
-        background-color: #1E90FF;
+        color: rgba(0, 0, 0, 0.7);
+        background-color: #f2f2f2;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         letter-spacing: 1px;
         font-size: 18px;
         padding: 8px 0px;
-        font-weight: normal;
+        font-weight: bold;
+        border-bottom: 1px solid black;
     }
 
     .filhos p {
         margin: 0 auto;
-        padding: 35px;
+        padding: 50px 25px;
         background-color: #f2f2f2;
         text-align: left;
-        font-size: 13px;
+        font-size: 15px;
         font-family: Arial, Helvetica, sans-serif;
         color: #666;
         font-weight: bold;
@@ -98,7 +98,7 @@
         background-color: #ff0099;
         color: #f2f2f2;
         font-family: Arial, Helvetica, sans-serif;
-        font-size: 13px;
+        font-size: 15px;
         font-weight: bold;
         text-decoration: none;
         letter-spacing: 1px;
@@ -113,7 +113,7 @@
     }
 
     .filhos i {
-        font-size: 13px;
+        font-size: 15px;
         vertical-align: middle;
         margin-right: 15px;
         display: flex;
@@ -124,152 +124,144 @@
 
 @media (min-width: 768px) {
 
-    .bloco5-cel {
+    /* bloco5-cel */
+
+    main {
         display: none;
     }
 
-    /* bloco 5 */
-    .bloco5 {
+    .bloco5-cel {
+        background-color: black;
+        padding-bottom: 80px;
         width: 100%;
-        background-color: blue;
-        text-align: center;
         justify-content: center;
+        text-align: center;
         align-items: center;
-        display: flex;
-        flex-direction: column;
-        padding-bottom: 30px;
     }
 
-    .bloco5 h1 {
+    .bloco5-cel-titulo h1 {
         color: white;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         letter-spacing: 1px;
-        margin: 100px 20px;
-        font-size: 47px;
+        padding-top: 80px;
+        margin: 0px 20px 70px 20px;
+        font-size: 45px;
     }
 
-    .bloco5 p {
+    .bloco5-cel-titulo p {
+        margin: 0 auto;
+        padding: 30px;
         width: 70%;
+        margin-bottom: 20px;
         color: #ff0099;
         font-family: Arial, Helvetica, sans-serif;
         letter-spacing: 1px;
-        margin: 0px 0px 100px 0px;
+        font-weight: bold;
         font-size: 18px;
-        text-align: center;
-        line-height: 30px;
-        background-color: #f2f2f2;
-        padding: 15px;
-        border: 3px solid #ff0099;
-    }
-
-    .pai {
-        width: 300px;
-        text-align: center;
-        box-sizing: border-box;
-        border: 3px solid #f2f2f2;
+        justify-content: center;
         align-items: center;
-        border-radius: 15px 15px 0px 0px;
+        text-align: center;
+        line-height: 25px;
         background-color: #f2f2f2;
     }
 
-    .pai h3 {
-        border-radius: 12px 12px 0px 0px;
+    .bloco5-cel-pai {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: normal;
+
+    }
+
+
+    .filhos {
+        background-color: blue;
+        margin: 30px 10px;
+        width: 30%;
+        border: 3px solid #f2f2f2;
+
+        /* Defina uma altura fixa desejada */
+        display: flex;
+        flex-direction: column;
+
+        /* Distribui o espaço verticalmente */
+    }
+
+    .filhos .fa-puzzle-piece {
+        font-size: 20px;
+    }
+
+    .filhos h3 {
+        border-bottom: 1px solid #f2f2f2;
         color: #f2f2f2;
-        font-size: 25px;
+        background-color: navy;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         letter-spacing: 1px;
-        text-transform: uppercase;
-        padding: 15px 0px;
-        background-color: navy;
-        width: 100%;
-        display: inline-flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .pai .filho {
-        display: flex;
-        width: 100%;
-        background-color: #f2f2f2;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .pai i {
         font-size: 25px;
-        margin-right: 20px;
-    }
-
-    .pai a i {
-        font-size: 15px;
-        vertical-align: middle;
-    }
-
-    .pai a {
-        text-decoration: none;
-        color: #f2f2f2;
-        background-color: #ff0099;
-        width: 100%;
-        display: block;
-        margin: 0 auto;
-        justify-content: center;
-        padding: 10px 0px;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 15px;
-        letter-spacing: 1px;
-        font-weight: bold;
-        text-transform: uppercase;
-        transition: 0.5s;
+        padding: 25px 0px;
         align-items: center;
-
+        justify-content: center;
+        display: inline-flex;
+        width: 100%;
+        text-transform: uppercase;
     }
 
-    .pai a:hover {
-        background-color: navy;
-        color: #f2f2f2;
-        transition: 0.5s;
-    }
-
-    .pai .filho p {
-        width: 80%;
-        margin: 0;
-        padding: 40px 0px;
-        color: #666;
-        font-family: Arial, Helvetica, sans-serif;
+    .filhos h4 {
+        color: #333;
         font-weight: bold;
-        letter-spacing: 1px;
-        font-size: 16px;
-        text-align: left;
-        line-height: 22px;
-        word-wrap: break-word;
-        border: none;
-    }
-
-    .pai h4 {
-        color: #f2f2f2;
+        background-color: #f2f2f2;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         letter-spacing: 1px;
         font-size: 20px;
-        font-weight: normal;
-        padding: 6px 0px;
-        background-color: dodgerblue;
-        border-top: 1px solid #f2f2f2;
+        padding: 8px 0px;
+        border-bottom: 1px solid black;
     }
 
-    .principal {
-        width: 100%;
-        display: flex;
-        flex-wrap: wrap;
+    .filhos p {
+        margin: 0 auto;
+        padding: 80px 20px;
+        background-color: #f2f2f2;
+        text-align: left;
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #666;
+        font-weight: bold;
+        line-height: 25px;
+        background-color: #f2f2f2;
+        letter-spacing: 1px;
+        height: 100%;
+
     }
 
-    .direita,
-    .esquerda {
-        margin: 30px 20px 100px 20px;
+    .filhos a {
+        padding: 8px 0px;
         display: flex;
+        background-color: #ff0099;
+        color: #f2f2f2;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        font-weight: bold;
+        text-decoration: none;
+        letter-spacing: 1px;
+        text-align: center;
         justify-content: center;
-        width: 100%;
-        flex: 1;
+        text-transform: uppercase;
+        align-items: center;
+        transition: 0.3s;
+
     }
 
-    /* bloco 5 */
+    .filhos a:hover {
+        background-color: navy;
+        transition: 0.3s;
+    }
+
+    .filhos i {
+        font-size: 15px;
+        vertical-align: middle;
+        margin-right: 15px;
+        display: flex;
+    }
+
+    /* bloco5-cel */
 }
