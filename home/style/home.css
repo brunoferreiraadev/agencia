@@ -51,8 +51,8 @@
         cursor: pointer;
         border-radius: 50px;
         text-decoration: none;
-        background-color: blue;
-        color: #f2f2f2;
+        background-color: white;
+        color: blue;
         letter-spacing: 1px;
         font-size: 10px;
         font-family: 'Montserrat', sans-serif;
@@ -67,9 +67,9 @@
     }
 
     .blocoa a:hover {
-        border: 5px solid white;
-        background-color: cyan;
-        color: blue;
+        background-color: blue;
+        color: #f2f2f2;
+        border: 5px solid #f2f2f2;
         transition: 0.5s;
     }
 
@@ -120,8 +120,8 @@
     .bloco2 a {
         display: flex;
         align-items: center;
-        background-color: #ff0099;
-        color: white;
+        background-color: white;
+        color: #ff0099;
         padding: 15px 10px;
         text-decoration: none;
         font-size: 10px;
@@ -135,14 +135,15 @@
         text-align: center;
     }
 
-    .bloco2 .fa-rocket {
+    .bloco2 .fa-check-circle {
         font-size: 12px;
         margin-right: 15px;
     }
 
     .bloco2 a:hover {
-        background-color: white;
-        color: #ff0099;
+        background-color: #ff0099;
+        color: white;
+        border: 5px solid white;
         transition: 0.5s;
     }
 
@@ -150,26 +151,110 @@
 
     /* imagem1 */
 
-    .imagem1 {
-        width: 100%;
-        background-color: #38377E;
+    .imagem1-pc {
+        display: none;
     }
 
-    .imagem1 img {
+    .imagem2-pc {
+        display: none;
+    }
+
+    .imagem2-cel {
+        display: none;
+    }
+
+    .imagem1-cel {
+        width: 100%;
+        background-color: white;
+    }
+
+    .imagem1-cel img {
         max-width: 100%;
+    }
+
+    .bot1-cel {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .imagem1-cel a {
+        display: flex;
+        align-items: center;
+        background-color: navy;
+        color: white;
+        padding: 12px 5px;
+        text-decoration: none;
+        font-size: 10px;
+        transition: 0.5s;
+        border-radius: 50px;
+        text-transform: uppercase;
+        border: 5px solid navy;
+        font-family: 'Montserrat', sans-serif;
+        letter-spacing: 1px;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    .imagem1-cel a:hover {
+        background-color: white;
+        color: navy;
+        border: 5px solid navy;
+        transition: 0.5s;
+    }
+
+    .imagem1-cel .fa-bullhorn {
+        font-size: 12px;
+        margin-right: 10px;
     }
 
     /* imagem1 */
 
     /* imagem2 */
 
-    .imagem2 {
+    .imagem2-cel {
         width: 100%;
         background-color: #00C2F5;
     }
 
-    .imagem2 img {
+    .imagem2-cel img {
         max-width: 100%;
+    }
+
+    .bot2-cel {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .imagem2-cel a {
+        display: flex;
+        align-items: center;
+        background-color: white;
+        color: #00C2F5;
+        padding: 15px 20px;
+        text-decoration: none;
+        font-size: 10px;
+        transition: 0.5s;
+        border-radius: 50px;
+        text-transform: uppercase;
+        border: 5px solid white;
+        font-family: 'Montserrat', sans-serif;
+        letter-spacing: 1px;
+        text-align: center;
+        margin: 50px 0px;
+    }
+
+    .imagem2-cel a:hover {
+        background-color: #00C2F5;
+        color: white;
+        border: 5px solid white;
+        transition: 0.5s;
+    }
+
+    .imagem2-cel .fa-plus-circle {
+        font-size: 12px;
+        margin-right: 15px;
     }
 
     /* imagem2 */
@@ -199,7 +284,6 @@
         width: 100%;
         background-color: #1a1a1a;
         padding: 50px 0px 0px 0px;
-
     }
 
     .bloco4 .paragrafo1 {
@@ -267,7 +351,7 @@
         border: 5px solid #ff0099;
     }
 
-    .botao .fa-rocket {
+    .botao .fa-lightbulb {
         font-size: 12px;
         margin-right: 15px;
     }
@@ -334,8 +418,8 @@
         cursor: pointer;
         border-radius: 50px;
         text-decoration: none;
-        background-color: blue;
-        color: white;
+        background-color: white;
+        color: blue;
         letter-spacing: 1px;
         font-size: 15px;
         font-family: 'Montserrat', sans-serif;
@@ -350,9 +434,9 @@
     }
 
     .blocoa a:hover {
-        border: 5px solid white;
-        background-color: cyan;
-        color: blue;
+        background-color: blue;
+        color: #f2f2f2;
+        border: 5px solid #f2f2f2;
         transition: 0.5s;
     }
 
@@ -406,8 +490,8 @@
     .bloco2 a {
         display: flex;
         align-items: center;
-        background-color: #ff0099;
-        color: white;
+        background-color: white;
+        color: #ff0099;
         padding: 15px 20px;
         text-decoration: none;
         font-size: 15px;
@@ -421,14 +505,15 @@
         text-align: center;
     }
 
-    .bloco2 .fa-rocket {
+    .bloco2 .fa-check-circle {
         font-size: 20px;
         margin-right: 15px;
     }
 
     .bloco2 a:hover {
-        background-color: white;
-        color: #ff0099;
+        background-color: #ff0099;
+        color: white;
+        border: 5px solid white;
         transition: 0.5s;
     }
 
@@ -436,26 +521,106 @@
 
     /* imagem1 */
 
-    .imagem1 {
+    .imagem1-cel {
+        display: none;
+    }
+
+    .imagem2-cel {
+        display: none;
+    }
+
+    .imagem1-pc {
         width: 100%;
         background-color: #38377E;
     }
 
-    .imagem1 img {
+    .imagem1-pc img {
         max-width: 100%;
+    }
+
+    .bot1-pc {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .imagem1-pc a {
+        display: flex;
+        align-items: center;
+        background-color: white;
+        color: #38377E;
+        padding: 15px 20px;
+        text-decoration: none;
+        font-size: 15px;
+        transition: 0.5s;
+        border-radius: 50px;
+        text-transform: uppercase;
+        border: 5px solid white;
+        font-family: 'Montserrat', sans-serif;
+        letter-spacing: 1px;
+        text-align: center;
+        margin: 50px 0px;
+    }
+
+    .imagem1-pc a:hover {
+        background-color: #38377E;
+        color: white;
+        border: 5px solid white;
+        transition: 0.5s;
+    }
+
+    .imagem1-pc .fa-bullhorn {
+        font-size: 20px;
+        margin-right: 15px;
     }
 
     /* imagem1 */
 
     /* imagem2 */
 
-    .imagem2 {
+    .imagem2-pc {
         width: 100%;
         background-color: #00C2F5;
     }
 
-    .imagem2 img {
+    .imagem2-pc img {
         max-width: 100%;
+    }
+
+    .bot2-pc {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .imagem2-pc a {
+        display: flex;
+        align-items: center;
+        background-color: white;
+        color: #00C2F5;
+        padding: 15px 20px;
+        text-decoration: none;
+        font-size: 15px;
+        transition: 0.5s;
+        border-radius: 50px;
+        text-transform: uppercase;
+        border: 5px solid white;
+        font-family: 'Montserrat', sans-serif;
+        letter-spacing: 1px;
+        text-align: center;
+        margin: 50px 0px;
+    }
+
+    .imagem2-pc a:hover {
+        background-color: #00C2F5;
+        color: white;
+        border: 5px solid white;
+        transition: 0.5s;
+    }
+
+    .imagem2-pc .fa-plus-circle {
+        font-size: 20px;
+        margin-right: 15px;
     }
 
     /* imagem2 */
@@ -543,7 +708,7 @@
         border: 5px solid #ff0099;
     }
 
-    .bloco4 .fa-rocket {
+    .bloco4 .fa-lightbulb {
         font-size: 20px;
         margin-right: 15px;
     }
