@@ -48,7 +48,7 @@
         border: 3px solid #f2f2f2;
     }
 
-    .filhos .fa-puzzle-piece {
+    .filhos .fa-cube {
         font-size: 20px;
     }
 
@@ -168,27 +168,22 @@
     .bloco5-cel-pai {
         display: flex;
         flex-wrap: wrap;
-        justify-content: center;
+        justify-content: space-evenly;
         align-items: normal;
-
     }
-
 
     .filhos {
+        width: 350px;
         background-color: blue;
-        margin: 30px 10px;
-        width: 30%;
+        margin: 40px 10px;
         border: 3px solid #f2f2f2;
-
-        /* Defina uma altura fixa desejada */
         display: flex;
         flex-direction: column;
-
-        /* Distribui o espaço verticalmente */
     }
 
-    .filhos .fa-puzzle-piece {
-        font-size: 20px;
+    .filhos .fa-cube {
+        font-size: 23px;
+        margin-right: 25px;
     }
 
     .filhos h3 {
@@ -197,7 +192,7 @@
         background-color: navy;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         letter-spacing: 1px;
-        font-size: 25px;
+        font-size: 23px;
         padding: 25px 0px;
         align-items: center;
         justify-content: center;
@@ -212,14 +207,14 @@
         background-color: #f2f2f2;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         letter-spacing: 1px;
-        font-size: 20px;
-        padding: 8px 0px;
+        font-size: 18px;
+        padding: 10px 0px;
         border-bottom: 1px solid black;
     }
 
     .filhos p {
         margin: 0 auto;
-        padding: 80px 20px;
+        padding: 60px 20px;
         background-color: #f2f2f2;
         text-align: left;
         font-size: 15px;
@@ -230,7 +225,6 @@
         background-color: #f2f2f2;
         letter-spacing: 1px;
         height: 100%;
-
     }
 
     .filhos a {
@@ -248,7 +242,6 @@
         text-transform: uppercase;
         align-items: center;
         transition: 0.3s;
-
     }
 
     .filhos a:hover {
@@ -259,7 +252,7 @@
     .filhos i {
         font-size: 15px;
         vertical-align: middle;
-        margin-right: 15px;
+        margin-right: 10px;
         display: flex;
     }
 
