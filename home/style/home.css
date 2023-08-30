@@ -15,7 +15,7 @@
         font-family: 'Poppins', sans-serif;
         display: flex;
         justify-content: top;
-        padding-top: 30px;
+        padding-top: 50px;
         align-items: center;
         width: 100%;
     }
@@ -89,7 +89,7 @@
 
     /* bloco2 */
     .bloco2 {
-        padding: 50px 20px 20px 20px;
+        padding: 50px 20px 0px 20px;
         background-color: #ff0099;
         text-align: center;
         display: flex;
@@ -127,7 +127,7 @@
         font-size: 10px;
         transition: 0.5s;
         border-radius: 50px;
-        margin-top: 50px;
+        margin: 50px 0px;
         text-transform: uppercase;
         border: 5px solid white;
         font-family: 'Montserrat', sans-serif;
@@ -165,7 +165,7 @@
 
     .imagem1-cel {
         width: 100%;
-        background-color: white;
+        background-color: #00C475;
     }
 
     .imagem1-cel img {
@@ -181,25 +181,25 @@
     .imagem1-cel a {
         display: flex;
         align-items: center;
-        background-color: navy;
-        color: white;
-        padding: 12px 5px;
+        background-color: #f2f2f2;
+        color: #00C475;
+        padding: 10px 3px;
         text-decoration: none;
         font-size: 10px;
         transition: 0.5s;
         border-radius: 50px;
         text-transform: uppercase;
-        border: 5px solid navy;
+        border: 5px solid #f2f2f2;
         font-family: 'Montserrat', sans-serif;
         letter-spacing: 1px;
         text-align: center;
-        margin-bottom: 50px;
+        margin: 50px 0px;
     }
 
     .imagem1-cel a:hover {
-        background-color: white;
-        color: navy;
-        border: 5px solid navy;
+        background-color: #00C475;
+        color: #f2f2f2;
+        border: 5px solid #f2f2f2;
         transition: 0.5s;
     }
 
