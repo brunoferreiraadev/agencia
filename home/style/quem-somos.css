@@ -140,9 +140,13 @@
         padding-bottom: 50px;
     }
 
-    /* .bloco8>div {}
+    .bloco8>div {
+        margin-bottom: 30px;
+    }
 
-    .bloco8 .valores {} */
+    .bloco8 .valores {
+        margin-bottom: 20px;
+    }
 
     .bloco8 i {
         margin-right: 20px;
@@ -156,20 +160,6 @@
         background-color: #f2f2f2;
         border-radius: 20px 20px 0px 0px;
         margin: 0px 20px;
-    }
-
-    .missao2 {
-        width: 100%;
-        margin: 0px 20px 20px 20px;
-    }
-
-    .missao2 a {
-        width: 100%;
-        display: flex;
-        background-color: #f2f2f2;
-        color: crimson;
-        justify-content: center;
-        text-align: center;
     }
 
     .bloco8 h1 {
@@ -377,21 +367,6 @@
         border-radius: 20px 20px 0px 0px;
         margin: 20px;
     }
-
-    .missao2 {
-
-        margin: 0px 20px 20px 20px;
-    }
-
-    .missao2 a {
-
-
-        background-color: #f2f2f2;
-        color: crimson;
-        justify-content: center;
-        text-align: center;
-    }
-
 
     .bloco8 h1 {
         text-align: center;

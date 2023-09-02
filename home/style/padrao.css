@@ -277,14 +277,46 @@
     }
 
     .footer-cel2 i {
-        border-radius: 5px;
         color: #f2f2f2;
-        font-size: 28px;
-        margin: 0px 20px;
+        font-size: 30px;
+        margin: 0px 10px;
+        width: 35px;
+        height: 100%;
+        border-radius: 5px;
     }
 
     .footer-cel2 i:hover {
-        color: cyan;
+        transition: 0.2s;
+        border: 3px solid cyan;
+    }
+
+    /* .social-icons i:hover {
+        transition: 0.2s;
+        border: 3px solid cyan;
+    } */
+
+    .facebook i {
+        border: 3px solid white;
+        color: blue;
+        background-color: white;
+    }
+
+    .youtube i {
+        border: 3px solid white;
+        color: red;
+        background-color: white;
+    }
+
+    .whatsapp i {
+        border: 3px solid white;
+        color: green;
+        background-color: white;
+    }
+
+    .instagram i {
+        border: 3px solid white;
+        color: #FF0066;
+        background-color: white;
     }
 
     /* footer-cel */
@@ -601,7 +633,6 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        gap: 20px;
         width: 33%;
     }
 
@@ -614,22 +645,48 @@
         display: inline-flex;
         color: white;
         text-decoration: none;
-        margin-bottom: 20px;
-        width: 1px;
-        height: 1px;
-        font-size: 45px;
+        width: 55px;
+        height: 55px;
+        font-size: 30px;
         justify-content: center;
         align-items: center;
+        transition: 0.2s;
+        border-radius: 50%;
     }
 
     .social-icons a {
-        width: 1px;
-        height: 1px;
-        margin: 40px;
+        width: 55px;
+        height: 55px;
+        margin: 35px;
     }
 
     .social-icons i:hover {
-        color: cyan;
+        transition: 0.2s;
+        border: 3px solid cyan;
+    }
+
+    .facebook i {
+        border: 3px solid white;
+        color: blue;
+        background-color: white;
+    }
+
+    .youtube i {
+        border: 3px solid white;
+        color: red;
+        background-color: white;
+    }
+
+    .whatsapp i {
+        border: 3px solid white;
+        color: green;
+        background-color: white;
+    }
+
+    .instagram i {
+        border: 3px solid white;
+        color: #FF0066;
+        background-color: white;
     }
 
     /* 3 */
