@@ -568,14 +568,15 @@
     }
 
     .footer-content1 img {
-        width: 200px;
-        height: 200px;
+        border-radius: 50%;
+        width: 220px;
+        height: 220px;
         object-fit: cover;
-        border: 2px solid #f2f2f2;
+        border: 3px solid #f2f2f2;
     }
 
     .footer-content1 img:hover {
-        border: 2px solid cyan;
+        border: 3px solid cyan;
     }
 
     /* 1 */

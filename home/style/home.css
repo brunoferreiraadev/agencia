@@ -455,7 +455,7 @@
 
     /* bloco2 */
     .bloco2 {
-        padding: 100px 0px 50px 0px;
+        padding: 100px 0px 80px 0px;
         width: 100%;
         background-color: #ff0099;
         text-align: center;
@@ -494,7 +494,7 @@
         font-size: 15px;
         transition: 0.5s;
         border-radius: 50px;
-        margin-top: 50px;
+        margin-top: 80px;
         text-transform: uppercase;
         border: 5px solid white;
         font-family: 'Montserrat', sans-serif;
@@ -532,7 +532,7 @@
     }
 
     .imagem1-pc img {
-        max-width: 100%;
+        max-width: 90%;
     }
 
     .bot1-pc {
@@ -556,7 +556,7 @@
         font-family: 'Montserrat', sans-serif;
         letter-spacing: 1px;
         text-align: center;
-        margin: 50px 0px;
+        margin: 80px 0px;
     }
 
     .imagem1-pc a:hover {
@@ -646,7 +646,7 @@
         background-color: #1a1a1a;
         display: flex;
         height: 100%;
-        padding: 100px 0px 180px 0px;
+        padding: 100px 0px 230px 0px;
     }
 
     .paragrafo1,
@@ -683,7 +683,7 @@
     }
 
     .bloco4 a {
-        margin-top: 50px;
+        margin-top: 80px;
         display: flex;
         align-items: center;
         justify-content: center;
