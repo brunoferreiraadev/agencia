@@ -223,7 +223,7 @@
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         font-size: 40px;
         letter-spacing: 1px;
-        padding: 50px 20px 50px 20px;
+        padding: 40px 20px 40px 20px;
     }
 
     /* comeco */
@@ -247,7 +247,7 @@
         letter-spacing: 1px;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         font-size: 30px;
-        margin-bottom: 20px;
+        margin-bottom: 50px;
     }
 
     .bloco3a,
@@ -258,7 +258,7 @@
     }
 
     .bloco3a {
-        padding: 50px 0px;
+        padding: 100px 0px;
         background-color: deepskyblue;
         display: flex;
         align-items: flex-start;
@@ -301,7 +301,7 @@
         letter-spacing: 1px;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         font-size: 30px;
-        margin-bottom: 20px;
+        margin-bottom: 50px;
     }
 
     .bloco4a,
@@ -312,7 +312,7 @@
     }
 
     .bloco4a {
-        padding: 50px 0px;
+        padding: 100px 0px;
         background-color: deepskyblue;
         display: flex;
         align-items: flex-start;
