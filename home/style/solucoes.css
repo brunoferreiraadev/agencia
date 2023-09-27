@@ -1,6 +1,6 @@
 @media (max-width: 767px) {
 
-    /* bloco5-cel */
+    /*  bloco5-cel */
 
     main {
         display: none;
@@ -8,7 +8,7 @@
 
     .bloco5-cel {
         background-color: deepskyblue;
-        padding-bottom: 50px;
+        padding-bottom: 0px;
         width: 100%;
         justify-content: center;
         text-align: center;
@@ -39,152 +39,13 @@
         background-color: #f2f2f2;
     }
 
-    .bloco5-cel-pai {
-        margin: 0px 20px;
-    }
-
-    .filhos {
-        border: 3px solid #f2f2f2;
-        background-color: #f2f2f2;
-        border-radius: 20px 20px 0px 0px;
-    }
-
-    .filhos .fa-cube {
-        font-size: 20px;
-    }
-
-    .filhos h3 {
-        border-bottom: 1px solid #f2f2f2;
-        color: #f2f2f2;
-        border-radius: 20px;
-        background-color: dodgerblue;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        letter-spacing: 1px;
-        font-size: 20px;
-        padding: 15px 0px;
-        align-items: center;
-        justify-content: center;
-        display: inline-flex;
-        width: 100%;
-        text-transform: uppercase;
-    }
-
-    .filhos h4 {
-        color: rgba(0, 0, 0, 0.7);
-        background-color: #f2f2f2;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        letter-spacing: 1px;
-        font-size: 18px;
-        padding: 8px 0px;
-        font-weight: bold;
-        border-bottom: 1px solid rgba(0, 0, 0, 0.5);
-    }
-
-    .filhos p {
-        margin: 0 auto;
-        padding: 50px 25px;
-        background-color: #f2f2f2;
-        text-align: left;
-        font-size: 15px;
-        font-family: Arial, Helvetica, sans-serif;
-        color: #666;
-        font-weight: bold;
-        line-height: 20px;
-        background-color: #f2f2f2;
-        letter-spacing: 1px;
-    }
-
-    .filhos a {
-        padding: 6px;
-        width: 90%;
-        margin: 0 auto;
-        display: flex;
-        background-color: #f2f2f2;
-        color: blue;
-        border-radius: 20px;
-        border: 1px solid blue;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 14px;
-        font-weight: bold;
-        text-decoration: none;
-        letter-spacing: 1px;
-        text-align: center;
-        justify-content: center;
-        text-transform: uppercase;
-        align-items: center;
-        margin-bottom: 5px;
-        /* padding: 8px 0px;
-        display: flex;
-        background-color: #f2f2f2;
-        color: #f2f2f2;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 15px;
-        font-weight: bold;
-        text-decoration: none;
-        letter-spacing: 1px;
-        text-align: center;
-        justify-content: center;
-        text-transform: uppercase;
-        align-items: center; */
-    }
-
-    .filhos a:hover {
-        background-color: blue;
-        border: 1px solid blue;
-        color: #f2f2f2;
-    }
-
-    .filhos i {
-        font-size: 15px;
-        vertical-align: middle;
-        margin-right: 15px;
-        display: flex;
-    }
-
-    /* bloco5-cel */
-
-    .bloco5-cel-pai-titulo {
-        color: #f2f2f2;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        width: 100%;
-    }
-
-    .bloco5-cel-pai-titulo h1 {
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        color: white;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        font-size: 30px;
-        letter-spacing: 1px;
-        margin: 0px 5px;
-    }
-
-    .bloco5-cel-pai-titulo p {
-        color: #f2f2f2;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 15px;
-        letter-spacing: 1px;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        margin: 0 auto;
-        width: 80%;
-    }
-
-
-
-
-
-
+    /*  bloco5-cel */
 
 }
 
 @media (min-width: 768px) {
 
-    /* bloco5-cel */
+    /*  bloco5-cel */
 
     main {
         display: none;
@@ -224,140 +85,5 @@
         background-color: #f2f2f2;
     }
 
-    .bloco5-cel-pai {
-        display: flex;
-        border: 5px solid deepskyblue;
-        flex-wrap: wrap;
-        padding-bottom: 50px;
-        justify-content: center;
-        background-color: dodgerblue;
-        align-items: normal;
-    }
-
-    .bloco5-cel-pai-titulo {
-        color: #f2f2f2;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        width: 100%;
-
-    }
-
-    .bloco5-cel-pai-titulo h1 {
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        color: white;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        font-size: 45px;
-        letter-spacing: 1px;
-        margin: 0px 20px;
-    }
-
-    .bloco5-cel-pai-titulo p {
-        color: #f2f2f2;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 18px;
-        letter-spacing: 1px;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        margin: 0 auto;
-        width: 65%;
-    }
-
-    .filhos {
-        border-radius: 25px 25px 0px 0px;
-        width: 305px;
-        background-color: #f2f2f2;
-        margin: 40px 30px;
-        border: 3px solid #f2f2f2;
-        display: flex;
-        flex-direction: column;
-    }
-
-    .filhos .fa-cube {
-        font-size: 23px;
-        margin-right: 25px;
-    }
-
-    .filhos h3 {
-        border-bottom: 1px solid #f2f2f2;
-        color: #f2f2f2;
-        background-color: dodgerblue;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        letter-spacing: 1px;
-        font-size: 23px;
-        padding: 25px 0px;
-        align-items: center;
-        justify-content: center;
-        display: inline-flex;
-        width: 100%;
-        text-transform: uppercase;
-        border-radius: 23px;
-    }
-
-    .filhos h4 {
-        color: rgba(0, 0, 0, 0.7);
-        font-weight: bold;
-        background-color: #f2f2f2;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        letter-spacing: 1px;
-        font-size: 18px;
-        padding: 8px 0px;
-        border-bottom: 1px solid rgba(0, 0, 0, 0.5);
-    }
-
-    .filhos p {
-        margin: 0 auto;
-        padding: 60px 20px;
-        background-color: black;
-        text-align: left;
-        font-size: 15px;
-        font-family: Arial, Helvetica, sans-serif;
-        color: #666;
-        font-weight: bold;
-        line-height: 25px;
-        background-color: #f2f2f2;
-        letter-spacing: 1px;
-        height: 100%;
-    }
-
-    .filhos a {
-        padding: 8px;
-        width: 90%;
-        margin: 0 auto;
-        display: flex;
-        background-color: #f2f2f2;
-        color: blue;
-        border-radius: 20px;
-        border: 1px solid blue;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 15px;
-        font-weight: bold;
-        text-decoration: none;
-        letter-spacing: 1px;
-        text-align: center;
-        justify-content: center;
-        text-transform: uppercase;
-        align-items: center;
-        transition: 0.3s;
-        margin-bottom: 5px;
-    }
-
-    .filhos a:hover {
-        background-color: blue;
-        border: 1px solid blue;
-        color: #f2f2f2;
-        transition: 0.3s;
-    }
-
-    .filhos i {
-        font-size: 15px;
-        vertical-align: middle;
-        margin-right: 10px;
-        display: flex;
-    }
-
-    /* bloco5-cel */
+    /*  bloco5-cel */
 }

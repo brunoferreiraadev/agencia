@@ -312,14 +312,14 @@
 
     .bloco3a {
         padding: 120px 0px 0px 0px;
-        background-color: deepskyblue;
+        background-color: #666;
         display: flex;
         align-items: flex-start;
     }
 
     .bloco3b {
         padding-bottom: 50px;
-        background-color: deepskyblue;
+        background-color: #666;
     }
 
     .bloco3 img {
@@ -328,6 +328,7 @@
     }
 
     .bloco3 p {
+        background-color: #333;
         border: 1px solid #f2f2f2;
         color: #f2f2f2;
         font-family: Arial, Helvetica, sans-serif;
@@ -354,7 +355,7 @@
         letter-spacing: 1px;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         font-size: 22px;
-        margin-bottom: 50px;
+        margin-bottom: 52px;
     }
 
     .bloco4a,
@@ -366,14 +367,14 @@
 
     .bloco4a {
         padding: 120px 0px 0px 0px;
-        background-color: deepskyblue;
+        background-color: #666;
         display: flex;
         align-items: flex-start;
     }
 
     .bloco4b {
         padding-bottom: 50px;
-        background-color: deepskyblue;
+        background-color: #666;
     }
 
     .bloco4 img {
@@ -387,7 +388,7 @@
         justify-content: center;
         align-items: center;
         width: 100%;
-        background-color: deepskyblue;
+        background-color: #666;
         padding-bottom: 50px;
     }
 
@@ -435,6 +436,7 @@
     /*  bloco icons foto  */
 
     .bloco4 p {
+        background-color: #333;
         border: 1px solid #f2f2f2;
         color: #f2f2f2;
         font-family: Arial, Helvetica, sans-serif;
