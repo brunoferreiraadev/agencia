@@ -207,14 +207,13 @@
         text-decoration: none;
         color: black;
         background-color: #f2f2f2;
-        padding: 10px;
-        width: 80%;
+        padding: 5px;
+        width: 85%;
         border-radius: 5px;
         margin-left: auto;
         margin-right: auto;
         margin-bottom: 20px;
-        letter-spacing: 1px;
-        font-size: 13px;
+        font-size: 12px;
         font-family: 'Montserrat', sans-serif;
         transition: 0.3s;
         text-transform: uppercase;
@@ -229,7 +228,7 @@
     }
 
     .box-texto-cel .fa-bolt {
-        margin-right: 15px;
+        margin-right: 10px;
     }
 
     /* apresentação das soluções celular*/
@@ -468,91 +467,24 @@
         background-image: linear-gradient(130deg, cyan, blue);
     }
 
-    .blocoa {
-        flex-direction: column;
-        font-family: 'Poppins', sans-serif;
-        display: flex;
-        justify-content: top;
-        padding-top: 40px;
-        align-items: center;
-        width: 50%;
-    }
 
-    .blocoa h1 {
-        font-size: 45px;
-        color: white;
-        text-align: center;
-        margin-bottom: 30px;
-        letter-spacing: 2px;
-        padding: 0px 10px;
-    }
-
-    .blocoa p {
-        line-height: 35px;
-        color: #f2f2f2;
-        text-align: left;
-        margin: 0 auto;
-        max-width: 80%;
-        text-align: center;
-        font-size: 20px;
-        font-family: 'Montserrat', sans-serif;
-        margin-bottom: 30px;
-        letter-spacing: 1px;
-        border-bottom: 1px solid cyan;
-        padding-bottom: 5px;
-    }
-
-    .blocoa a {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        padding: 15px 20px;
-        margin-bottom: 50px;
-        text-decoration: none;
-        cursor: pointer;
-        border-radius: 50px;
-        text-decoration: none;
-        background-color: white;
-        color: blue;
-        letter-spacing: 1px;
-        font-size: 15px;
-        font-family: 'Montserrat', sans-serif;
-        transition: 0.5s;
-        text-transform: uppercase;
-        border: 5px solid white;
-    }
-
-    .blocoa .fa-rocket {
-        font-size: 20px;
-        margin-right: 15px;
-    }
-
-    .blocoa a:hover {
-        background-color: blue;
-        color: #f2f2f2;
-        border: 5px solid #f2f2f2;
-        transition: 0.5s;
-    }
 
     .blocob {
-        width: 50%;
-        height: 100%;
+        width: 100%;
     }
 
     .blocob img {
         display: flex;
         width: 100%;
-        height: 100%;
-        object-fit: cover;
     }
 
     /* bloco1 */
 
     /* bloco2 */
     .bloco2 {
-        padding: 100px 0px 80px 0px;
+        padding: 100px 0px 160px 0px;
         width: 100%;
-        background-color: #ff0099;
+        background-color: #0A0A0A;
         text-align: center;
         display: flex;
         flex-direction: column;
@@ -563,14 +495,15 @@
         color: white;
         text-align: center;
         letter-spacing: 1px;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        margin: 0px 20px 100px 20px;
-        font-size: 47px;
+        font-family: 'Cinzel', serif;
+        font-weight: normal;
+        margin: 0px 10px 100px 10px;
+        font-size: 48px;
     }
 
     .bloco2 p {
         color: #f2f2f2;
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: 'Montserrat', sans-serif;
         line-height: 35px;
         font-size: 20px;
         letter-spacing: 1px;
@@ -583,16 +516,17 @@
         display: flex;
         align-items: center;
         background-color: white;
-        color: #ff0099;
+        color: red;
         padding: 15px 20px;
         text-decoration: none;
         font-size: 15px;
         transition: 0.5s;
         border-radius: 50px;
         margin-top: 80px;
+        font-weight: bold;
         text-transform: uppercase;
         border: 5px solid white;
-        font-family: 'Montserrat', sans-serif;
+        font-family: 'Cinzel', serif;
         letter-spacing: 1px;
         text-align: center;
     }
@@ -603,13 +537,95 @@
     }
 
     .bloco2 a:hover {
-        background-color: #ff0099;
+        background-color: red;
         color: white;
         border: 5px solid white;
         transition: 0.5s;
     }
 
     /* bloco2 */
+
+
+    /* bloco 1 continuação */
+
+    .blocoa {
+        width: 100%;
+        background-color: #0A0A0A;
+        flex-direction: column;
+        display: flex;
+        justify-content: top;
+        padding-top: 40px;
+        align-items: center;
+
+    }
+
+    .blocoa h1 {
+        /* font-family: 'Montserrat', sans-serif; */
+        /* font-family: 'Barlow Condensed', sans-serif; */
+        /* font-family: 'Nanum Myeongjo', serif; */
+        font-family: 'Cinzel', serif;
+        font-weight: normal;
+        font-size: 48px;
+        color: white;
+        margin-top: 50px;
+        text-align: center;
+        margin-bottom: 50px;
+        letter-spacing: 1px;
+        padding: 0px 10px;
+        text-transform: uppercase;
+        /* font-weight: 200 italic; */
+    }
+
+    .blocoa p {
+        line-height: 35px;
+        color: #f2f2f2;
+        text-align: left;
+        margin: 0 auto;
+        max-width: 70%;
+        text-align: center;
+        font-size: 22px;
+        font-family: 'Montserrat', sans-serif;
+        margin-bottom: 50px;
+        letter-spacing: 1px;
+        border-bottom: 2px solid red;
+        padding-bottom: 5px;
+    }
+
+    .blocoa a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 15px 20px;
+        margin-bottom: 60px;
+        text-decoration: none;
+        cursor: pointer;
+        border-radius: 50px;
+        text-decoration: none;
+        background-color: white;
+        color: red;
+        letter-spacing: 1px;
+        font-weight: bold;
+        font-size: 15px;
+        font-family: 'Cinzel', serif;
+        transition: 0.5s;
+        text-transform: uppercase;
+        border: 5px solid white;
+    }
+
+    .blocoa .fa-rocket {
+        font-size: 20px;
+        margin-right: 15px;
+    }
+
+    .blocoa a:hover {
+        background-color: red;
+        color: white;
+        border: 5px solid white;
+        transition: 0.5s;
+    }
+
+    /* bloco 1 continuação */
+
 
     /* apresentação das soluções */
 
@@ -665,7 +681,7 @@
         display: flex;
         text-decoration: none;
         color: black;
-        background-color: #f2f2f2;
+        background-color: white;
         padding: 15px;
         width: 80%;
         border-radius: 5px;
@@ -677,14 +693,14 @@
         font-family: 'Montserrat', sans-serif;
         transition: 0.3s;
         text-transform: uppercase;
-        border: 5px solid #f2f2f2;
+        border: 5px solid white;
     }
 
     .box-texto a:hover {
         transition: 0.3s;
-        border: 5px solid #f2f2f2;
+        border: 5px solid white;
         background-color: black;
-        color: #f2f2f2;
+        color: white;
     }
 
     /* apresentação das soluções */
@@ -799,15 +815,16 @@
     /* bloco div titulo */
     .titulo {
         width: 100%;
-        background-color: #1a1a1a;
+        background-color: #0A0A0A;
         align-items: center;
         padding-top: 100px;
     }
 
     .titulo h1 {
         color: white;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        font-size: 47px;
+        font-family: 'Cinzel', serif;
+        font-weight: normal;
+        font-size: 48px;
         margin: 0px 20px 0px 20px;
         letter-spacing: 1px;
     }
@@ -817,10 +834,10 @@
     /* bloco 4 */
     .bloco4 {
         width: 100%;
-        background-color: #1a1a1a;
+        background-color: #0A0A0A;
         display: flex;
         height: 100%;
-        padding: 100px 0px 230px 0px;
+        padding: 100px 0px 300px 0px;
     }
 
     .paragrafo1,
@@ -837,7 +854,7 @@
         width: 100%;
         padding-left: 50px;
         color: #f2f2f2;
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: 'Montserrat', sans-serif;
         font-size: 20px;
         margin-top: -6px;
         letter-spacing: 1px;
@@ -857,7 +874,7 @@
     }
 
     .bloco4 a {
-        margin-top: 80px;
+        margin-top: 100px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -869,14 +886,15 @@
         cursor: pointer;
         border-radius: 50px;
         text-decoration: none;
-        background-color: #1a1a1a;
-        color: #ff0099;
+        background-color: white;
+        color: red;
         letter-spacing: 1px;
+        font-weight: bold;
         font-size: 15px;
-        font-family: 'Montserrat', sans-serif;
+        font-family: 'Cinzel', serif;
         transition: 0.5s;
         text-transform: uppercase;
-        border: 5px solid #ff0099;
+        border: 5px solid white;
     }
 
     .bloco4 .fa-lightbulb {
@@ -888,6 +906,7 @@
         box-shadow: none;
         border: 5px solid white;
         color: white;
+        background-color: red;
         transition: 0.5s;
     }
 
