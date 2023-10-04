@@ -61,7 +61,7 @@
         letter-spacing: 1px;
         font-size: 10px;
         font-family: 'Montserrat', sans-serif;
-        transition: 0.5s;
+        transition: 0.3s;
         text-transform: uppercase;
         border: 5px solid white;
     }
@@ -75,7 +75,7 @@
         background-color: blue;
         color: #f2f2f2;
         border: 5px solid #f2f2f2;
-        transition: 0.5s;
+        transition: 0.3s;
     }
 
     .blocob {
@@ -130,7 +130,7 @@
         padding: 15px 10px;
         text-decoration: none;
         font-size: 10px;
-        transition: 0.5s;
+        transition: 0.3s;
         border-radius: 50px;
         margin: 50px 0px;
         text-transform: uppercase;
@@ -149,7 +149,7 @@
         background-color: #ff0099;
         color: white;
         border: 5px solid white;
-        transition: 0.5s;
+        transition: 0.3s;
     }
 
     /* bloco2 */
@@ -274,7 +274,7 @@
         padding: 10px 3px;
         text-decoration: none;
         font-size: 10px;
-        transition: 0.5s;
+        transition: 0.3s;
         border-radius: 50px;
         text-transform: uppercase;
         border: 5px solid #f2f2f2;
@@ -288,7 +288,7 @@
         background-color: #00C475;
         color: #f2f2f2;
         border: 5px solid #f2f2f2;
-        transition: 0.5s;
+        transition: 0.3s;
     }
 
     .imagem1-cel .fa-bullhorn {
@@ -323,7 +323,7 @@
         padding: 15px 20px;
         text-decoration: none;
         font-size: 10px;
-        transition: 0.5s;
+        transition: 0.3s;
         border-radius: 50px;
         text-transform: uppercase;
         border: 5px solid white;
@@ -337,7 +337,7 @@
         background-color: #00C2F5;
         color: white;
         border: 5px solid white;
-        transition: 0.5s;
+        transition: 0.3s;
     }
 
     .imagem2-cel .fa-plus-circle {
@@ -434,7 +434,7 @@
         letter-spacing: 1px;
         font-size: 10px;
         font-family: 'Montserrat', sans-serif;
-        transition: 0.5s;
+        transition: 0.3s;
         text-transform: uppercase;
         border: 5px solid #ff0099;
     }
@@ -448,7 +448,7 @@
         box-shadow: none;
         border: 5px solid white;
         color: white;
-        transition: 0.5s;
+        transition: 0.3s;
     }
 
     /* bloco 4 */
@@ -461,30 +461,27 @@
     }
 
     /* bloco1 */
-    .bloco1 {
-        display: flex;
-        width: 100%;
-        background-image: linear-gradient(130deg, cyan, blue);
-    }
-
-
-
     .blocob {
-        width: 100%;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        display: flex;
+        background-color: #0C0807;
     }
+
 
     .blocob img {
         display: flex;
-        width: 100%;
+        width: 70%;
     }
 
     /* bloco1 */
 
     /* bloco2 */
     .bloco2 {
-        padding: 100px 0px 160px 0px;
+        padding: 93px 0px 100px 0px;
         width: 100%;
-        background-color: #0A0A0A;
+        background-color: #0C0807;
         text-align: center;
         display: flex;
         flex-direction: column;
@@ -497,7 +494,7 @@
         letter-spacing: 1px;
         font-family: 'Cinzel', serif;
         font-weight: normal;
-        margin: 0px 10px 100px 10px;
+        margin: -7px 10px 53px 10px;
         font-size: 48px;
     }
 
@@ -516,31 +513,30 @@
         display: flex;
         align-items: center;
         background-color: white;
-        color: red;
-        padding: 15px 20px;
+        color: black;
+        padding: 15px 45px;
         text-decoration: none;
         font-size: 15px;
-        transition: 0.5s;
-        border-radius: 50px;
+        transition: 0.3s;
         margin-top: 80px;
         font-weight: bold;
         text-transform: uppercase;
-        border: 5px solid white;
+        border: 3px solid white;
         font-family: 'Cinzel', serif;
-        letter-spacing: 1px;
+        letter-spacing: 2px;
         text-align: center;
     }
 
     .bloco2 .fa-check-circle {
         font-size: 20px;
-        margin-right: 15px;
+        margin-right: 25px;
     }
 
     .bloco2 a:hover {
-        background-color: red;
+        background-color: black;
         color: white;
-        border: 5px solid white;
-        transition: 0.5s;
+        border: 3px solid white;
+        transition: 0.3s;
     }
 
     /* bloco2 */
@@ -550,11 +546,11 @@
 
     .blocoa {
         width: 100%;
-        background-color: #0A0A0A;
+        background-color: #0C0807;
         flex-direction: column;
         display: flex;
         justify-content: top;
-        padding-top: 40px;
+        /* padding-top: 40px; */
         align-items: center;
 
     }
@@ -567,7 +563,7 @@
         font-weight: normal;
         font-size: 48px;
         color: white;
-        margin-top: 50px;
+        margin-top: 170px;
         text-align: center;
         margin-bottom: 50px;
         letter-spacing: 1px;
@@ -581,7 +577,7 @@
         color: #f2f2f2;
         text-align: left;
         margin: 0 auto;
-        max-width: 70%;
+        max-width: 90%;
         text-align: center;
         font-size: 22px;
         font-family: 'Montserrat', sans-serif;
@@ -595,33 +591,32 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        padding: 15px 20px;
-        margin-bottom: 60px;
+        padding: 15px 45px;
+        margin-bottom: 100px;
         text-decoration: none;
         cursor: pointer;
-        border-radius: 50px;
         text-decoration: none;
         background-color: white;
-        color: red;
-        letter-spacing: 1px;
+        color: black;
+        letter-spacing: 2px;
         font-weight: bold;
         font-size: 15px;
         font-family: 'Cinzel', serif;
-        transition: 0.5s;
+        transition: 0.3s;
         text-transform: uppercase;
-        border: 5px solid white;
+        border: 3px solid white;
     }
 
     .blocoa .fa-rocket {
         font-size: 20px;
-        margin-right: 15px;
+        margin-right: 25px;
     }
 
     .blocoa a:hover {
-        background-color: red;
+        background-color: black;
         color: white;
-        border: 5px solid white;
-        transition: 0.5s;
+        border: 3px solid white;
+        transition: 0.3s;
     }
 
     /* bloco 1 continuação */
@@ -739,7 +734,7 @@
         padding: 15px 20px;
         text-decoration: none;
         font-size: 15px;
-        transition: 0.5s;
+        transition: 0.3s;
         border-radius: 50px;
         text-transform: uppercase;
         border: 5px solid white;
@@ -753,7 +748,7 @@
         background-color: #38377E;
         color: white;
         border: 5px solid white;
-        transition: 0.5s;
+        transition: 0.3s;
     }
 
     .imagem1-pc .fa-bullhorn {
@@ -788,7 +783,7 @@
         padding: 15px 20px;
         text-decoration: none;
         font-size: 15px;
-        transition: 0.5s;
+        transition: 0.3s;
         border-radius: 50px;
         text-transform: uppercase;
         border: 5px solid white;
@@ -802,7 +797,7 @@
         background-color: #00C2F5;
         color: white;
         border: 5px solid white;
-        transition: 0.5s;
+        transition: 0.3s;
     }
 
     .imagem2-pc .fa-plus-circle {
@@ -815,9 +810,9 @@
     /* bloco div titulo */
     .titulo {
         width: 100%;
-        background-color: #0A0A0A;
+        background-color: #0C0807;
         align-items: center;
-        padding-top: 100px;
+        padding: 150px 10px 150px 10px;
     }
 
     .titulo h1 {
@@ -825,7 +820,7 @@
         font-family: 'Cinzel', serif;
         font-weight: normal;
         font-size: 48px;
-        margin: 0px 20px 0px 20px;
+        margin: -10px 20px -14px 20px;
         letter-spacing: 1px;
     }
 
@@ -834,10 +829,10 @@
     /* bloco 4 */
     .bloco4 {
         width: 100%;
-        background-color: #0A0A0A;
+        background-color: #0C0807;
         display: flex;
         height: 100%;
-        padding: 100px 0px 300px 0px;
+        padding-bottom: 400px;
     }
 
     .paragrafo1,
@@ -856,10 +851,10 @@
         color: #f2f2f2;
         font-family: 'Montserrat', sans-serif;
         font-size: 20px;
-        margin-top: -6px;
         letter-spacing: 1px;
         line-height: 35px;
         text-align: left;
+        margin-top: -7px;
     }
 
     .paragrafo2 {
@@ -869,7 +864,6 @@
 
     .paragrafo2 img {
         width: 70%;
-        border-radius: 10px;
         object-fit: cover;
     }
 
@@ -878,36 +872,35 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        padding: 15px 20px;
+        padding: 15px 45px;
         margin-left: 50px;
         text-align: center;
         position: absolute;
         text-decoration: none;
         cursor: pointer;
-        border-radius: 50px;
         text-decoration: none;
         background-color: white;
-        color: red;
-        letter-spacing: 1px;
+        color: black;
+        letter-spacing: 2px;
         font-weight: bold;
         font-size: 15px;
         font-family: 'Cinzel', serif;
-        transition: 0.5s;
+        transition: 0.3s;
         text-transform: uppercase;
-        border: 5px solid white;
+        border: 3px solid white;
     }
 
     .bloco4 .fa-lightbulb {
         font-size: 20px;
-        margin-right: 15px;
+        margin-right: 25px;
     }
 
     .bloco4 a:hover {
         box-shadow: none;
-        border: 5px solid white;
+        border: 3px solid white;
         color: white;
-        background-color: red;
-        transition: 0.5s;
+        background-color: black;
+        transition: 0.3s;
     }
 
     /* bloco 4 */

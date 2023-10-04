@@ -404,18 +404,18 @@
     }
 
     .div-filha a {
-        padding: 25px;
+        padding: 35px 25px;
         text-decoration: none;
         font-size: 15px;
-        font-family: Arial, Helvetica, sans-serif;
-        color: rgba(0, 0, 0, .5);
+        font-family: 'Cinzel', serif;
+        color: black;
         display: inline-block;
         font-weight: bold;
         justify-content: left;
         align-items: center;
         text-align: center;
         display: flex;
-        letter-spacing: 1px;
+        letter-spacing: 2px;
     }
 
     .div-filha a:hover {
@@ -555,13 +555,13 @@
         text-align: center;
         position: relative;
         display: flex;
-        height: 420px;
+        height: 500px;
         justify-content: center;
     }
 
     /* 1 */
     .footer-content1 {
-        width: 33%;
+        width: 32%;
         justify-content: center;
         display: flex;
         align-items: center;
@@ -572,15 +572,16 @@
     }
 
     .footer-content1 img {
-        border-radius: 50%;
         width: 220px;
         height: 220px;
         object-fit: cover;
-        border: 1px solid #f2f2f2;
+        border: 3px solid #f2f2f2;
+        transition: 0.2s;
     }
 
     .footer-content1 img:hover {
-        border: 1px solid red;
+        border: 3px solid black;
+        transition: 0.2s;
     }
 
     /* 1 */
@@ -591,7 +592,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: flex-start;
-        width: 33%;
+        width: 32%;
     }
 
     .footer-item2 {
@@ -602,23 +603,26 @@
         margin: 8px 0px;
         align-items: center;
         justify-content: center;
-        border-left: 1px solid rgba(0, 0, 0, .7);
-        border-right: 1px solid rgba(0, 0, 0, .7);
+        border-left: 1px solid black;
+        border-right: 1px solid black;
     }
 
     .footer-item2 a {
         width: 230px;
         text-decoration: none;
-        color: rgba(0, 0, 0, .7);
-        border-bottom: 1px solid rgba(0, 0, 0, .7);
-        font-family: Arial, Helvetica, sans-serif;
+        color: black;
+        border-bottom: 1px solid black;
+        font-family: 'Cinzel', serif;
         font-size: 15px;
-        letter-spacing: 1px;
+        letter-spacing: 2px;
         text-align: center;
         display: flex;
         justify-content: left;
+        font-weight: bold;
         padding-bottom: 2px;
         align-items: center;
+        margin-bottom: 5px;
+        transition: 0.1s;
     }
 
     .footer-item2 i {
@@ -629,6 +633,7 @@
     .footer-item2 a:hover {
         border-bottom: 1px solid red;
         color: red;
+        transition: 0.1s;
     }
 
     /* 2 */
@@ -638,7 +643,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 33%;
+        width: 32%;
     }
 
     .social-icons {
@@ -650,25 +655,23 @@
         display: inline-flex;
         color: white;
         text-decoration: none;
-        width: 60px;
-        height: 60px;
-        font-size: 30px;
+        width: 65px;
+        height: 65px;
+        font-size: 32px;
         justify-content: center;
         align-items: center;
-        transition: 0.2s;
-        border-radius: 50%;
     }
 
     .social-icons a {
-        width: 60px;
-        height: 60px;
-        margin: 35px;
+        width: 65px;
+        height: 65px;
+        margin: 32px;
     }
 
-    .social-icons i:hover {
+    /* .social-icons i:hover {
         transition: 0.2s;
-        background-color: rgba(0, 0, 0, 0.4);
-    }
+        border: 3px solid red;
+    } */
 
     /* .facebook i {
         border: 3px solid white;
@@ -683,14 +686,32 @@
     } */
 
     .whatsapp i {
+        border: 3px solid black;
         color: lime;
-        background-color: white;
+        background-color: black;
+        transition: 0.2s;
+    }
+
+    .whatsapp i:hover {
+        transition: 0.2s;
+        border: 3px solid lime;
     }
 
     .instagram i {
+        border: 3px solid black;
         color: red;
-        background-color: white;
+        background-color: black;
+        transition: 0.2s;
     }
+
+    .instagram i:hover {
+        transition: 0.2s;
+        border: 3px solid red;
+    }
+
+    /* .instagram i:hover {
+        color: red;
+    } */
 
     /* 3 */
 
