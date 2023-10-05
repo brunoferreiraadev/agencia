@@ -1,0 +1,361 @@
+@media (max-width: 767px) {
+    /* imagem1 */
+
+    .imagem1-pc {
+        display: none;
+    }
+
+    .imagem2-cel {
+        display: none;
+    }
+
+    .imagem1-cel {
+        width: 100%;
+        background-color: #1B2735;
+    }
+
+    .imagem-cel-titulo {
+        width: 90%;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    .imagem-cel-titulo h1 {
+        padding: 60px 10px;
+        color: cyan;
+        margin: 0 auto;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        line-height: 32px;
+        font-size: 15px;
+        text-align: ce;
+        align-items: center;
+    }
+
+    .imagem-cel-titulo .fa-lock {
+        color: cyan;
+        margin-right: 20px;
+    }
+
+    .imagem1-cel img {
+        max-width: 100%;
+    }
+
+    /* imagem1 */
+
+    /* imagem2 */
+
+
+    /* imagem2 */
+
+
+
+    /* politica */
+
+    .politica {
+        background-color: #f2f2f2;
+    }
+
+    .pol-titulo h1 {
+        background-color: #f2f2f2;
+        color: black;
+        letter-spacing: 1px;
+        padding: 100px 10px 50px 10px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-transform: uppercase;
+        font-size: 20px;
+        line-height: 28px;
+        text-align: left;
+    }
+
+    .pol1 {
+        display: flex;
+        text-align: left;
+        background-color: #f2f2f2;
+    }
+
+    .pol1 p {
+        font-size: 15px;
+        letter-spacing: 1px;
+        line-height: 22px;
+        font-weight: bold;
+        color: rgba(0, 0, 0, 0.7);
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 30px 20px 100px 20px;
+        width: 100%;
+    }
+
+    .pol2,
+    .pol3,
+    .pol4,
+    .pol5,
+    .pol6 {
+        background-color: rgba(0, 0, 0, 0.9);
+    }
+
+    .pol2 h2,
+    .pol3 h2,
+    .pol4 h2,
+    .pol5 h2,
+    .pol6 h2 {
+        padding: 5px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-size: 15px;
+        text-align: center;
+        color: white;
+    }
+
+    .pol2 p,
+    .pol3 p,
+    .pol4 p,
+    .pol5 p,
+    .pol6 p {
+        background-color: #1B2735;
+        color: #f2f2f2;
+        text-align: left;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 30px 20px;
+        font-size: 15px;
+        letter-spacing: 1px;
+        line-height: 22px;
+    }
+
+    .pol7 {
+        display: flex;
+        text-align: left;
+        background-color: #f2f2f2;
+    }
+
+    .pol7 p {
+        font-size: 15px;
+        letter-spacing: 1px;
+        line-height: 22px;
+        font-weight: bold;
+        color: rgba(0, 0, 0, 0.7);
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 80px 20px;
+        width: 100%;
+    }
+
+    /* politica */
+}
+
+@media (min-width: 768px) {
+    /* imagem1 */
+
+    .imagem1-cel {
+        display: none;
+    }
+
+    .imagem1-pc {
+        width: 100%;
+        background-color: #2A3F4A;
+    }
+
+    .imagem1-pc img {
+        max-width: 100%;
+    }
+
+    .imagem-pc-titulo h1 {
+        padding: 90px 20px 40px 20px;
+        color: cyan;
+        margin: 0 auto;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        line-height: 35px;
+        font-size: 30px;
+        text-align: center;
+        align-items: center;
+    }
+
+    .imagem-pc-titulo .fa-lock {
+        color: cyan;
+        margin-right: 30px;
+    }
+
+    .bot1-pc {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .imagem1-pc a {
+        display: flex;
+        align-items: center;
+        background-color: white;
+        color: #38377E;
+        padding: 15px 20px;
+        text-decoration: none;
+        font-size: 15px;
+        transition: 0.5s;
+        border-radius: 50px;
+        text-transform: uppercase;
+        border: 5px solid white;
+        font-family: 'Montserrat', sans-serif;
+        letter-spacing: 1px;
+        text-align: center;
+        margin: 50px 0px;
+    }
+
+    .imagem1-pc a:hover {
+        background-color: #38377E;
+        color: white;
+        border: 5px solid white;
+        transition: 0.5s;
+    }
+
+    .imagem1-pc .fa-bullhorn {
+        font-size: 20px;
+        margin-right: 15px;
+    }
+
+    /* imagem1 */
+
+    /* imagem2 */
+
+    .imagem2-pc {
+        width: 100%;
+        background-color: #00C2F5;
+    }
+
+    .imagem2-pc img {
+        max-width: 100%;
+    }
+
+    .bot2-pc {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .imagem2-pc a {
+        display: flex;
+        align-items: center;
+        background-color: white;
+        color: #00C2F5;
+        padding: 15px 20px;
+        text-decoration: none;
+        font-size: 15px;
+        transition: 0.5s;
+        border-radius: 50px;
+        text-transform: uppercase;
+        border: 5px solid white;
+        font-family: 'Montserrat', sans-serif;
+        letter-spacing: 1px;
+        text-align: center;
+        margin: 50px 0px;
+    }
+
+    .imagem2-pc a:hover {
+        background-color: #00C2F5;
+        color: white;
+        border: 5px solid white;
+        transition: 0.5s;
+    }
+
+    .imagem2-pc .fa-plus-circle {
+        font-size: 20px;
+        margin-right: 15px;
+    }
+
+    /* imagem2 */
+
+    /* politica */
+
+    .politica {
+        background-color: #f2f2f2;
+    }
+
+    .pol-titulo h1 {
+        background-color: #f2f2f2;
+        color: black;
+        letter-spacing: 2px;
+        padding: 120px 20px 60px 20px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-transform: uppercase;
+        font-size: 30px;
+        line-height: 45px;
+    }
+
+    .pol1 {
+        display: flex;
+        text-align: left;
+        background-color: #f2f2f2;
+    }
+
+    .pol1 p {
+        font-size: 20px;
+        letter-spacing: 1px;
+        line-height: 30px;
+        font-weight: bold;
+        color: rgba(0, 0, 0, 0.7);
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 60px 50px 120px 50px;
+        width: 100%;
+    }
+
+    .pol2,
+    .pol3,
+    .pol4,
+    .pol5,
+    .pol6 {
+        background-color: rgba(0, 0, 0, 0.9);
+    }
+
+    .pol2 h2,
+    .pol3 h2,
+    .pol4 h2,
+    .pol5 h2,
+    .pol6 h2 {
+        padding: 10px 0px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-size: 20px;
+        text-align: left;
+        margin-left: 30px;
+        color: white;
+    }
+
+    .pol2 p,
+    .pol3 p,
+    .pol4 p,
+    .pol5 p,
+    .pol6 p {
+        background-color: #2A3F4A;
+        color: #f2f2f2;
+        text-align: left;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 60px;
+        font-size: 16px;
+        letter-spacing: 1px;
+        line-height: 30px;
+    }
+
+    .pol7 {
+        display: flex;
+        text-align: left;
+        background-color: #f2f2f2;
+    }
+
+    .pol7 p {
+        font-size: 20px;
+        letter-spacing: 1px;
+        line-height: 30px;
+        font-weight: bold;
+        color: rgba(0, 0, 0, 0.7);
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 100px 50px;
+        width: 100%;
+    }
+
+    /* politica */
+
+}
