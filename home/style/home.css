@@ -13,7 +13,7 @@
 
     .blocob img {
         display: flex;
-        width: 90%;
+        width: 95%;
     }
 
     /* bloco1 */
@@ -185,7 +185,7 @@
 
     /* bloco2 */
     .bloco2 {
-        padding: 93px 0px 100px 0px;
+        padding: 93px 0px 150px 0px;
         width: 100%;
         background-color: #0C0807;
         text-align: center;
