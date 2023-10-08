@@ -571,20 +571,20 @@
         align-items: center;
     }
 
-    .footer-content1 a {
+    /* .footer-content1 img {
         border-radius: 50%;
-    }
+    } */
 
     .footer-content1 img {
         width: 220px;
         height: 220px;
-        object-fit: cover;
-        border: 3px solid #f2f2f2;
+        /* object-fit: cover; */
+        border: 2px solid #f2f2f2;
         transition: 0.2s;
     }
 
     .footer-content1 img:hover {
-        border: 3px solid black;
+        border: 2px solid red;
         transition: 0.2s;
     }
 
