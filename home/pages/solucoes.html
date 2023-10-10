@@ -28,118 +28,51 @@
     <title>Agência - Soluções</title>
 
     <style>
-        /* bloco 5 */
         .bloco5 {
-            width: 100%;
             background-color: #0C0807;
-            text-align: center;
-            justify-content: center;
-            align-items: center;
             display: flex;
-            flex-direction: column;
-            padding-bottom: 30px;
-        }
-
-        .principal {
-            width: 100%;
-            display: flex;
+            justify-content: space-evenly;
             flex-wrap: wrap;
         }
 
-        .direita,
-        .esquerda {
-            margin: 15px 5px;
-            display: flex;
-            justify-content: center;
-            width: 100%;
-            flex: 1;
-        }
-
-        .pai {
-            width: 220px;
-            text-align: center;
-            box-sizing: border-box;
-            align-items: center;
+        .bloco5 .bloco5a {
             background-color: black;
+            flex-basis: 220px;
+            /* Define a largura fixa */
+            /* flex-grow: 1; */
+            /* Para preencher o espaço disponível igualmente */
+            margin: 20px 10px;
+            /* Adicione margem para espaço entre os elementos */
+            box-sizing: border-box;
         }
 
-        .pai img {
+        .bloco5a img {
             width: 100%;
             height: 250px;
-            opacity: 80%;
-            transition: 0.2s;
         }
 
-        .pai img:hover {
-            opacity: 100%;
-            transition: 0.2s;
-        }
-
-        .pai .filho {
-            display: flex;
-            width: 100%;
-            background-color: black;
-            justify-content: center;
-            align-items: center;
-        }
-
-        .pai h4 {
-            color: white;
+        .bloco5a h1 {
             font-family: 'Cinzel', serif;
-            letter-spacing: 1px;
-            font-size: 22px;
-            font-weight: normal;
-            margin-top: 30px;
-            padding: 0px 0px 3px 0px;
-            background-color: black;
-            border-bottom: 1px solid #FFD700;
-        }
-
-        .pai .filho p {
-            width: 100%;
-            margin: 0;
-            padding: 30px 10px 30px 10px;
-            color: #f2f2f2;
-            font-family: 'Josefin Slab', serif;
-            font-weight: normal;
-            letter-spacing: 1px;
+            /* background-color: red; */
             font-size: 20px;
-            text-align: center;
-            line-height: 25px;
-            word-wrap: break-word;
-            border: none;
-        }
-
-        .pai .fa-plus {
-            font-size: 15px;
-            margin-right: 15px;
-        }
-
-        .pai a {
-            text-decoration: none;
-            color: black;
-            background-color: white;
+            border-bottom: 1px solid #FFD700;
+            font-weight: normal;
+            letter-spacing: 2px;
             width: 100%;
-            display: block;
-            margin: 0 auto;
-            justify-content: center;
-            padding: 15px 0px;
-            font-family: 'Cinzel', serif;
-            font-size: 15px;
+            color: white;
+            padding: 30px 0px 0px 0px;
+        }
+
+        .bloco5a p {
+            color: white;
+            font-weight: normal;
+            font-size: 20px;
             letter-spacing: 1px;
-            font-weight: bold;
-            text-transform: uppercase;
-            transition: 0.2s;
-            align-items: center;
+            line-height: 25px;
+            font-family: 'Josefin Slab', serif;
+            padding: 30px 10px;
+            margin: 0 auto;
         }
-
-        .pai a:hover {
-            background-color: #FFD700;
-            color: black;
-            transition: 0.2s;
-        }
-
-        /* bloco 5 */
     </style>
 
 </head>
@@ -253,124 +186,48 @@
         </div>
         <!-- bloco icons lateral direita -->
 
-
         <!-- bloco 5 -->
+
         <div class="bloco5">
-            <!-- <h1 class="init-hidden-cima">Impulsione agora seu <span style="color: #ff0099;">Instagram!</span></h1>
-            <p class="init-hidden-cima">Com <span style="color: navy; font-weight: bold;">9
-                    módulos</span>
-                personalizados,
-                impulsionamos sua presença
-                digital,
-                aumentamos a
-                visibilidade da marca
-                e engajamos o público de forma estratégica. <br> <br> Venha conosco alcançar novos patamares em sua
-                jornada
-                digital!</p> -->
 
-            <div class="principal">
-                <div class="direita">
-                    <div class="pai init-hidden-cima">
-                        <img title="Ana Julia" src="../image/1.jpg" alt="">
-                        <!-- <h3><i class="fas fa-puzzle-piece"></i>módulo 1</h3> -->
-                        <h4>Básico</h4>
-                        <div class="filho">
-                            <p>As redes sociais, ou "social media" em inglês, têm transformado profundamente a forma
-                                como nos comunicamos, interagimos e compartilhamos informações na era digital.
-                            </p>
-
-                        </div>
-                        <a class="init-hidden-cima" title="Olá, vamos conversar no WhatsApp!"
-                            href="https://api.whatsapp.com/send?phone=46999344203&text=Olá%20Ana%20Julia%2C%20estou%20ansioso(a)%20para%20descobrir%20seus%20incríveis%20métodos%20no%20Instagram%21"
-                            target="_blank"> <i class="fas fa-plus"></i>saiba mais!</a>
-                    </div>
-                </div>
-
-                <div class="esquerda">
-                    <div class="pai init-hidden-cima">
-                        <img title="Ana Julia" src="../image/2.jpg" alt="">
-                        <!-- <h3><i class="fas fa-puzzle-piece"></i>módulo 2</h3> -->
-                        <h4>Gold</h4>
-                        <div class="filho">
-                            <p>As redes sociais, ou "social media" em inglês, têm transformado profundamente a forma
-                                como nos comunicamos, interagimos e compartilhamos informações na era digital.
-                            </p>
-                        </div>
-                        <a class="init-hidden-cima" title="Olá, vamos conversar no WhatsApp!"
-                            href="https://api.whatsapp.com/send?phone=46999344203&text=Olá%20Ana%20Julia%2C%20estou%20ansioso(a)%20para%20descobrir%20seus%20incríveis%20métodos%20no%20Instagram%21"
-                            target="_blank"> <i class="fas fa-plus"></i>saiba mais!</a>
-                    </div>
-                </div>
-
-                <div class="direita">
-                    <div class="pai init-hidden-cima">
-                        <img title="Ana Julia" src="../image/4.jpg" alt="">
-                        <!-- <h3><i class="fas fa-puzzle-piece"></i>módulo 3</h3> -->
-                        <h4>Master</h4>
-                        <div class="filho">
-                            <p>As redes sociais, ou "social media" em inglês, têm transformado profundamente a forma
-                                como nos comunicamos, interagimos e compartilhamos informações na era digital.
-                            </p>
-                        </div>
-                        <a class="init-hidden-cima" title="Olá, vamos conversar no WhatsApp!"
-                            href="https://api.whatsapp.com/send?phone=46999344203&text=Olá%20Ana%20Julia%2C%20estou%20ansioso(a)%20para%20descobrir%20seus%20incríveis%20métodos%20no%20Instagram%21"
-                            target="_blank"> <i class="fas fa-plus"></i>saiba mais!</a>
-                    </div>
-                </div>
-                <div class="esquerda">
-                    <div class="pai init-hidden-cima">
-                        <img title="Ana Julia" src="../image/3.jpg" alt="">
-                        <!-- <h3><i class="fas fa-puzzle-piece"></i>módulo 4</h3> -->
-                        <h4>Lançamentos</h4>
-                        <div class="filho">
-                            <p>As redes sociais, ou "social media" em inglês, têm transformado profundamente a forma
-                                como nos comunicamos, interagimos e compartilhamos informações na era digital.
-                            </p>
-                        </div>
-                        <a class="init-hidden-cima" title="Olá, vamos conversar no WhatsApp!"
-                            href="https://api.whatsapp.com/send?phone=46999344203&text=Olá%20Ana%20Julia%2C%20estou%20ansioso(a)%20para%20descobrir%20seus%20incríveis%20métodos%20no%20Instagram%21"
-                            target="_blank"> <i class="fas fa-plus"></i>saiba mais!</a>
-                    </div>
-                </div>
-                <div class="direita">
-                    <div class="pai init-hidden-cima">
-                        <img title="Ana Julia" src="../image/5.jpg" alt="">
-                        <!-- <h3><i class="fas fa-puzzle-piece"></i>módulo 5</h3> -->
-                        <h4>Landing Page</h4>
-                        <div class="filho">
-                            <p>As redes sociais, ou "social media" em inglês, têm transformado profundamente a forma
-                                como nos comunicamos, interagimos e compartilhamos informações na era digital.
-                            </p>
-                        </div>
-                        <a class="init-hidden-cima" title="Olá, vamos conversar no WhatsApp!"
-                            href="https://api.whatsapp.com/send?phone=46999344203&text=Olá%20Ana%20Julia%2C%20estou%20ansioso(a)%20para%20descobrir%20seus%20incríveis%20métodos%20no%20Instagram%21"
-                            target="_blank"> <i class="fas fa-plus"></i>saiba mais!</a>
-                    </div>
-                </div>
-
-
-
-                <!-- <div class="direita">
-                    <div class="pai init-hidden-cima">
-                        <img src="../image/teste.jpg" alt="">
-                        <h3><i class="fas fa-puzzle-piece"></i>módulo 9</h3>
-                        <h4>Titulo do Módulo</h4>
-                        <div class="filho">
-                            <p>Conteúdo da div filho.asavsvfsdvbrdvsvbfdbbdfbefergfConteúdo da div
-                                filho.asavsvfsdvbrdvsvbfdbbdfbefergfConteúdo da div
-                                filho.asavsvfsdvbrdvsvbfdbbdfbefergfConteúdo da div
-                                filho.asavsvfsdvbrdvsvbfdbbdfbefergf
-                            </p>
-                        </div>
-                        <a class="init-hidden-cima" title="Olá, vamos conversar no WhatsApp!"
-                            href="https://api.whatsapp.com/send?phone=46999344203&text=Olá%20Ana%20Julia%2C%20estou%20ansioso(a)%20para%20descobrir%20seus%20incríveis%20métodos%20no%20Instagram%21"
-                            target="_blank"> <i class="fas fa-rocket"></i>eu quero começar!</a>
-                    </div>
-                </div> -->
-
+            <div class="bloco5a">
+                <img src="../image/foto1.jpg" alt="">
+                <h1>Básico</h1>
+                <p>As redes sociais, ou "social media" em inglês, têm transformado profundamente a forma
+                    como nos comunicamos.</p>
             </div>
 
-            <!-- bloco 5 -->
+            <div class="bloco5a">
+                <img src="../image/foto2.jpg" alt="">
+                <h1>Gold</h1>
+                <p>As redes sociais, ou "social media" em inglês, têm transformado profundamente a forma
+                    como nos comunicamos.</p>
+            </div>
+
+            <div class="bloco5a">
+                <img src="../image/foto3.jpg" alt="">
+                <h1>Master</h1>
+                <p>As redes sociais, ou "social media" em inglês, têm transformado profundamente a forma
+                    como nos comunicamos.</p>
+            </div>
+
+            <div class="bloco5a">
+                <img src="../image/foto4.jpg" alt="">
+                <h1>Lançamentos</h1>
+                <p>As redes sociais, ou "social media" em inglês, têm transformado profundamente a forma
+                    como nos comunicamos.</p>
+            </div>
+
+            <div class="bloco5a">
+                <img src="../image/foto5.jpg" alt="">
+                <h1>Landing Pages</h1>
+                <p>As redes sociais, ou "social media" em inglês, têm transformado profundamente a forma
+                    como nos comunicamos.</p>
+            </div>
+
+        </div>
+
+        <!-- bloco 5 -->
 
     </section>
 
