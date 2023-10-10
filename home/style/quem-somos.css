@@ -5,78 +5,83 @@
     }
 
     /* comeco */
-    .comeco {
-        background-color: #ff0099;
+    .comeco-cel {
+        background-color: #0C0807;
     }
 
-    .comeco h1 {
+    .comeco-cel h1 {
         color: #f2f2f2;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        font-size: 30px;
+        font-family: 'Cinzel', serif;
+        font-weight: normal;
+        font-size: 25px;
+        line-height: 30px;
         letter-spacing: 1px;
         padding: 50px 20px;
     }
 
     /* comeco */
 
-    /* comeco-cel */
-    .comeco-cel {
-        background-color: #ff0099;
-    }
+    /* blocopai */
+    /* .blocopai {
+        display: flex;
+    } */
 
-    .comeco-cel h1 {
-        color: #f2f2f2;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        font-size: 25px;
-        letter-spacing: 1px;
-        padding: 50px 10px;
-    }
-
-    /* comeco */
+    /* blocopai */
 
     /* bloco 3 */
     .bloco3 {
         width: 100%;
-        background-color: deepskyblue;
-    }
-
-    .bloco3a {
-        padding: 50px 0px 0px 0px;
-        width: 100%;
         height: 100%;
-        align-items: center;
-        justify-content: center;
     }
 
-    .bloco3a img {
-        width: 90%;
-        /* border-radius: 50%; */
-        border: 2px solid white;
-    }
-
-    .bloco3b {
-        padding: 20px 20px 20px 20px;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .bloco3b h1 {
+    .bloco3 h1 {
         color: white;
         text-align: center;
         letter-spacing: 1px;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        font-size: 20px;
+        font-family: 'Cinzel', serif;
+        font-size: 18px;
+        padding: 0px 20px;
+        line-height: 23px;
+        font-weight: normal;
+        margin-bottom: 50px;
     }
 
-    .bloco3b p {
-        color: #f2f2f2;
-        font-family: Arial, Helvetica, sans-serif;
-        line-height: 20px;
-        font-size: 15px;
-        letter-spacing: 1px;
+    .bloco3a,
+    .bloco3b {
         width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .bloco3a {
+        padding-top: 20px;
+        background-color: #0C0807;
+        display: flex;
+        align-items: flex-start;
+    }
+
+    .bloco3b {
+        padding-bottom: 50px;
+        background-color: #0C0807;
+    }
+
+    .bloco3 img {
+        width: 80%;
+        border: 1px solid #f2f2f2;
+    }
+
+    .bloco3 p {
+        background-color: #f2f2f2;
+        border: 1px solid #f2f2f2;
+        color: black;
+        font-weight: bold;
+        font-family: 'Josefin Slab', serif;
+        line-height: 23px;
+        font-size: 18px;
+        letter-spacing: 1px;
         text-align: left;
-        padding-top: 50px;
+        margin: 0 auto;
+        padding: 20px;
     }
 
     /* bloco 3 */
@@ -84,46 +89,57 @@
     /* bloco 4 */
     .bloco4 {
         width: 100%;
-        background-color: deepskyblue;
-    }
-
-    .bloco4a {
-        padding: 50px 0px 0px 0px;
-        width: 100%;
         height: 100%;
-        align-items: center;
-        justify-content: center;
     }
 
-    .bloco4a img {
-        width: 90%;
-        /* border-radius: 50%; */
-        border: 2px solid white;
-    }
-
-    .bloco4b {
-        padding: 20px 20px 20px 20px;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .bloco4b h1 {
+    .bloco4 h1 {
         color: white;
         text-align: center;
         letter-spacing: 1px;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        font-size: 20px;
+        font-family: 'Cinzel', serif;
+        font-size: 18px;
+        line-height: 23px;
+        padding: 0px 20px;
+        font-weight: normal;
+        margin-bottom: 50px;
     }
 
-    .bloco4b p {
-        color: #f2f2f2;
-        font-family: Arial, Helvetica, sans-serif;
-        line-height: 20px;
-        font-size: 15px;
-        letter-spacing: 1px;
+    .bloco4a,
+    .bloco4b {
         width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .bloco4a {
+        padding-top: 20px;
+        background-color: #0C0807;
+        display: flex;
+        align-items: flex-start;
+    }
+
+    .bloco4b {
+        padding-bottom: 50px;
+        background-color: #0C0807;
+    }
+
+    .bloco4 img {
+        width: 80%;
+        border: 1px solid #f2f2f2;
+    }
+
+    .bloco4 p {
+        background-color: #f2f2f2;
+        border: 1px solid #f2f2f2;
+        color: black;
+        font-weight: bold;
+        font-family: 'Josefin Slab', serif;
+        line-height: 23px;
+        font-size: 18px;
+        letter-spacing: 1px;
         text-align: left;
-        padding-top: 50px;
+        margin: 0 auto;
+        padding: 20px;
     }
 
     /* bloco 4 */
@@ -134,7 +150,8 @@
         justify-content: center;
         align-items: center;
         width: 100%;
-        background-color: deepskyblue;
+        background-color: #0C0807;
+        padding-bottom: 30px;
     }
 
     .social-icons1 {
@@ -148,7 +165,7 @@
         text-decoration: none;
         width: 35px;
         height: 35px;
-        font-size: 25px;
+        font-size: 20px;
         justify-content: center;
         align-items: center;
         transition: 0.2s;
@@ -156,26 +173,33 @@
     }
 
     .social-icons1 a {
-        width: 35px;
-        height: 35px;
-        margin: 25px;
-    }
-
-    .social-icons1 i:hover {
-        transition: 0.2s;
-        border: 2px solid cyan;
+        width: 30px;
+        height: 30px;
+        margin: 20px;
     }
 
     .whatsapp1 i {
         border: 2px solid white;
-        color: green;
+        color: lime;
+        font-weight: bold;
         background-color: white;
+    }
+
+    .whatsapp1 i:hover {
+        transition: 0.2s;
+        border: 2px solid lime;
     }
 
     .instagram1 i {
         border: 2px solid white;
-        color: #FF0066;
+        color: red;
+        font-weight: bold;
         background-color: white;
+    }
+
+    .instagram1 i:hover {
+        transition: 0.2s;
+        border: 2px solid red;
     }
 
     /*  bloco icons foto  */
@@ -187,22 +211,13 @@
         display: flex;
         flex-wrap: wrap;
         align-items: center;
-        justify-content: center;
+        justify-content: space-evenly;
         text-align: top;
-        background-color: crimson;
-        padding-bottom: 50px;
-    }
-
-    .bloco8>div {
-        margin-bottom: 30px;
-    }
-
-    .bloco8 .valores {
-        margin-bottom: 20px;
+        background-color: #0C0807;
     }
 
     .bloco8 i {
-        margin-right: 20px;
+        margin-right: 25px;
     }
 
     .missao,
@@ -211,50 +226,50 @@
         width: 100%;
         height: 400px;
         background-color: #f2f2f2;
-        border-radius: 20px 20px 0px 0px;
-        margin: 0px 20px;
+        margin: 20px;
     }
 
     .bloco8 h1 {
         text-align: center;
         align-items: center;
         justify-content: center;
-        padding: 15px 0px;
-        font-family: 'Poppins', sans-serif;
-        letter-spacing: 1px;
-        font-size: 20px;
+        padding: 10px 0px;
+        font-family: 'Cinzel', serif;
+        letter-spacing: 2px;
+        font-size: 18px;
         background-color: #f2f2f2;
-        color: crimson;
-        border-radius: 20px 20px 0px 0px;
-        border-bottom: 1px solid crimson;
-    }
-
-    .bordered-text2 {
-        display: inline-block;
-        border-bottom: 3px solid #f2f2f2;
+        color: black;
+        border-bottom: 1px solid black;
     }
 
     .bloco8 .titulos {
-        width: 100%;
-        margin: 50px 10px 50px 10px;
-        margin-bottom: 70px;
+        display: flex;
         text-align: center;
-        font-family: 'Poppins', sans-serif;
+    }
+
+    .titulos h2 {
+        font-weight: normal;
+        font-family: 'Cinzel', serif;
         letter-spacing: 1px;
-        font-size: 12px;
+        font-size: 25px;
+        line-height: 30px;
+        padding: 0px 20px 5px 20px;
+        margin-bottom: 50px;
         color: #f2f2f2;
+        border-bottom: 1px solid #f2f2f2;
     }
 
     .bloco8 p {
         text-align: left;
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: 'Josefin Slab', serif;
         letter-spacing: 1px;
-        font-size: 15px;
-        line-height: 20px;
+        font-size: 18px;
+        line-height: 23px;
         margin: 0 auto;
-        padding-top: 30px;
-        color: rgba(0, 0, 0, .7);
-        width: 80%;
+        padding-top: 40px;
+        color: black;
+        font-weight: bold;
+        padding: 20px;
     }
 
     /* bloco 8 rodape*/
@@ -262,20 +277,21 @@
     /* frase */
 
     .frase {
-        background-color: #f2f2f2;
+        background-color: #0C0807;
         text-align: left;
+        padding-bottom: 30px;
     }
 
     .frase p {
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 15px;
-        letter-spacing: 1px;
-        color: crimson;
+        font-family: 'Josefin Slab', serif;
+        font-size: 18px;
+        letter-spacing: 2px;
+        color: white;
         display: flex;
         margin: 0 auto;
         width: 80%;
-        padding: 20px 0px;
-        line-height: 20px;
+        padding: 50px 0px;
+        line-height: 23px;
     }
 
     /* frase */
@@ -289,15 +305,16 @@
 
     /* comeco */
     .comeco {
-        background-color: #333;
+        background-color: #0C0807;
     }
 
     .comeco h1 {
         color: #f2f2f2;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-family: 'Cinzel', serif;
+        font-weight: normal;
         font-size: 35px;
         letter-spacing: 2px;
-        padding: 50px 20px 50px 20px;
+        padding: 80px 20px;
     }
 
     /* comeco */
@@ -319,8 +336,9 @@
         color: white;
         text-align: center;
         letter-spacing: 1px;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        font-size: 20px;
+        font-family: 'Cinzel', serif;
+        font-size: 18px;
+        font-weight: normal;
         margin-bottom: 50px;
     }
 
@@ -332,29 +350,30 @@
     }
 
     .bloco3a {
-        padding: 120px 0px 0px 0px;
-        background-color: #666;
+        padding-top: 20px;
+        background-color: #0C0807;
         display: flex;
         align-items: flex-start;
     }
 
     .bloco3b {
         padding-bottom: 50px;
-        background-color: #666;
+        background-color: #0C0807;
     }
 
     .bloco3 img {
         width: 50%;
-        border: 2px solid white;
+        border: 1px solid #f2f2f2;
     }
 
     .bloco3 p {
-        background-color: #333;
+        background-color: #f2f2f2;
         border: 1px solid #f2f2f2;
-        color: #f2f2f2;
-        font-family: Arial, Helvetica, sans-serif;
+        color: black;
+        font-weight: bold;
+        font-family: 'Josefin Slab', serif;
         line-height: 25px;
-        font-size: 16px;
+        font-size: 20px;
         letter-spacing: 1px;
         width: 85%;
         text-align: left;
@@ -374,8 +393,9 @@
         color: white;
         text-align: center;
         letter-spacing: 1px;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        font-size: 20px;
+        font-family: 'Cinzel', serif;
+        font-size: 18px;
+        font-weight: normal;
         margin-bottom: 50px;
     }
 
@@ -387,21 +407,38 @@
     }
 
     .bloco4a {
-        padding: 120px 0px 0px 0px;
-        background-color: #666;
+        padding-top: 20px;
+        background-color: #0C0807;
         display: flex;
         align-items: flex-start;
     }
 
     .bloco4b {
         padding-bottom: 50px;
-        background-color: #666;
+        background-color: #0C0807;
     }
 
     .bloco4 img {
         width: 50%;
-        border: 2px solid white;
+        border: 1px solid #f2f2f2;
     }
+
+    .bloco4 p {
+        background-color: #f2f2f2;
+        border: 1px solid #f2f2f2;
+        color: black;
+        font-weight: bold;
+        font-family: 'Josefin Slab', serif;
+        line-height: 25px;
+        font-size: 20px;
+        letter-spacing: 1px;
+        width: 85%;
+        text-align: left;
+        margin: 0 auto;
+        padding: 25px;
+    }
+
+    /* bloco 4 */
 
     /*  bloco icons foto  */
     .foto {
@@ -409,7 +446,7 @@
         justify-content: center;
         align-items: center;
         width: 100%;
-        background-color: #666;
+        background-color: #0C0807;
         padding-bottom: 50px;
     }
 
@@ -422,8 +459,8 @@
         display: inline-flex;
         color: white;
         text-decoration: none;
-        width: 35px;
-        height: 35px;
+        width: 45px;
+        height: 45px;
         font-size: 25px;
         justify-content: center;
         align-items: center;
@@ -432,45 +469,37 @@
     }
 
     .social-icons1 a {
-        width: 35px;
-        height: 35px;
+        width: 40px;
+        height: 40px;
         margin: 25px;
-    }
-
-    .social-icons1 i:hover {
-        transition: 0.2s;
-        border: 2px solid cyan;
     }
 
     .whatsapp1 i {
         border: 2px solid white;
-        color: green;
+        color: lime;
+        font-weight: bold;
         background-color: white;
+    }
+
+    .whatsapp1 i:hover {
+        transition: 0.2s;
+        border: 2px solid lime;
     }
 
     .instagram1 i {
         border: 2px solid white;
-        color: #FF0066;
+        color: red;
+        font-weight: bold;
         background-color: white;
+    }
+
+    .instagram1 i:hover {
+        transition: 0.2s;
+        border: 2px solid red;
     }
 
     /*  bloco icons foto  */
 
-    .bloco4 p {
-        background-color: #333;
-        border: 1px solid #f2f2f2;
-        color: #f2f2f2;
-        font-family: Arial, Helvetica, sans-serif;
-        line-height: 25px;
-        font-size: 16px;
-        letter-spacing: 1px;
-        width: 85%;
-        text-align: left;
-        margin: 0 auto;
-        padding: 25px;
-    }
-
-    /* bloco 4 */
 
     /* bloco 8 rodape*/
     .bloco8 {
@@ -480,8 +509,8 @@
         align-items: center;
         justify-content: space-evenly;
         text-align: top;
-        padding-bottom: 80px;
-        background-color: crimson;
+        padding-bottom: 0px;
+        background-color: #0C0807;
     }
 
     .bloco8 i {
@@ -493,9 +522,8 @@
     .valores {
         width: 100%;
         height: 450px;
-        max-width: 340px;
+        max-width: 320px;
         background-color: #f2f2f2;
-        border-radius: 20px 20px 0px 0px;
         margin: 20px;
     }
 
@@ -504,40 +532,46 @@
         align-items: center;
         justify-content: center;
         padding: 25px 0px;
-        font-family: 'Open Sans', sans-serif;
-        letter-spacing: 1px;
+        font-family: 'Cinzel', serif;
+        letter-spacing: 2px;
         font-size: 25px;
         background-color: #f2f2f2;
-        color: crimson;
-        border-radius: 20px 20px 0px 0px;
-        border-bottom: 1px solid crimson;
+        color: black;
+        border-bottom: 1px solid black;
     }
 
-    .bordered-text2 {
+    /* .bordered-text2 {
         display: inline-block;
-        border-bottom: 3px solid #f2f2f2;
-    }
+        border-bottom: 1px solid #f2f2f2;
+    } */
 
     .bloco8 .titulos {
         width: 100%;
         margin: 100px 20px 50px 20px;
         margin-bottom: 100px;
         text-align: center;
-        font-family: 'Poppins', sans-serif;
-        letter-spacing: 1px;
-        font-size: 23px;
+    }
+
+    .titulos h2 {
+        font-weight: normal;
+        font-family: 'Cinzel', serif;
+        letter-spacing: 2px;
+        font-size: 30px;
+        padding: 0px 20px;
         color: #f2f2f2;
+        border-bottom: 1px solid #f2f2f2;
     }
 
     .bloco8 p {
         text-align: left;
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: 'Josefin Slab', serif;
         letter-spacing: 1px;
-        font-size: 18px;
+        font-size: 20px;
         line-height: 25px;
         margin: 0 auto;
         padding-top: 40px;
-        color: rgba(0, 0, 0, .7);
+        color: black;
+        font-weight: bold;
         width: 80%;
     }
 
@@ -546,20 +580,20 @@
     /* frase */
 
     .frase {
-        background-color: #f2f2f2;
+        background-color: #0C0807;
         text-align: left;
     }
 
     .frase p {
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 20px;
-        letter-spacing: 1px;
-        color: crimson;
+        font-family: 'Josefin Slab', serif;
+        font-size: 25px;
+        letter-spacing: 2px;
+        color: white;
         display: flex;
         margin: 0 auto;
         width: 70%;
-        padding: 30px 0px;
-        line-height: 25px;
+        padding: 100px 0px;
+        line-height: 30px;
     }
 
     /* frase */
