@@ -1,6 +1,394 @@
-@media (max-width: 767px) {}
+@media (max-width: 767px) {
+
+    .blocob {
+        display: none;
+    }
+
+    /* bloco-cel */
+    .bloco-cel {
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        display: flex;
+        background-color: #0C0807;
+    }
+
+    .bloco-cel img {
+        display: flex;
+        width: 100%;
+    }
+
+    /* bloco-cel */
+
+    /* bloco 1 continuação */
+
+    .blocoa {
+        width: 100%;
+        background-color: #0C0807;
+        flex-direction: column;
+        display: flex;
+        justify-content: top;
+        align-items: center;
+    }
+
+    .blocoa h1 {
+        font-family: 'Cinzel', serif;
+        font-weight: normal;
+        font-size: 25px;
+        color: white;
+        margin-top: 50px;
+        text-align: center;
+        margin-bottom: 30px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+    }
+
+    .blocoa p {
+        line-height: 25px;
+        color: #f2f2f2;
+        text-align: center;
+        margin: 0 auto;
+        font-size: 20px;
+        padding: 0px 20px;
+        font-family: 'Josefin Slab', serif;
+        margin-bottom: 30px;
+        letter-spacing: 1px;
+        border-bottom: 1px solid red;
+        padding-bottom: 5px;
+    }
+
+    .blocoa a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 5px;
+        margin-bottom: 70px;
+        text-decoration: none;
+        cursor: pointer;
+        text-decoration: none;
+        background-color: white;
+        color: black;
+        letter-spacing: 2px;
+        font-weight: bold;
+        font-size: 13px;
+        font-family: 'Cinzel', serif;
+        transition: 0.3s;
+        text-transform: uppercase;
+        border: 3px solid white;
+    }
+
+    .blocoa .fa-rocket {
+        font-size: 15px;
+        margin-right: 25px;
+    }
+
+    .blocoa a:hover {
+        background-color: black;
+        color: white;
+        border: 3px solid white;
+        transition: 0.3s;
+    }
+
+    /* bloco 1 continuação */
+
+    /* bloco div titulo */
+    .titulo {
+        width: 100%;
+        background-color: #f2f2f2;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        padding: 70px 0px 100px 0px;
+    }
+
+    .titulo h1 {
+        color: black;
+        font-family: 'Cinzel', serif;
+        font-weight: normal;
+        font-size: 25px;
+        margin: -10px 20px -14px 20px;
+        letter-spacing: 1px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        line-height: 25px;
+    }
+
+    /* bloco div titulo */
+
+    /* bloco 4 */
+    .bloco4 {
+        width: 100%;
+        background-color: #0C0807;
+        display: flex;
+        height: 100%;
+    }
+
+    .paragrafo1 {
+        width: 100%;
+    }
+
+    .paragrafo1 {
+        justify-content: top;
+        align-items: top;
+        /* padding: 20px; */
+        width: 100%;
+        background-color: #f2f2f2;
+    }
+
+    .paragrafo1 p {
+        padding: 0px 20px;
+        color: black;
+        font-family: 'Josefin Slab', serif;
+        font-weight: bold;
+        font-size: 18px;
+        letter-spacing: 1px;
+        line-height: 23px;
+        text-align: left;
+        margin-top: -7px;
+    }
+
+    .bloco4 a {
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        padding: 5px;
+        margin: 0px 20px;
+        margin-bottom: 0px;
+        text-decoration: none;
+        cursor: pointer;
+        text-decoration: none;
+        background-color: black;
+        color: white;
+        letter-spacing: 1px;
+        font-weight: bold;
+        font-size: 13px;
+        font-family: 'Cinzel', serif;
+        transition: 0.3s;
+        border: 3px solid black;
+    }
+
+    .bloco4 .fa-lightbulb {
+        font-size: 15px;
+        margin-right: 25px;
+    }
+
+    .bloco4 a:hover {
+
+        box-shadow: none;
+        border: 3px solid black;
+        color: black;
+        background-color: white;
+        transition: 0.3s;
+    }
+
+    /* bloco 4 */
+
+    /* bloco 5 */
+
+    .bloco5 {
+        background-color: black;
+        margin-top: 70px;
+        padding-top: 30px;
+    }
+
+    .bloco5 .blococ,
+    .blocod {
+        width: 100%;
+    }
+
+    .blococ {
+        width: 100%;
+        background-color: #040402;
+    }
+
+    .blococ img {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        object-fit: cover;
+    }
+
+    .blocod {
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .blocod2 {
+        padding: 0px 20px;
+        margin: 0 auto;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .blocod h1 {
+        font-family: 'Cinzel', serif;
+        font-size: 20px;
+        line-height: 25px;
+        letter-spacing: 1px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-weight: normal;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: white;
+    }
+
+    .blocod2 h2 {
+        font-family: 'Josefin Slab', serif;
+        font-size: 18px;
+        letter-spacing: 1px;
+        padding: 5px 0px;
+        display: flex;
+        width: 100%;
+        align-items: center;
+        text-align: center;
+        background-color: #FFD700;
+        color: white;
+        transition: 0.2s;
+        font-weight: bold;
+    }
+
+    .blocod2 h2:hover {
+        text-decoration: none;
+        background-color: #f2f2f2;
+        color: black;
+        transition: 0.2s;
+    }
+
+    .blocod2 a {
+        text-decoration: none;
+    }
+
+    .bloco5 .fa-arrow-right {
+        margin-right: 15px;
+        margin-left: 15px;
+        vertical-align: middle;
+        font-size: 20px;
+        margin-top: 1px;
+    }
+
+    /* bloco 5 */
+
+    /* bloco 5 link */
+
+    .bloco5-link {
+        background-color: black;
+    }
+
+    .bloco5-link .fa-clock {
+        margin-right: 15px;
+
+    }
+
+    .bloco5-link a {
+        font-family: 'Cinzel', serif;
+        letter-spacing: 1px;
+        font-size: 13px;
+        font-weight: bold;
+        text-decoration: none;
+        color: white;
+        background-color: #f2f2f2;
+        color: black;
+        padding: 5px;
+        display: flex;
+        width: 80%;
+        border: 3px solid #f2f2f2;
+        margin: 0 auto;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        transition: 0.2s;
+    }
+
+    .bloco5-link a:hover {
+        transition: 0.2s;
+        background-color: black;
+        color: #f2f2f2;
+    }
+
+    /* bloco 5 link */
+
+    /* bloco2 */
+    .bloco2 {
+        padding: 80px 0px 70px 0px;
+        width: 100%;
+        background-color: #0C0807;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .bloco2 h1 {
+        color: white;
+        text-align: center;
+        letter-spacing: 1px;
+        font-family: 'Cinzel', serif;
+        font-weight: normal;
+        margin: -7px 20px 60px 20px;
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    .bloco2 p {
+        color: #f2f2f2;
+        font-family: 'Josefin Slab', serif;
+        line-height: 23px;
+        font-size: 18px;
+        letter-spacing: 1px;
+        padding: 0px 20px;
+        text-align: left;
+        margin: 0 auto;
+    }
+
+    .bloco2 a {
+        display: flex;
+        align-items: center;
+        background-color: white;
+        color: black;
+        padding: 5px;
+        text-decoration: none;
+        font-size: 13px;
+        transition: 0.3s;
+        margin-top: 50px;
+        font-weight: bold;
+        text-transform: uppercase;
+        border: 3px solid white;
+        font-family: 'Cinzel', serif;
+        letter-spacing: 2px;
+        text-align: center;
+    }
+
+    .bloco2 .fa-check-circle {
+        font-size: 15px;
+        margin-right: 15px;
+    }
+
+    .bloco2 a:hover {
+        background-color: black;
+        color: white;
+        border: 3px solid white;
+        transition: 0.3s;
+    }
+
+    /* bloco2 */
+}
 
 @media (min-width: 768px) {
+
+    .bloco-cel {
+        display: none;
+    }
 
     /* bloco1 */
     .blocob {
@@ -44,9 +432,8 @@
     .blocoa p {
         line-height: 40px;
         color: #f2f2f2;
-        text-align: left;
-        margin: 0 auto;
         text-align: center;
+        margin: 0 auto;
         font-size: 30px;
         padding: 0px 30px;
         font-family: 'Josefin Slab', serif;

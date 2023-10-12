@@ -601,13 +601,12 @@
         color: black;
         border-bottom: 1px solid black;
         font-family: 'Cinzel', serif;
-        font-size: 15px;
-        letter-spacing: 2px;
+        font-size: 14px;
+        letter-spacing: 1px;
         text-align: center;
         display: flex;
         justify-content: left;
         font-weight: bold;
-        padding-bottom: 1px;
         align-items: center;
         margin-bottom: 5px;
         transition: 0.1s;
