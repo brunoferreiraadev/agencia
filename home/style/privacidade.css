@@ -8,7 +8,7 @@
         padding: 50px 20px;
         font-family: 'Cinzel', serif;
         font-weight: normal;
-        letter-spacing: 2px;
+        letter-spacing: 1px;
         font-size: 20px;
         line-height: 25px;
     }
@@ -24,7 +24,7 @@
         letter-spacing: 1px;
         line-height: 25px;
         font-weight: bold;
-        color: black;
+        color: rgba(0, 0, 0, 0.8);
         font-family: 'Josefin Slab', serif;
         padding: 50px 20px;
         width: 100%;
@@ -113,11 +113,11 @@
     .pol1 p {
         font-size: 25px;
         letter-spacing: 1px;
-        line-height: 30px;
+        line-height: 20px;
         font-weight: bold;
         color: black;
         font-family: 'Josefin Slab', serif;
-        padding: 50px;
+        padding: 60px;
         width: 100%;
     }
 
@@ -152,7 +152,6 @@
         background-color: #2A3F4A;
         color: #f2f2f2;
         text-align: left;
-        font-weight: normal;
         font-family: 'Josefin Slab', serif;
         padding: 50px;
         font-size: 22px;
@@ -173,7 +172,7 @@
         font-weight: normal;
         color: #f2f2f2;
         font-family: 'Josefin Slab', serif;
-        padding: 100px 50px;
+        padding: 100px 60px;
     }
 
     /* politica */

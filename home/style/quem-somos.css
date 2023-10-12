@@ -73,7 +73,7 @@
     .bloco3 p {
         background-color: #f2f2f2;
         border: 1px solid #f2f2f2;
-        color: black;
+        color: rgba(0, 0, 0, 0.8);
         font-weight: bold;
         font-family: 'Josefin Slab', serif;
         line-height: 23px;
@@ -131,7 +131,7 @@
     .bloco4 p {
         background-color: #f2f2f2;
         border: 1px solid #f2f2f2;
-        color: black;
+        color: rgba(0, 0, 0, 0.8);
         font-weight: bold;
         font-family: 'Josefin Slab', serif;
         line-height: 23px;
@@ -224,7 +224,7 @@
     .visao,
     .valores {
         width: 100%;
-        height: 400px;
+        /* height: 420px; */
         background-color: #f2f2f2;
         margin: 20px;
     }
@@ -251,8 +251,8 @@
         font-weight: normal;
         font-family: 'Cinzel', serif;
         letter-spacing: 1px;
-        font-size: 25px;
-        line-height: 30px;
+        font-size: 20px;
+        line-height: 25px;
         padding: 0px 20px 5px 20px;
         margin-bottom: 50px;
         color: #f2f2f2;
@@ -266,10 +266,9 @@
         font-size: 18px;
         line-height: 23px;
         margin: 0 auto;
-        padding-top: 40px;
-        color: black;
+        color: rgba(0, 0, 0, 0.8);
         font-weight: bold;
-        padding: 20px;
+        padding: 30px 20px;
     }
 
     /* bloco 8 rodape*/
@@ -362,14 +361,14 @@
     }
 
     .bloco3 img {
-        width: 50%;
+        width: 55%;
         border: 1px solid #f2f2f2;
     }
 
     .bloco3 p {
         background-color: #f2f2f2;
         border: 1px solid #f2f2f2;
-        color: black;
+        color: rgba(0, 0, 0, 0.8);
         font-weight: bold;
         font-family: 'Josefin Slab', serif;
         line-height: 25px;
@@ -378,7 +377,7 @@
         width: 85%;
         text-align: left;
         margin: 0 auto;
-        padding: 25px;
+        padding: 35px 25px;
     }
 
     /* bloco 3 */
@@ -419,14 +418,14 @@
     }
 
     .bloco4 img {
-        width: 50%;
+        width: 55%;
         border: 1px solid #f2f2f2;
     }
 
     .bloco4 p {
         background-color: #f2f2f2;
         border: 1px solid #f2f2f2;
-        color: black;
+        color: rgba(0, 0, 0, 0.8);
         font-weight: bold;
         font-family: 'Josefin Slab', serif;
         line-height: 25px;
@@ -435,7 +434,7 @@
         width: 85%;
         text-align: left;
         margin: 0 auto;
-        padding: 25px;
+        padding: 35px 25px;
     }
 
     /* bloco 4 */
@@ -587,11 +586,11 @@
     .frase p {
         font-family: 'Josefin Slab', serif;
         font-size: 25px;
-        letter-spacing: 2px;
+        letter-spacing: 1px;
         color: white;
         display: flex;
         margin: 0 auto;
-        width: 70%;
+        width: 60%;
         padding: 100px 0px;
         line-height: 30px;
     }

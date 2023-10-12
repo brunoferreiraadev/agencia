@@ -1,7 +1,7 @@
 @media (max-width: 767px) {
 
     /* opcao1 */
-    .opcao1 {
+    /* .opcao1 {
         background-color: darkcyan;
         display: flex;
         justify-content: left;
@@ -21,33 +21,32 @@
 
     .opcao1 i {
         margin-right: 5px;
-    }
+    } */
 
     /* opcao1 */
 
     /* titulo e contato */
     .contato {
-        width: 100%;
         background-color: dark;
-        padding: 35px 0px;
-        background-color: darkcyan;
+        padding: 50px 20px;
+        background-color: #0C0807;
         color: #f2f2f2;
     }
 
     .contato h1 {
-        font-size: 25px;
-        padding: 0px 5px;
+        font-size: 23px;
         line-height: 25px;
-        font-family: 'Poppins', sans-serif;
+        font-family: 'Cinzel', serif;
+        font-weight: normal;
         letter-spacing: 1px;
         margin-bottom: 10px;
     }
 
     .contato p {
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 15px;
+        font-family: 'Josefin Slab', serif;
+        font-size: 18px;
         letter-spacing: 1px;
-        padding: 0px 5px;
+        padding: 0px 10px;
     }
 
     /* titulo e contato */
@@ -59,16 +58,17 @@
         justify-content: space-evenly;
         align-items: flex-start;
         margin: 0 auto;
-        background-color: darkcyan;
-        padding-bottom: 40px;
+        background-color: #0C0807;
+        padding-bottom: 100px;
     }
 
     .bloco1a {
         width: 280px;
-        height: 210px;
         margin: 20px;
         border-radius: 5px;
         border: 2px solid #f2f2f2;
+        border-radius: 0px;
+
     }
 
     .bloco1a h1 {
@@ -77,32 +77,30 @@
         background-color: #f2f2f2;
         border-bottom: 1px solid #f2f2f2;
         padding: 15px 0px;
-        font-size: 22px;
-        color: rgba(0, 0, 0, .6);
+        font-size: 16px;
+        color: rgba(0, 0, 0, .8);
         justify-content: left;
         display: flex;
         letter-spacing: 1px;
-        font-family: Arial, Helvetica, sans-serif;
-        margin-bottom: 30px;
+        font-family: 'Cinzel', serif;
     }
 
     .bloco1a i {
-        font-size: 20px;
-        margin: 0px 15px 0px 15px;
+        font-size: 18px;
+        margin: 0px 10px 0px 10px;
     }
 
     .bloco1a p {
         color: #f2f2f2;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 18px;
-        font-weight: bold;
-        letter-spacing: 1px;
-        line-height: 25px;
+        font-family: 'Josefin Slab', serif;
+        font-size: 16px;
+        font-weight: normal;
+        padding: 30px 0px;
     }
 
     .bloco1a .fa-arrow-right {
-        margin: 0px 15px 0px 0px;
-        font-size: 15px;
+        margin: 0px 10px 0px 0px;
+        font-size: 16px;
     }
 
     .bloco1a span {
@@ -111,17 +109,18 @@
         justify-content: center;
         align-items: center;
         text-align: left;
-        font-weight: bold;
+        font-weight: normal;
     }
 
     .parag p {
         width: 100%;
         color: #f2f2f2;
-        letter-spacing: 1px;
-        font-size: 15px;
-        line-height: 30px;
+        letter-spacing: 0px;
+        font-size: 18px;
+        font-weight: normal;
+        line-height: 25px;
         text-align: center;
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: 'Josefin Slab', serif;
     }
 
     span a {
@@ -130,26 +129,29 @@
         align-items: center;
         text-align: center;
         height: 100%;
-        padding: 5px 0px;
+        padding: 8px 0px;
+        margin-bottom: 50px;
         width: 100%;
         text-decoration: none;
-        color: #f2f2f2;
-        letter-spacing: 1px;
-        font-size: 15px;
-        font-family: Arial, Helvetica, sans-serif;
+        color: black;
+        font-weight: bold;
+        background-color: #f2f2f2;
+        font-size: 16px;
+        text-transform: uppercase;
+        font-family: 'Josefin Slab', serif;
         transition: 0.5s;
     }
 
-    span a:hover {
+    /* span a:hover {
         background-color: #f2f2f2;
         color: rgba(0, 0, 0, .6);
         transition: 0.5s;
-    }
+    } */
 
     /* .bloco1 */
 
     /* opcao2 */
-    .opcao2 {
+    /* .opcao2 {
         background-color: slateblue;
         display: flex;
         justify-content: left;
@@ -169,12 +171,12 @@
 
     .opcao2 i {
         margin-right: 5px;
-    }
+    } */
 
     /* opcao2 */
 
     /* formulario google forms */
-    .gforms {
+    /* .gforms {
         background-color: slateblue;
         padding: 50px 0px 120px 0px;
     }
@@ -225,7 +227,7 @@
 
     .gforms .fa-arrow-left {
         margin-left: 5px;
-    }
+    } */
 
     /* formulario google forms */
 
@@ -234,7 +236,7 @@
 @media (min-width: 768px) {
 
     /* opcao1 */
-    .opcao1 {
+    /* .opcao1 {
         background-color: darkcyan;
         display: flex;
         justify-content: left;
@@ -254,7 +256,7 @@
 
     .opcao1 i {
         margin-right: 5px;
-    }
+    } */
 
     /* opcao1 */
 
@@ -262,20 +264,22 @@
     .contato {
         width: 100%;
         background-color: dark;
-        padding: 30px 0px 100px 0px;
-        background-color: darkcyan;
+        padding: 100px 0px;
+        background-color: #0C0807;
         color: #f2f2f2;
     }
 
     .contato h1 {
-        font-size: 40px;
-        font-family: 'Poppins', sans-serif;
+        font-size: 35px;
+        font-family: 'Cinzel', serif;
+        font-weight: normal;
         letter-spacing: 1px;
     }
 
     .contato p {
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 16px;
+        font-family: 'Josefin Slab', serif;
+        font-size: 23px;
+        font-weight: normal;
         letter-spacing: 1px;
     }
 
@@ -288,15 +292,14 @@
         justify-content: space-evenly;
         align-items: flex-start;
         margin: 0 auto;
-        background-color: darkcyan;
+        background-color: #0C0807;
         padding-bottom: 40px;
     }
 
     .bloco1a {
         width: 330px;
-        height: 270px;
+        height: 350px;
         margin: 10px;
-        border-radius: 5px;
         border: 2px solid #f2f2f2;
     }
 
@@ -307,24 +310,25 @@
         border-bottom: 2px solid #f2f2f2;
         padding: 25px 0px;
         font-size: 22px;
-        color: rgba(0, 0, 0, .6);
+        color: rgba(0, 0, 0, .8);
         justify-content: left;
+        font-weight: bold;
         display: flex;
         letter-spacing: 1px;
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: 'Cinzel', serif;
         margin-bottom: 40px;
     }
 
     .bloco1a i {
         font-size: 20px;
-        margin: 0px 25px 0px 25px;
+        margin: 0px 20px;
     }
 
     .bloco1a p {
         color: #f2f2f2;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 18px;
-        font-weight: bold;
+        font-family: 'Josefin Slab', serif;
+        font-size: 22px;
+        font-weight: normal;
         letter-spacing: 1px;
         line-height: 25px;
     }
@@ -347,11 +351,11 @@
         width: 100%;
         color: #f2f2f2;
         letter-spacing: 1px;
-        font-size: 16px;
+        font-size: 20px;
+        font-weight: normal;
         line-height: 25px;
         text-align: center;
-        font-family: Arial, Helvetica, sans-serif;
-        /* background-color: red; */
+        font-family: 'Josefin Slab', serif;
     }
 
     span a {
@@ -360,13 +364,17 @@
         align-items: center;
         text-align: center;
         height: 100%;
+        margin-top: 20px;
         padding: 10px 0px;
         width: 100%;
         text-decoration: none;
-        color: #f2f2f2;
+        color: black;
+        background-color: #f2f2f2;
         letter-spacing: 1px;
-        font-size: 15px;
-        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16x;
+        text-transform: uppercase;
+        font-family: 'Josefin Slab', serif;
+        font-weight: bold;
         transition: 0.5s;
     }
 
@@ -379,7 +387,7 @@
     /* .bloco1 */
 
     /* opcao2 */
-    .opcao2 {
+    /* .opcao2 {
         background-color: slateblue;
         display: flex;
         justify-content: left;
@@ -399,12 +407,12 @@
 
     .opcao2 i {
         margin-right: 5px;
-    }
+    } */
 
     /* opcao2 */
 
     /* formulario google forms */
-    .gforms {
+    /* .gforms {
         background-color: slateblue;
         padding: 30px 0px 120px 0px;
     }
@@ -425,7 +433,6 @@
     }
 
     .gforms a {
-        /* padding: 15px; */
         text-decoration: none;
         color: rgba(0, 0, 0, .6);
         font-weight: bold;
@@ -452,7 +459,7 @@
 
     .gforms .fa-arrow-left {
         margin-left: 15px;
-    }
+    } */
 
     /* formulario google forms */
 

@@ -23,9 +23,9 @@
         margin-bottom: 60px;
         padding: 0px 20px;
         font-family: 'Josefin Slab', serif;
-        font-weight: bold;
+        font-weight: normal;
         font-size: 16px;
-        letter-spacing: 2px;
+        letter-spacing: 1px;
     }
 
     .duvidas {
@@ -79,17 +79,17 @@
         /* width: calc(100% - 20px); */
         /* padding: 20px 20px 20px 95px; */
         padding: 20px;
-        text-align: center;
+        text-align: left;
         align-items: center;
         justify-content: center;
-        color: black;
+        color: rgba(0, 0, 0, 0.8);
         /* width: 100%; */
         box-sizing: border-box;
-        font-size: 18px;
+        font-size: 16px;
         font-weight: bold;
         letter-spacing: 1px;
         font-family: 'Josefin Slab', serif;
-        line-height: 23px;
+        line-height: 21px;
     }
 
     /* bloco 7*/
@@ -121,9 +121,9 @@
         color: #f2f2f2;
         margin-bottom: 80px;
         font-family: 'Josefin Slab', serif;
-        font-weight: bold;
+        font-weight: normal;
         font-size: 25px;
-        letter-spacing: 2px;
+        letter-spacing: 1px;
     }
 
     .duvidas {
@@ -180,12 +180,12 @@
         text-align: center;
         align-items: center;
         justify-content: center;
-        color: black;
+        color: rgba(0, 0, 0, 0.8);
         /* width: 100%; */
         box-sizing: border-box;
         font-size: 20px;
         font-weight: bold;
-        letter-spacing: 2px;
+        letter-spacing: 1px;
         font-family: 'Josefin Slab', serif;
         line-height: 25px;
     }
