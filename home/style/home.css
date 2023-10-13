@@ -1,5 +1,7 @@
-@media (max-width: 767px) {
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital@1&family=Josefin+Slab:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100;200&family=Cinzel&family=Montserrat:ital,wght@0,100;0,200;0,300;1,200&family=Nanum+Myeongjo&display=swap');
 
+@media (max-width: 767px) {
     .blocob {
         display: none;
     }
@@ -36,11 +38,9 @@
         font-weight: normal;
         font-size: 25px;
         color: white;
-        margin-top: 50px;
+        margin: 50px 0px;
         text-align: center;
-        margin-bottom: 30px;
         letter-spacing: 1px;
-        text-transform: uppercase;
     }
 
     .blocoa p {
@@ -52,7 +52,7 @@
         padding: 0px 20px;
         font-weight: normal;
         font-family: 'Josefin Slab', serif;
-        margin-bottom: 30px;
+        margin-bottom: 0px;
         letter-spacing: 1px;
         border-bottom: 1px solid red;
         padding-bottom: 5px;
@@ -63,7 +63,7 @@
         align-items: center;
         justify-content: center;
         padding: 10px;
-        margin-bottom: 70px;
+        margin: 50px 0px;
         text-decoration: none;
         cursor: pointer;
         text-decoration: none;
@@ -73,13 +73,12 @@
         font-weight: bold;
         font-size: 13px;
         font-family: 'Cinzel', serif;
-        transition: 0.3s;
-        text-transform: uppercase;
+        transition: 0.2s;
         border: 2px solid white;
     }
 
     .blocoa .fa-rocket {
-        font-size: 15px;
+        font-size: 13px;
         margin-right: 10px;
     }
 
@@ -87,7 +86,7 @@
         background-color: black;
         color: white;
         border: 2px solid white;
-        transition: 0.3s;
+        transition: 0.2s;
     }
 
     /* bloco 1 continuação */
@@ -95,12 +94,12 @@
     /* bloco div titulo */
     .titulo {
         width: 100%;
-        background-color: #f2f2f2;
+        background-color: white;
         text-align: center;
         justify-content: center;
         align-items: center;
         display: flex;
-        padding: 70px 0px 100px 0px;
+        padding: 50px 0px 50px 0px;
     }
 
     .titulo h1 {
@@ -108,7 +107,7 @@
         font-family: 'Cinzel', serif;
         font-weight: normal;
         font-size: 25px;
-        margin: -10px 20px -14px 20px;
+        margin: 0px 20px;
         letter-spacing: 1px;
         text-align: center;
         justify-content: center;
@@ -124,6 +123,7 @@
         background-color: #0C0807;
         display: flex;
         height: 100%;
+        margin-bottom: 50px;
     }
 
     .paragrafo1 {
@@ -133,31 +133,27 @@
     .paragrafo1 {
         justify-content: top;
         align-items: top;
-        /* padding: 20px; */
         width: 100%;
         background-color: #f2f2f2;
     }
 
     .paragrafo1 p {
         padding: 0px 20px;
-        color: rgba(0, 0, 0, 0.7);
+        color: black;
         font-family: 'Josefin Slab', serif;
-        font-weight: bold;
-        font-size: 18px;
+        font-weight: normal;
+        font-size: 20px;
         letter-spacing: 1px;
-        line-height: 23px;
+        line-height: 25px;
         text-align: left;
-        margin-top: -7px;
+        margin-bottom: 50px;
     }
 
     .bloco4 a {
-        display: flex;
         text-align: center;
         align-items: center;
         justify-content: center;
         padding: 10px;
-        margin: 0px 20px;
-        margin-bottom: 0px;
         text-decoration: none;
         cursor: pointer;
         text-decoration: none;
@@ -167,22 +163,21 @@
         font-weight: bold;
         font-size: 13px;
         font-family: 'Cinzel', serif;
-        transition: 0.3s;
-        border: 3px solid black;
+        transition: 0.2s;
+        border: 2px solid black;
     }
 
     .bloco4 .fa-lightbulb {
-        font-size: 15px;
-        margin-right: 25px;
+        font-size: 13px;
+        margin-right: 10px;
     }
 
     .bloco4 a:hover {
-
         box-shadow: none;
-        border: 3px solid black;
+        border: 2px solid black;
         color: black;
         background-color: white;
-        transition: 0.3s;
+        transition: 0.2s;
     }
 
     /* bloco 4 */
@@ -191,8 +186,7 @@
 
     .bloco5 {
         background-color: black;
-        margin-top: 70px;
-        padding-top: 30px;
+        margin-top: 0px;
     }
 
     .bloco5 .blococ,
@@ -233,10 +227,7 @@
         font-size: 20px;
         line-height: 25px;
         letter-spacing: 1px;
-        padding-top: 50px;
-        padding-bottom: 50px;
-        padding-left: 20px;
-        padding-right: 20px;
+        padding: 50px 20px;
         font-weight: normal;
         justify-content: center;
         align-items: center;
@@ -261,7 +252,7 @@
 
     .blocod2 h2:hover {
         text-decoration: none;
-        background-color: #f2f2f2;
+        background-color: white;
         color: black;
         transition: 0.2s;
     }
@@ -271,11 +262,11 @@
     }
 
     .bloco5 .fa-arrow-right {
-        margin-right: 15px;
-        margin-left: 15px;
+        margin-right: 10px;
+        margin-left: 10px;
         vertical-align: middle;
-        font-size: 20px;
-        margin-top: 1px;
+        font-size: 18px;
+        margin-bottom: 1px;
     }
 
     /* bloco 5 */
@@ -284,26 +275,27 @@
 
     .bloco5-link {
         background-color: black;
+        padding-bottom: 50px;
     }
 
     .bloco5-link .fa-clock {
         margin-right: 10px;
-
+        font-size: 13px;
     }
 
     .bloco5-link a {
         font-family: 'Cinzel', serif;
         letter-spacing: 1px;
-        font-size: 12px;
+        font-size: 13px;
         font-weight: bold;
         text-decoration: none;
         color: white;
-        background-color: #f2f2f2;
+        background-color: white;
         color: black;
         padding: 10px;
         display: flex;
-        width: 80%;
-        border: 3px solid #f2f2f2;
+        width: 85%;
+        border: 2px solid white;
         margin: 0 auto;
         text-align: center;
         align-items: center;
@@ -314,14 +306,14 @@
     .bloco5-link a:hover {
         transition: 0.2s;
         background-color: black;
-        color: #f2f2f2;
+        color: white;
     }
 
     /* bloco 5 link */
 
     /* bloco2 */
     .bloco2 {
-        padding: 80px 0px 70px 0px;
+        padding-top: 50px;
         width: 100%;
         background-color: #0C0807;
         text-align: center;
@@ -336,7 +328,7 @@
         letter-spacing: 1px;
         font-family: 'Cinzel', serif;
         font-weight: normal;
-        margin: -7px 20px 60px 20px;
+        margin: 0px 20px 50px 20px;
         font-size: 25px;
         line-height: 30px;
     }
@@ -361,26 +353,25 @@
         padding: 10px;
         text-decoration: none;
         font-size: 13px;
-        transition: 0.3s;
-        margin-top: 50px;
+        transition: 0.2s;
+        margin: 50px 0px;
         font-weight: bold;
-        text-transform: uppercase;
-        border: 3px solid white;
+        border: 2px solid white;
         font-family: 'Cinzel', serif;
-        letter-spacing: 2px;
+        letter-spacing: 1px;
         text-align: center;
     }
 
     .bloco2 .fa-check-circle {
-        font-size: 15px;
+        font-size: 13px;
         margin-right: 10px;
     }
 
     .bloco2 a:hover {
         background-color: black;
         color: white;
-        border: 3px solid white;
-        transition: 0.3s;
+        border: 2px solid white;
+        transition: 0.2s;
     }
 
     /* bloco2 */
@@ -424,22 +415,21 @@
         font-weight: normal;
         font-size: 45px;
         color: white;
-        margin-top: 120px;
+        margin-top: 100px;
         text-align: center;
         margin-bottom: 50px;
         letter-spacing: 1px;
-        text-transform: uppercase;
     }
 
     .blocoa p {
-        line-height: 40px;
+        line-height: 35px;
         color: #f2f2f2;
         text-align: center;
         margin: 0 auto;
         font-size: 30px;
         padding: 0px 30px;
         font-family: 'Josefin Slab', serif;
-        margin-bottom: 100px;
+        margin-bottom: 50px;
         letter-spacing: 1px;
         border-bottom: 1px solid red;
         padding-bottom: 10px;
@@ -449,32 +439,32 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        padding: 15px 45px;
+        padding: 15px;
         margin-bottom: 100px;
         text-decoration: none;
         cursor: pointer;
         text-decoration: none;
         background-color: white;
         color: black;
-        letter-spacing: 2px;
+        letter-spacing: 1px;
         font-weight: bold;
         font-size: 15px;
         font-family: 'Cinzel', serif;
-        transition: 0.3s;
-        text-transform: uppercase;
-        border: 3px solid white;
+        transition: 0.2s;
+        /* text-transform: uppercase; */
+        border: 2px solid white;
     }
 
     .blocoa .fa-rocket {
-        font-size: 20px;
-        margin-right: 25px;
+        font-size: 15px;
+        margin-right: 15px;
     }
 
     .blocoa a:hover {
         background-color: black;
         color: white;
-        border: 3px solid white;
-        transition: 0.3s;
+        border: 2px solid white;
+        transition: 0.2s;
     }
 
     /* bloco 1 continuação */
@@ -487,20 +477,20 @@
         justify-content: center;
         align-items: center;
         display: flex;
-        padding: 100px 0px 100px 0px;
+        padding: 100px 0px 50px 0px;
     }
 
     .titulo h1 {
         color: black;
         font-family: 'Cinzel', serif;
         font-weight: normal;
-        font-size: 48px;
-        margin: -10px 20px -14px 20px;
+        font-size: 45px;
+        margin: 0px 20px;
         letter-spacing: 1px;
         text-align: center;
         justify-content: center;
         align-items: center;
-        line-height: 55px;
+        line-height: 45px;
     }
 
     /* bloco div titulo */
@@ -520,123 +510,58 @@
     .paragrafo1 {
         justify-content: top;
         align-items: top;
-        padding: 20px 100px;
+        padding: 0px 100px;
         background-color: #f2f2f2;
     }
 
     .paragrafo1 p {
         width: 100%;
-        color: black;
+        color: rgba(0, 0, 0, 0.8);
         font-family: 'Josefin Slab', serif;
         font-weight: bold;
-        font-size: 28px;
+        font-size: 25px;
         letter-spacing: 1px;
-        line-height: 38px;
+        line-height: 30px;
         text-align: left;
-        margin-top: -7px;
     }
 
     .bloco4 a {
         display: flex;
         align-items: center;
         justify-content: center;
-        padding: 15px 45px;
-        width: 48%;
+        padding: 15px;
+        width: 43%;
+        margin-top: 50px;
         margin-bottom: 100px;
         text-decoration: none;
         cursor: pointer;
         text-decoration: none;
         background-color: black;
         color: white;
-        letter-spacing: 2px;
+        letter-spacing: 1px;
         font-weight: bold;
         font-size: 15px;
         font-family: 'Cinzel', serif;
-        transition: 0.3s;
-        text-transform: uppercase;
-        border: 3px solid black;
+        transition: 0.2s;
+        border: 2px solid black;
     }
 
     .bloco4 .fa-lightbulb {
-        font-size: 20px;
-        margin-right: 25px;
+        font-size: 15px;
+        margin-right: 20px;
     }
 
     .bloco4 a:hover {
-
         box-shadow: none;
-        border: 3px solid black;
+        border: 2px solid black;
         color: black;
         background-color: white;
-        transition: 0.3s;
+        transition: 0.2s;
     }
 
     /* bloco 4 */
 
-    /* bloco2 */
-    .bloco2 {
-        padding: 93px 0px 150px 0px;
-        width: 100%;
-        background-color: #0C0807;
-        text-align: center;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
 
-    .bloco2 h1 {
-        color: white;
-        text-align: center;
-        letter-spacing: 1px;
-        font-family: 'Cinzel', serif;
-        font-weight: normal;
-        margin: -7px 20px 83px 20px;
-        font-size: 48px;
-        line-height: 55px;
-    }
-
-    .bloco2 p {
-        color: #f2f2f2;
-        font-family: 'Josefin Slab', serif;
-        line-height: 35px;
-        font-size: 25px;
-        letter-spacing: 1px;
-        width: 85%;
-        text-align: left;
-        margin: 0 auto;
-    }
-
-    .bloco2 a {
-        display: flex;
-        align-items: center;
-        background-color: white;
-        color: black;
-        padding: 15px 45px;
-        text-decoration: none;
-        font-size: 15px;
-        transition: 0.3s;
-        margin-top: 80px;
-        font-weight: bold;
-        text-transform: uppercase;
-        border: 3px solid white;
-        font-family: 'Cinzel', serif;
-        letter-spacing: 2px;
-        text-align: center;
-    }
-
-    .bloco2 .fa-check-circle {
-        font-size: 20px;
-        margin-right: 25px;
-    }
-
-    .bloco2 a:hover {
-        background-color: black;
-        color: white;
-        border: 3px solid white;
-        transition: 0.3s;
-    }
-
-    /* bloco2 */
 
     /* bloco 5 */
 
@@ -681,7 +606,8 @@
 
     .blocod h1 {
         font-family: 'Cinzel', serif;
-        font-size: 20px;
+        font-size: 25px;
+        line-height: 25px;
         letter-spacing: 1px;
         padding-top: 30px;
         padding-bottom: 50px;
@@ -711,7 +637,7 @@
 
     .blocod2 h2:hover {
         text-decoration: none;
-        background-color: #f2f2f2;
+        background-color: white;
         color: black;
         transition: 0.2s;
     }
@@ -734,27 +660,28 @@
 
     .bloco5-link {
         background-color: black;
+        padding-bottom: 120px;
+        padding-top: 30px;
     }
 
     .bloco5-link .fa-clock {
         margin-right: 15px;
-
     }
 
     .bloco5-link a {
         font-family: 'Cinzel', serif;
-        letter-spacing: 2px;
-        font-size: 18px;
+        letter-spacing: 1px;
+        font-size: 15px;
         font-weight: bold;
         text-decoration: none;
         color: white;
-        background-color: #f2f2f2;
+        background-color: white;
         color: black;
-        padding: 10px;
-        display: flex;
-        width: 410px;
+        padding: 15px;
+        /* display: flex;
+        width: 50%; */
         position: relative;
-        border: 3px solid #f2f2f2;
+        border: 2px solid white;
         margin: 0 auto;
         text-align: center;
         align-items: center;
@@ -765,8 +692,73 @@
     .bloco5-link a:hover {
         transition: 0.2s;
         background-color: black;
-        color: #f2f2f2;
+        color: white;
     }
 
     /* bloco 5 link */
+
+    /* bloco2 */
+    .bloco2 {
+        padding: 100px 0px 100px 0px;
+        width: 100%;
+        background-color: #0C0807;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .bloco2 h1 {
+        color: white;
+        text-align: center;
+        letter-spacing: 1px;
+        font-family: 'Cinzel', serif;
+        font-weight: normal;
+        margin: 0px 20px 50px 20px;
+        font-size: 45px;
+        line-height: 55px;
+    }
+
+    .bloco2 p {
+        color: #f2f2f2;
+        font-family: 'Josefin Slab', serif;
+        line-height: 30px;
+        font-size: 25px;
+        letter-spacing: 1px;
+        width: 80%;
+        text-align: left;
+        margin: 0 auto;
+    }
+
+    .bloco2 a {
+        display: flex;
+        align-items: center;
+        background-color: white;
+        color: black;
+        padding: 15px;
+        text-decoration: none;
+        font-size: 15px;
+        transition: 0.2s;
+        margin-top: 50px;
+        font-weight: bold;
+        /* text-transform: uppercase; */
+        border: 2px solid white;
+        font-family: 'Cinzel', serif;
+        letter-spacing: 1px;
+        text-align: center;
+    }
+
+    .bloco2 .fa-check-circle {
+        font-size: 15px;
+        margin-right: 15px;
+    }
+
+    .bloco2 a:hover {
+        background-color: black;
+        color: white;
+        border: 2px solid white;
+        transition: 0.2s;
+    }
+
+    /* bloco2 */
 }

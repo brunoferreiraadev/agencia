@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital@1&family=Josefin+Slab:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100;200&family=Cinzel&family=Montserrat:ital,wght@0,100;0,200;0,300;1,200&family=Nanum+Myeongjo&display=swap');
+
 @media (max-width: 767px) {
 
     /* bloco 7*/
@@ -7,24 +10,26 @@
     }
 
     .bloco7 h1 {
-        color: #f2f2f2;
+        color: white;
         font-family: 'Cinzel', serif;
-        font-size: 20px;
+        font-size: 25px;
+        line-height: 25px;
         letter-spacing: 1px;
         justify-content: center;
         text-align: center;
         font-weight: normal;
-        padding: 10px;
+        padding: 0px 10px;
         background-color: #0C0807;
     }
 
     .bloco7 p {
         color: #f2f2f2;
         margin-bottom: 60px;
+        margin-top: 5px;
         padding: 0px 20px;
         font-family: 'Josefin Slab', serif;
         font-weight: normal;
-        font-size: 16px;
+        font-size: 18px;
         letter-spacing: 1px;
     }
 
@@ -34,13 +39,14 @@
     }
 
     .pergunta {
-        transition: 0.5s;
+        transition: 0.2s;
         cursor: pointer;
         background-color: #f2f2f2;
         color: rgba(0, 0, 0, 0.7);
         text-align: left;
         letter-spacing: 1px;
         font-size: 13px;
+        line-height: 18px;
         font-family: 'Cinzel', serif;
         font-weight: bold;
         display: flex;
@@ -60,7 +66,7 @@
 
     .pergunta:hover {
         background-color: white;
-        transition: 0.5s;
+        transition: 0.2s;
     }
 
     .resposta {
@@ -74,16 +80,12 @@
     }
 
     .resposta p {
-        /* background-color: red; */
         margin: 0 auto;
-        /* width: calc(100% - 20px); */
-        /* padding: 20px 20px 20px 95px; */
         padding: 20px;
         text-align: left;
         align-items: center;
         justify-content: center;
         color: black;
-        /* width: 100%; */
         box-sizing: border-box;
         font-size: 16px;
         font-weight: normal;
@@ -101,25 +103,25 @@
     /* bloco 7*/
     .bloco7 {
         background-color: #0C0807;
-        padding: 50px 0px 50px 0px;
+        padding-top: 60px;
+        padding-bottom: 80px;
     }
 
     .bloco7 h1 {
-        color: #f2f2f2;
+        color: white;
         font-family: 'Cinzel', serif;
-        font-size: 48px;
-        letter-spacing: 2px;
+        font-size: 45px;
+        letter-spacing: 1px;
         justify-content: center;
         text-align: center;
         font-weight: normal;
         width: 100%;
-        padding: 11px 0px;
         background-color: #0C0807;
     }
 
     .bloco7 p {
         color: #f2f2f2;
-        margin-bottom: 80px;
+        margin-bottom: 60px;
         font-family: 'Josefin Slab', serif;
         font-weight: normal;
         font-size: 25px;
@@ -132,20 +134,21 @@
     }
 
     .pergunta {
-        transition: 0.5s;
+        transition: 0.2s;
         cursor: pointer;
         background-color: #f2f2f2;
         color: black;
         text-align: left;
-        letter-spacing: 2px;
+        letter-spacing: 1px;
         font-size: 16px;
+        line-height: 21px;
         font-family: 'Cinzel', serif;
         font-weight: bold;
         display: flex;
         align-items: center;
         border: 2px solid #FFD700;
         width: calc(100% - 20px);
-        padding: 15px 10px;
+        padding: 20px 10px;
     }
 
     .pergunta i {
@@ -158,7 +161,7 @@
 
     .pergunta:hover {
         background-color: white;
-        transition: 0.5s;
+        transition: 0.2s;
     }
 
     .resposta {
@@ -172,16 +175,12 @@
     }
 
     .resposta p {
-        /* background-color: red; */
         margin: 0 auto;
-        /* width: calc(100% - 20px); */
-        /* padding: 20px 20px 20px 95px; */
         padding: 20px;
         text-align: center;
         align-items: center;
         justify-content: center;
         color: rgba(0, 0, 0, 0.8);
-        /* width: 100%; */
         box-sizing: border-box;
         font-size: 20px;
         font-weight: bold;

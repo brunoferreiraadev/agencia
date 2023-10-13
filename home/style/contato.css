@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital@1&family=Josefin+Slab:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100;200&family=Cinzel&family=Montserrat:ital,wght@0,100;0,200;0,300;1,200&family=Nanum+Myeongjo&display=swap');
+
 @media (max-width: 767px) {
 
     /* opcao1 */
@@ -30,23 +33,25 @@
         background-color: dark;
         padding: 50px 20px;
         background-color: #0C0807;
-        color: #f2f2f2;
     }
 
     .contato h1 {
-        font-size: 23px;
+        font-size: 25px;
         line-height: 25px;
         font-family: 'Cinzel', serif;
         font-weight: normal;
         letter-spacing: 1px;
         margin-bottom: 10px;
+        color: white;
     }
 
     .contato p {
         font-family: 'Josefin Slab', serif;
         font-size: 18px;
+        line-height: 18px;
         letter-spacing: 1px;
-        padding: 0px 10px;
+        padding: 0px 20px;
+        color: #f2f2f2;
     }
 
     /* titulo e contato */
@@ -59,7 +64,7 @@
         align-items: flex-start;
         margin: 0 auto;
         background-color: #0C0807;
-        padding-bottom: 100px;
+        padding-bottom: 80px;
     }
 
     .bloco1a {
@@ -68,7 +73,7 @@
         border-radius: 5px;
         border: 2px solid #f2f2f2;
         border-radius: 0px;
-
+        background-color: black;
     }
 
     .bloco1a h1 {
@@ -78,7 +83,8 @@
         border-bottom: 1px solid #f2f2f2;
         padding: 15px 0px;
         font-size: 16px;
-        color: rgba(0, 0, 0, .8);
+        color: black;
+        font-weight: normal;
         justify-content: left;
         display: flex;
         letter-spacing: 1px;
@@ -86,21 +92,22 @@
     }
 
     .bloco1a i {
-        font-size: 18px;
+        font-size: 16px;
         margin: 0px 10px 0px 10px;
     }
 
     .bloco1a p {
         color: #f2f2f2;
         font-family: 'Josefin Slab', serif;
-        font-size: 16px;
+        font-size: 18px;
+        letter-spacing: 1px;
         font-weight: normal;
-        padding: 30px 0px;
+        padding: 50px 0px 30px 0px;
     }
 
     .bloco1a .fa-arrow-right {
         margin: 0px 10px 0px 0px;
-        font-size: 16px;
+        font-size: 18px;
     }
 
     .bloco1a span {
@@ -291,7 +298,7 @@
         align-items: flex-start;
         margin: 0 auto;
         background-color: #0C0807;
-        padding-bottom: 40px;
+        padding-bottom: 80px;
     }
 
     .bloco1a {
@@ -299,6 +306,7 @@
         height: 350px;
         margin: 10px;
         border: 2px solid #f2f2f2;
+        background-color: black;
     }
 
     .bloco1a h1 {
@@ -318,7 +326,7 @@
     }
 
     .bloco1a i {
-        font-size: 20px;
+        font-size: 22px;
         margin: 0px 20px;
     }
 
@@ -329,6 +337,7 @@
         font-weight: normal;
         letter-spacing: 1px;
         line-height: 25px;
+        padding: 20px 0px 20px 0px;
     }
 
     .bloco1a .fa-arrow-right {
@@ -363,13 +372,13 @@
         text-align: center;
         height: 100%;
         margin-top: 20px;
-        padding: 10px 0px;
+        padding: 15px 0px;
         width: 100%;
         text-decoration: none;
         color: black;
         background-color: #f2f2f2;
         letter-spacing: 1px;
-        font-size: 16x;
+        font-size: 16px;
         text-transform: uppercase;
         font-family: 'Josefin Slab', serif;
         font-weight: bold;
@@ -377,11 +386,10 @@
     }
 
     span a:hover {
-        background-color: #0C0807;
+        background-color: black;
         color: #f2f2f2;
         transition: 0.2s;
         font-weight: normal;
-
     }
 
     /* .bloco1 */

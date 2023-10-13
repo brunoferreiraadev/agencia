@@ -1,16 +1,6 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;1,200&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100;200&family=Montserrat:ital,wght@0,100;0,200;0,300;1,200&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100;200&family=Montserrat:ital,wght@0,100;0,200;0,300;1,200&family=Nanum+Myeongjo&display=swap'); */
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100;200&family=Cinzel&family=Montserrat:ital,wght@0,100;0,200;0,300;1,200&family=Nanum+Myeongjo&display=swap');
-/* @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,300&display=swap'); */
-/* @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital@1&display=swap'); */
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital@1&family=Josefin+Slab:ital,wght@1,300&display=swap');
-/* font-family: 'Cinzel', serif; */
-/* font-family: 'Cormorant Garamond', serif; */
+
 
 @media (max-width: 767px) {
 
@@ -269,7 +259,6 @@
         text-align: center;
         display: flex;
         align-items: center;
-        padding-bottom: 1px;
     }
 
     .footer-cel1 i {
@@ -318,23 +307,24 @@
     .direitos-cel {
         width: 100%;
         display: flex;
-        background: linear-gradient(to top, #1E90FF, #4169E1);
+        background-color: black;
         justify-content: center;
+        margin-top: 20px;
     }
 
     .direitos1-cel,
     .direitos2-cel {
         width: 50%;
         font-size: 12px;
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: 'Josefin Slab', serif;
         color: #f2f2f2;
         font-weight: bold;
-        letter-spacing: 1px;
+        letter-spacing: 2px;
         text-align: center;
         justify-content: center;
         align-items: center;
-        line-height: 20px;
-        padding: 5px 0px;
+        line-height: 18px;
+        padding: 10px 0px;
     }
 
     .direitos1-cel a {
@@ -708,19 +698,19 @@
     .direitos {
         width: 100%;
         display: flex;
-        background: linear-gradient(to top, #1E90FF, #4169E1);
+        background-color: black;
         justify-content: center;
     }
 
     .direitos1,
     .direitos2 {
         width: 50%;
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: 'Josefin Slab', serif;
         color: #f2f2f2;
-        font-size: 12px;
-        letter-spacing: 1px;
+        font-size: 13px;
+        letter-spacing: 2px;
         text-align: center;
-        padding: 12px 0px;
+        padding: 15px 0px;
         font-weight: bold;
     }
 
