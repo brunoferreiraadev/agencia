@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Josefin+Slab:ital,wght@1,100&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@1,100&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@1,100&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,100&display=swap');
 
 @media (max-width: 767px) {
 
@@ -46,7 +47,7 @@
     }
 
     .contato p {
-        font-family: 'Josefin Slab', serif;
+        font-family: 'Josefin Sans', sans-serif;
         font-size: 18px;
         line-height: 18px;
         letter-spacing: 1px;
@@ -98,7 +99,7 @@
 
     .bloco1a p {
         color: #f2f2f2;
-        font-family: 'Josefin Slab', serif;
+        font-family: 'Josefin Sans', sans-serif;
         font-size: 18px;
         letter-spacing: 1px;
         font-weight: normal;
@@ -127,7 +128,7 @@
         font-weight: normal;
         line-height: 25px;
         text-align: center;
-        font-family: 'Josefin Slab', serif;
+        font-family: 'Josefin Sans', sans-serif;
     }
 
     span a {
@@ -144,7 +145,7 @@
         font-weight: normal;
         background-color: #f2f2f2;
         font-size: 18px;
-        font-family: 'Josefin Slab', serif;
+        font-family: 'Josefin Sans', sans-serif;
     }
 
     /* span a:hover {
@@ -281,7 +282,7 @@
     }
 
     .contato p {
-        font-family: 'Josefin Slab', serif;
+        font-family: 'Josefin Sans', sans-serif;
         font-size: 23px;
         font-weight: normal;
         letter-spacing: 1px;
@@ -331,7 +332,7 @@
 
     .bloco1a p {
         color: #f2f2f2;
-        font-family: 'Josefin Slab', serif;
+        font-family: 'Josefin Sans', sans-serif;
         font-size: 22px;
         font-weight: normal;
         letter-spacing: 1px;
@@ -361,7 +362,7 @@
         font-weight: normal;
         line-height: 25px;
         text-align: center;
-        font-family: 'Josefin Slab', serif;
+        font-family: 'Josefin Sans', sans-serif;
     }
 
     span a {
@@ -379,7 +380,7 @@
         letter-spacing: 1px;
         font-size: 16px;
         text-transform: uppercase;
-        font-family: 'Josefin Slab', serif;
+        font-family: 'Josefin Sans', sans-serif;
         font-weight: bold;
         transition: 0.2s;
     }

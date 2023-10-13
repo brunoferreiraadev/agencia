@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Josefin+Slab:ital,wght@1,100&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@1,100&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@1,100&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,100&display=swap');
 
 @media (max-width: 767px) {
 
@@ -315,7 +316,7 @@
     .direitos2-cel {
         width: 50%;
         font-size: 12px;
-        font-family: 'Josefin Slab', serif;
+        font-family: 'Josefin Sans', sans-serif;
         color: #f2f2f2;
         font-weight: bold;
         letter-spacing: 2px;
@@ -704,7 +705,7 @@
     .direitos1,
     .direitos2 {
         width: 50%;
-        font-family: 'Josefin Slab', serif;
+        font-family: 'Josefin Sans', sans-serif;
         color: #f2f2f2;
         font-size: 13px;
         letter-spacing: 2px;
