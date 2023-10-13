@@ -1,7 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Josefin+Slab:ital,wght@1,100&display=swap');
-/* @import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@1,100&display=swap'); */
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
 
+/* font-family: 'Josefin Slab', serif; */
+/* font-family: 'Cinzel', serif; */
 @media (max-width: 767px) {
     .blocob {
         display: none;
@@ -52,7 +53,7 @@
         font-size: 20px;
         padding: 0px 20px;
         font-weight: normal;
-        font-family: 'Josefin Sans', sans-serif;
+        font-family: 'Josefin Slab', serif;
         margin-bottom: 0px;
         letter-spacing: 1px;
         border-bottom: 1px solid red;
@@ -141,7 +142,7 @@
     .paragrafo1 p {
         padding: 0px 20px;
         color: black;
-        font-family: 'Josefin Sans', sans-serif;
+        font-family: 'Josefin Slab', serif;
         font-weight: normal;
         font-size: 20px;
         letter-spacing: 1px;
@@ -237,7 +238,7 @@
     }
 
     .blocod2 h2 {
-        font-family: 'Josefin Sans', sans-serif;
+        font-family: 'Josefin Slab', serif;
         font-size: 18px;
         letter-spacing: 1px;
         padding: 5px 0px;
@@ -337,7 +338,7 @@
     .bloco2 p {
         color: #f2f2f2;
         font-weight: normal;
-        font-family: 'Josefin Sans', sans-serif;
+        font-family: 'Josefin Slab', serif;
         line-height: 23px;
         font-size: 18px;
         letter-spacing: 1px;
@@ -429,7 +430,7 @@
         margin: 0 auto;
         font-size: 30px;
         padding: 0px 30px;
-        font-family: 'Josefin Sans', sans-serif;
+        font-family: 'Josefin Slab', serif;
         margin-bottom: 50px;
         letter-spacing: 1px;
         border-bottom: 1px solid red;
@@ -518,7 +519,7 @@
     .paragrafo1 p {
         width: 100%;
         color: rgba(0, 0, 0, 0.8);
-        font-family: 'Josefin Sans', sans-serif;
+        font-family: 'Josefin Slab', serif;
         font-weight: bold;
         font-size: 25px;
         letter-spacing: 1px;
@@ -622,7 +623,7 @@
     }
 
     .blocod2 h2 {
-        font-family: 'Josefin Sans', sans-serif;
+        font-family: 'Josefin Slab', serif;
         font-size: 20px;
         letter-spacing: 1px;
         padding: 5px 0px;
@@ -722,7 +723,7 @@
 
     .bloco2 p {
         color: #f2f2f2;
-        font-family: 'Josefin Sans', sans-serif;
+        font-family: 'Josefin Slab', serif;
         line-height: 30px;
         font-size: 25px;
         letter-spacing: 1px;

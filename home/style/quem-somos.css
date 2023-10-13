@@ -1,6 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Josefin+Slab:ital,wght@1,100&display=swap');
-/* @import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@1,100&display=swap'); */
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
 
 @media (max-width: 767px) {
 
@@ -79,7 +78,7 @@
         border: 1px solid #f2f2f2;
         color: black;
         font-weight: normal;
-        font-family: 'Josefin Sans', sans-serif;
+        font-family: 'Josefin Slab', serif;
         line-height: 23px;
         font-size: 18px;
         letter-spacing: 1px;
@@ -137,7 +136,7 @@
         border: 1px solid #f2f2f2;
         color: black;
         font-weight: normal;
-        font-family: 'Josefin Sans', sans-serif;
+        font-family: 'Josefin Slab', serif;
         line-height: 23px;
         font-size: 18px;
         letter-spacing: 1px;
@@ -265,7 +264,7 @@
 
     .bloco8 p {
         text-align: left;
-        font-family: 'Josefin Sans', sans-serif;
+        font-family: 'Josefin Slab', serif;
         letter-spacing: 1px;
         font-size: 18px;
         line-height: 23px;
@@ -286,7 +285,7 @@
     }
 
     .frase p {
-        font-family: 'Josefin Sans', sans-serif;
+        font-family: 'Josefin Slab', serif;
         font-size: 18px;
         letter-spacing: 2px;
         color: white;
@@ -374,7 +373,7 @@
         border: 1px solid #f2f2f2;
         color: rgba(0, 0, 0, 0.8);
         font-weight: bold;
-        font-family: 'Josefin Sans', sans-serif;
+        font-family: 'Josefin Slab', serif;
         line-height: 25px;
         font-size: 20px;
         letter-spacing: 1px;
@@ -431,7 +430,7 @@
         border: 1px solid #f2f2f2;
         color: rgba(0, 0, 0, 0.8);
         font-weight: bold;
-        font-family: 'Josefin Sans', sans-serif;
+        font-family: 'Josefin Slab', serif;
         line-height: 25px;
         font-size: 20px;
         letter-spacing: 1px;
@@ -567,7 +566,7 @@
 
     .bloco8 p {
         text-align: left;
-        font-family: 'Josefin Sans', sans-serif;
+        font-family: 'Josefin Slab', serif;
         letter-spacing: 1px;
         font-size: 20px;
         line-height: 25px;
@@ -588,7 +587,7 @@
     }
 
     .frase p {
-        font-family: 'Josefin Sans', sans-serif;
+        font-family: 'Josefin Slab', serif;
         font-size: 25px;
         letter-spacing: 1px;
         color: white;
