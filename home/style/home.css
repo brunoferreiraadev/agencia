@@ -27,7 +27,10 @@
 
     /* bloco-cel */
 
+
+
     /* bloco 1 continuação */
+
 
     .blocoa {
         width: 100%;
@@ -390,17 +393,55 @@
     }
 
     /* bloco1 */
+
+    .bloco1 {
+        display: flex;
+        /* height: 600px; */
+    }
+
+    .blocob2 {
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        background-color: #181719;
+        width: 50%;
+        display: flex;
+    }
+
+    .blocob22 {
+        margin: 0 auto;
+        /* background-color: red; */
+        /* display: block; */
+        /* align-items: center;
+        text-align: center;
+        justify-content: center; */
+    }
+
+    .blocob2 h1,
+    h2 {
+        width: 100%;
+        color: white;
+        font-family: 'Cinzel', serif;
+        letter-spacing: 1px;
+        font-weight: normal;
+        font-size: 30px;
+    }
+
     .blocob {
         align-items: center;
         text-align: center;
         justify-content: center;
         display: flex;
-        background-color: #0C0807;
+        /* background-color: #0C0807; */
+        width: 50%;
+        height: 550px;
     }
 
     .blocob img {
         display: flex;
         width: 100%;
+        height: 550px;
+        object-fit: cover;
     }
 
     /* bloco1 */
@@ -409,7 +450,7 @@
 
     .blocoa {
         width: 100%;
-        background-color: #0C0807;
+        background-color: #490315;
         flex-direction: column;
         display: flex;
         justify-content: top;
@@ -428,7 +469,7 @@
     }
 
     .blocoa p {
-        line-height: 30px;
+        line-height: 35px;
         color: #f2f2f2;
         text-align: center;
         margin: 0 auto;
@@ -437,7 +478,7 @@
         font-family: 'Raleway', sans-serif;
         margin-bottom: 50px;
         letter-spacing: 1px;
-        border-bottom: 1px solid red;
+        border-bottom: 1px solid white;
         padding-bottom: 10px;
     }
 
@@ -467,7 +508,7 @@
     }
 
     .blocoa a:hover {
-        background-color: black;
+        background-color: #490315;
         color: white;
         border: 2px solid white;
         transition: 0.2s;
@@ -478,16 +519,16 @@
     /* bloco div titulo */
     .titulo {
         width: 100%;
-        background-color: #f2f2f2;
+        background-color: #181719;
         text-align: center;
         justify-content: center;
         align-items: center;
         display: flex;
-        padding: 100px 0px 50px 0px;
+        padding: 100px 0px 70px 0px;
     }
 
     .titulo h1 {
-        color: black;
+        color: #f2f2f2;
         font-family: 'Cinzel', serif;
         font-weight: normal;
         font-size: 45px;
@@ -517,17 +558,17 @@
         justify-content: top;
         align-items: top;
         padding: 0px 100px;
-        background-color: #f2f2f2;
+        background-color: #181719;
     }
 
     .paragrafo1 p {
         width: 100%;
-        color: rgba(0, 0, 0, 0.8);
+        color: #f2f2f2;
         font-family: 'Raleway', sans-serif;
-        font-weight: bold;
+        font-weight: normal;
         font-size: 25px;
         letter-spacing: 1px;
-        line-height: 30px;
+        line-height: 35px;
         text-align: left;
     }
 
@@ -537,19 +578,19 @@
         justify-content: center;
         padding: 15px;
         width: 43%;
-        margin-top: 50px;
+        margin-top: 80px;
         margin-bottom: 100px;
         text-decoration: none;
         cursor: pointer;
         text-decoration: none;
-        background-color: black;
-        color: white;
+        background-color: white;
+        color: black;
         letter-spacing: 1px;
         font-weight: bold;
         font-size: 15px;
         font-family: 'Cinzel', serif;
         transition: 0.2s;
-        border: 2px solid black;
+        border: 2px solid white;
     }
 
     .bloco4 .fa-lightbulb {
@@ -559,9 +600,9 @@
 
     .bloco4 a:hover {
         box-shadow: none;
-        border: 2px solid black;
-        color: black;
-        background-color: white;
+        border: 2px solid white;
+        color: white;
+        background-color: #181719;
         transition: 0.2s;
     }
 
@@ -572,7 +613,7 @@
     /* bloco 5 */
 
     .bloco5 {
-        background-color: black;
+        background-color: #f2f2f2;
         display: flex;
 
     }
@@ -584,10 +625,11 @@
 
     .blococ {
         width: 100%;
-        background-color: #040402;
+        background-color: #f2f2f2;
     }
 
     .blococ img {
+        margin-top: 70px;
         width: 100%;
         display: flex;
         align-items: center;
@@ -611,31 +653,32 @@
     }
 
     .blocod h1 {
-        font-family: 'Cinzel', serif;
-        font-size: 25px;
-        line-height: 25px;
+        font-family: 'Raleway', sans-serif;
+        font-size: 40px;
+        line-height: 50px;
         letter-spacing: 1px;
-        padding-top: 30px;
+        padding-top: 10px;
         padding-bottom: 50px;
         padding-left: 10px;
         padding-right: 10px;
-        font-weight: normal;
+        font-weight: bold;
         justify-content: center;
         align-items: center;
         text-align: center;
-        color: white;
+        color: #490315;
     }
 
     .blocod2 h2 {
         font-family: 'Raleway', sans-serif;
-        font-size: 20px;
+        font-size: 18px;
         letter-spacing: 1px;
         padding: 5px 0px;
         display: flex;
         width: 100%;
         align-items: center;
         text-align: center;
-        background-color: #FFD700;
+        background-color: #490315;
+        border: 1px solid #490315;
         color: white;
         transition: 0.2s;
         font-weight: bold;
@@ -646,6 +689,7 @@
         background-color: white;
         color: black;
         transition: 0.2s;
+        border: 1px solid #ccc;
     }
 
     .blocod2 a {
@@ -664,7 +708,7 @@
 
     /* bloco 5 link */
 
-    .bloco5-link {
+    /* .bloco5-link {
         background-color: black;
         padding-bottom: 120px;
         padding-top: 30px;
@@ -684,8 +728,6 @@
         background-color: white;
         color: black;
         padding: 15px;
-        /* display: flex;
-        width: 50%; */
         position: relative;
         border: 2px solid white;
         margin: 0 auto;
@@ -699,12 +741,12 @@
         transition: 0.2s;
         background-color: black;
         color: white;
-    }
+    } */
 
     /* bloco 5 link */
 
     /* bloco2 */
-    .bloco2 {
+    /* .bloco2 {
         padding: 100px 0px 100px 0px;
         width: 100%;
         background-color: #0C0807;
@@ -747,7 +789,6 @@
         transition: 0.2s;
         margin-top: 50px;
         font-weight: bold;
-        /* text-transform: uppercase; */
         border: 2px solid white;
         font-family: 'Cinzel', serif;
         letter-spacing: 1px;
@@ -764,7 +805,48 @@
         color: white;
         border: 2px solid white;
         transition: 0.2s;
-    }
+    } */
 
     /* bloco2 */
+
+
+
+
+    /* bloco 9 */
+    .bloco9 {
+        width: 100%;
+        position: relative;
+        justify-content: center;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        background-color: #490315;
+        padding: 100px 0px;
+    }
+
+    .bloco9 img {
+        width: 75%;
+    }
+
+    /* bloco 9 */
+
+
+    /* bloco 8 */
+    .bloco8 {
+        width: 100%;
+        position: relative;
+        justify-content: center;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        background-color: #181719;
+        padding: 100px 0px;
+    }
+
+    .bloco8 img {
+        width: 75%;
+    }
+
+    /* bloco 8 */
+
 }
