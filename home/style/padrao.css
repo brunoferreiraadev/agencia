@@ -324,8 +324,8 @@
         font-size: 12px;
         font-family: 'Exo', sans-serif;
         color: #f2f2f2;
-        font-weight: bold;
-        letter-spacing: 2px;
+        font-weight: normal;
+        letter-spacing: 1px;
         text-align: center;
         justify-content: center;
         align-items: center;
@@ -720,10 +720,10 @@
         font-family: 'Exo', sans-serif;
         color: #f2f2f2;
         font-size: 13px;
-        letter-spacing: 2px;
+        letter-spacing: 1px;
         text-align: center;
         padding: 15px 0px;
-        font-weight: bold;
+        font-weight: normal;
     }
 
     .direitos1 a,
