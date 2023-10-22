@@ -9,60 +9,82 @@
         display: none;
     }
 
-    .bloco8 {
-        display: none;
-    }
-
     .bloco9 {
-        display: none;
-    }
-
-    .bloco10 {
         display: none;
     }
 
     /* bloco1 */
 
-    .bloco-cel {
+    .bloco1-cel {
         display: flex;
-        padding-top: 50px;
-    }
-
-    .blocob2 {
-        align-items: center;
-        text-align: center;
-        justify-content: center;
+        padding: 30px 0px 20px 0px;
         background-color: #040404;
-        width: 40%;
-        display: flex;
     }
 
-    .blocob22 {
+    .blocob2-cel {
         align-items: center;
         text-align: center;
-        display: flex;
         justify-content: center;
-        width: 100%;
-        display: flex;
+        /* background-color: red; */
+        width: 50%;
     }
 
-    .blocob22 img {
+    .blocob22-cel {
+        /* background-color: red; */
+        align-items: center;
+        text-align: center;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        /* height: 500px; */
+        width: 100%;
+        height: 50%;
+    }
+
+    .blocob23-cel {
+        /* background-color: blue; */
+        /* display: flex; */
+        width: 100%;
+        height: 50%;
+
+    }
+
+    .blocob23-cel h1,
+    h2 {
+        padding-top: 20px;
+        color: white;
+        font-family: 'Cinzel', serif;
+        font-weight: normal;
+        letter-spacing: 1px;
+        font-size: 13px;
+    }
+
+    .blocob23-cel h2 {
+        font-size: 15px;
+        padding-top: 5px;
+    }
+
+    .blocob22-cel img {
         width: 100%;
         object-fit: cover;
         display: flex;
     }
 
-    .blocob {
+    .blocob-cel {
+        /* margin-right: 120px; */
+        /* background-color: red; */
         align-items: center;
         text-align: center;
         justify-content: center;
         display: flex;
-        width: 60%;
+        width: 50%;
+        /* height: 500px; */
     }
 
-    .blocob img {
+    .blocob-cel img {
         display: flex;
         width: 100%;
+        /* height: 500px; */
         object-fit: cover;
     }
 
@@ -84,9 +106,9 @@
         font-weight: normal;
         font-size: 25px;
         color: white;
-        margin-top: 40px;
+        margin-top: 50px;
         text-align: center;
-        margin-bottom: 40px;
+        margin-bottom: 50px;
         letter-spacing: 1px;
     }
 
@@ -97,7 +119,7 @@
         margin: 0 auto;
         font-size: 16px;
         padding: 0px 20px;
-        font-weight: normal;
+        font-weight: bold;
         font-family: 'Exo', sans-serif;
         margin-bottom: 50px;
         letter-spacing: 1px;
@@ -191,7 +213,7 @@
         letter-spacing: 1px;
         line-height: 26px;
         text-align: left;
-        font-weight: normal;
+        font-weight: bold;
     }
 
     .bloco4 a {
@@ -232,25 +254,20 @@
     /* bloco 5 */
 
     .bloco5 {
-        background-color: #f2f2f2;
+        background-color: #FFFFFF;
         /* display: flex; */
-        padding-bottom: 30px;
+        padding-bottom: 50px;
     }
 
-    .bloco5 .blococ,
-    .blocod {
-        width: 100%;
-    }
 
+    .bloco5 .blocod,
     .blococ {
         width: 100%;
-        background-color: #f2f2f2;
-        background-color: #080605;
+
     }
 
     .blococ img {
         width: 100%;
-        display: flex;
         align-items: center;
         justify-content: center;
         text-align: center;
@@ -263,51 +280,58 @@
         text-align: center;
     }
 
-    .blocod p {
-        color: black;
-        font-family: 'Exo', sans-serif;
+    .blocod h3 {
+        color: #490315;
+        font-family: Arial, Helvetica, sans-serif;
         font-weight: bold;
-        margin-bottom: 20px;
-        margin-top: 20px;
-        font-size: 18px;
+        margin: 20px 0px;
+        font-size: 13px;
+        text-transform: uppercase;
+        text-align: center;
     }
 
     .blocod2 {
-        /* width: 100%; */
+        width: 80%;
         margin: 0 auto;
-        padding: 0px 20px;
         align-items: center;
         justify-content: center;
         text-align: center;
+    }
+
+    .blocod p {
+        /* width: 100%; */
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        line-height: 20px;
+        padding: 20px 20px 0px 20px;
     }
 
     .blocod h1 {
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         font-size: 25px;
-        line-height: 25px;
-        letter-spacing: 1px;
-        padding-top: 30px;
-        padding-left: 10px;
-        padding-right: 10px;
+        line-height: 30px;
         font-weight: bold;
         justify-content: center;
         align-items: center;
         text-align: center;
+        padding: 0px 10px;
         color: black;
     }
 
     .blocod2 h2 {
-        font-family: 'Exo', sans-serif;
+        font-family: Arial, Helvetica, sans-serif;
         font-size: 13px;
-        padding: 6px 0px;
+        padding: 8px 0px;
         border-radius: 5px;
         display: flex;
         width: 100%;
+        letter-spacing: 1px;
         align-items: center;
         text-align: center;
         background-color: #F9F9F9;
         border: 1px solid #ccc;
-        color: black;
+        color: #490315;
         transition: 0.2s;
         font-weight: bold;
     }
@@ -323,77 +347,137 @@
         text-decoration: none;
     }
 
-    .bloco5 .fa-arrow-right {
+    .bloco5 .fa-plus {
         margin-right: 15px;
         margin-left: 15px;
         vertical-align: middle;
-        font-size: 20px;
+        font-size: 13px;
         margin-top: 1px;
     }
 
     /* bloco 5 */
 
-    /* bloco 91 */
-    .bloco91 {
-        width: 100%;
-        position: relative;
-        justify-content: center;
-        display: flex;
-        text-align: center;
-        align-items: center;
+    /* bloco 8 */
+    .bloco8 .pai {
         background-color: #490315;
-        padding: 30px 0px;
+        padding: 50px 0px;
     }
 
-    .bloco91 img {
-        width: 100%;
+    .bloco8 .pai-titulo h1 {
+        font-family: 'Cinzel', serif;
+        margin-bottom: 50px;
+        color: #D1B332;
+        font-weight: bold;
+        font-size: 18px;
+        padding: 0px 20px;
+        line-height: 23px;
+        letter-spacing: 1px;
     }
 
-    /* bloco 91 */
-
-
-    /* bloco 81 */
-    .bloco81 {
-        width: 100%;
-        position: relative;
-        justify-content: center;
-        display: flex;
+    .bloco8 .pai-texto p {
+        color: #f2f2f2;
+        font-family: 'Exo', sans-serif;
+        font-size: 15px;
+        line-height: 25px;
         text-align: center;
-        align-items: center;
+        font-weight: bold;
+        letter-spacing: 1px;
+        padding: 0px 20px;
+    }
+
+    /* bloco 8 */
+
+    /* bloco 9 */
+    .bloco9-cel .pai-cel {
+        padding: 50px 0px;
         background-color: #181719;
-        padding: 30px 0px;
+        margin: 0 auto;
     }
 
-    .bloco81 img {
+    .bloco9-cel .pai-cel img {
+        object-fit: cover;
         width: 100%;
     }
 
-    /* bloco 81 */
+    /* bloco 9 cel */
 
-
-    /* bloco 101 */
-    .bloco101 {
-        width: 100%;
-        position: relative;
-        justify-content: center;
-        display: flex;
-        text-align: center;
-        align-items: center;
+    /* bloco 10 */
+    .bloco10 {
         background-color: #490315;
-        padding-top: 0px;
-        padding-bottom: 20px;
+        padding: 50px 20px;
     }
 
-    .bloco101 img {
+    .bloco10 .pai {
+        /* display: flex; */
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .bloco10 .pai1,
+    .pai2 {
         width: 100%;
     }
 
-    /* bloco 101 */
+    /* .bloco10 .pai1 {
+        background-color: blue;
+    } */
+
+    .bloco10 .pai1 .pai11 {
+        margin: 0 auto;
+        /* background-color: red; */
+        /* width: 100%; */
+        /* text-align: center; */
+        justify-content: center;
+        /* align-items: center; */
+        display: flex;
+
+    }
+
+    .bloco10 .pai1 h1 {
+        font-family: 'Cinzel', serif;
+        color: white;
+        font-size: 25px;
+        line-height: 30px;
+        text-align: left;
+        font-weight: normal;
+    }
+
+    /* .bloco10 .pai2 {
+        background-color: yellow;
+    } */
+
+    .bloco10 .pai2 .pai22 {
+        margin: 0 auto;
+        /* background-color: black; */
+        width: 100%;
+        /* text-align: center; */
+        justify-content: center;
+        /* align-items: center; */
+        display: flex;
+    }
+
+    .bloco10 .pai2 .pai22 p {
+        color: #f2f2f2;
+        font-family: 'Exo', sans-serif;
+        font-size: 15px;
+        text-align: left;
+        line-height: 25px;
+        font-weight: bold;
+        letter-spacing: 1px;
+        margin-top: 50px;
+    }
+
+    /* bloco 10 */
 }
 
 @media (min-width: 768px) {
 
-    .bloco-cel {
+    .bloco1-cel {
+        display: none;
+    }
+
+    .bloco9-cel {
         display: none;
     }
 
@@ -455,7 +539,7 @@
     }
 
     .blocob {
-        margin-right: 100px;
+        margin-right: 120px;
         /* background-color: red; */
         align-items: center;
         text-align: center;
@@ -599,17 +683,18 @@
         letter-spacing: 1px;
         line-height: 40px;
         text-align: left;
+        margin-bottom: 100px;
+    }
+
+    .botao {
+        margin-bottom: 117px;
     }
 
     .bloco4 a {
-        /* display: flex; */
-        position: relative;
         align-items: center;
         justify-content: center;
         padding: 15px 50px;
-        /* width: 100%; */
-        /* margin-top: 150px;
-        margin-bottom: 100px; */
+        width: 50%;
         text-decoration: none;
         cursor: pointer;
         text-decoration: none;
@@ -647,27 +732,16 @@
         display: flex;
     }
 
-    /* .bloco5 .blococ {
-        width: 50%;
-        padding-top: 80px;
-    } */
 
     .bloco5 .blocod,
     .blococ {
         width: 50%;
-        padding-top: 100px;
+        padding: 100px 0px;
     }
-
-    /* .blococ {
-        width: 100%;
-        background-color: black;
-        padding-top: 50px;
-    } */
 
     .blococ img {
         width: 100%;
         padding: 0px 30px;
-        /* display: flex; */
         align-items: center;
         justify-content: center;
         text-align: center;
@@ -685,11 +759,9 @@
         font-family: Arial, Helvetica, sans-serif;
         font-weight: bold;
         margin-bottom: 20px;
-        /* margin-top: 50px; */
         font-size: 13px;
         text-transform: uppercase;
         text-align: left;
-        /* background-color: blue; */
         margin-left: 15%;
     }
 
@@ -712,7 +784,6 @@
     }
 
     .blocod h1 {
-        /* background-color: rebeccapurple; */
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         font-size: 40px;
         line-height: 45px;
@@ -753,175 +824,124 @@
         text-decoration: none;
     }
 
-    .bloco5 .fa-arrow-right {
+    .bloco5 .fa-plus {
         margin-right: 15px;
         margin-left: 15px;
         vertical-align: middle;
-        font-size: 20px;
+        font-size: 18px;
         margin-top: 1px;
     }
 
     /* bloco 5 */
 
-    /* bloco 5 link */
 
-    /* .bloco5-link {
-        background-color: black;
-        padding-bottom: 120px;
-        padding-top: 30px;
-    }
-
-    .bloco5-link .fa-clock {
-        margin-right: 15px;
-    }
-
-    .bloco5-link a {
-        font-family: 'Cinzel', serif;
-        letter-spacing: 1px;
-        font-size: 15px;
-        font-weight: bold;
-        text-decoration: none;
-        color: white;
-        background-color: white;
-        color: black;
-        padding: 15px;
-        position: relative;
-        border: 2px solid white;
-        margin: 0 auto;
-        text-align: center;
-        align-items: center;
-        justify-content: center;
-        transition: 0.2s;
-    }
-
-    .bloco5-link a:hover {
-        transition: 0.2s;
-        background-color: black;
-        color: white;
-    } */
-
-    /* bloco 5 link */
-
-    /* bloco2 */
-    /* .bloco2 {
-        padding: 100px 0px 100px 0px;
-        width: 100%;
-        background-color: #0C0807;
-        text-align: center;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .bloco2 h1 {
-        color: white;
-        text-align: center;
-        letter-spacing: 1px;
-        font-family: 'Cinzel', serif;
-        font-weight: normal;
-        margin: 0px 20px 50px 20px;
-        font-size: 45px;
-        line-height: 55px;
-    }
-
-    .bloco2 p {
-        color: #f2f2f2;
-        font-family: 'Exo', sans-serif;
-        line-height: 30px;
-        font-size: 25px;
-        letter-spacing: 1px;
-        width: 80%;
-        text-align: left;
-        margin: 0 auto;
-    }
-
-    .bloco2 a {
-        display: flex;
-        align-items: center;
-        background-color: white;
-        color: black;
-        padding: 15px;
-        text-decoration: none;
-        font-size: 15px;
-        transition: 0.2s;
-        margin-top: 50px;
-        font-weight: bold;
-        border: 2px solid white;
-        font-family: 'Cinzel', serif;
-        letter-spacing: 1px;
-        text-align: center;
-    }
-
-    .bloco2 .fa-check-circle {
-        font-size: 15px;
-        margin-right: 15px;
-    }
-
-    .bloco2 a:hover {
-        background-color: black;
-        color: white;
-        border: 2px solid white;
-        transition: 0.2s;
-    } */
-
-    /* bloco2 */
-
-
-
-
-    /* bloco 9 */
-    .bloco9 {
-        width: 100%;
-        position: relative;
-        justify-content: center;
-        display: flex;
-        text-align: center;
-        align-items: center;
+    /* bloco 8 */
+    .bloco8 .pai {
         background-color: #490315;
         padding: 100px 0px;
     }
 
-    .bloco9 img {
-        width: 85%;
+    .bloco8 .pai-titulo h1 {
+        font-family: 'Cinzel', serif;
+        margin-bottom: 50px;
+        color: #D1B332;
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 30px;
+        letter-spacing: 2px;
+    }
+
+    .bloco8 .pai-texto p {
+        color: #f2f2f2;
+        font-family: 'Exo', sans-serif;
+        font-size: 20px;
+        line-height: 30px;
+        font-weight: bold;
+        letter-spacing: 1px;
+    }
+
+    /* bloco 8 */
+
+    /* bloco 9 */
+    .bloco9 .pai {
+        padding: 100px 0px;
+        background-color: #181719;
+        margin: 0 auto;
+    }
+
+    .bloco9 .pai img {
+        object-fit: cover;
+        width: 80%;
     }
 
     /* bloco 9 */
-
-
-    /* bloco 8 */
-    .bloco8 {
-        width: 100%;
-        position: relative;
-        justify-content: center;
-        display: flex;
-        text-align: center;
-        align-items: center;
-        background-color: #181719;
-        padding: 100px 0px;
-    }
-
-    .bloco8 img {
-        width: 85%;
-    }
-
-    /* bloco 8 */
-
 
     /* bloco 10 */
     .bloco10 {
-        width: 100%;
-        position: relative;
-        justify-content: center;
-        display: flex;
-        text-align: center;
-        align-items: center;
         background-color: #490315;
         padding: 100px 0px;
     }
 
-    .bloco10 img {
-        width: 85%;
+    .bloco10 .pai {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
     }
 
-    /* bloco 9 */
+    .bloco10 .pai1,
+    .pai2 {
+        width: 50%;
+    }
+
+    /* .bloco10 .pai1 {
+        background-color: blue;
+    } */
+
+    .bloco10 .pai1 .pai11 {
+        margin: 0 auto;
+        /* background-color: red; */
+        /* width: 100%; */
+        /* text-align: center; */
+        justify-content: center;
+        /* align-items: center; */
+        display: flex;
+        margin-left: 10px;
+    }
+
+    .bloco10 .pai1 h1 {
+        font-family: 'Cinzel', serif;
+        color: white;
+        font-size: 43px;
+        line-height: 50px;
+        text-align: left;
+        font-weight: normal;
+    }
+
+    /* .bloco10 .pai2 {
+        background-color: yellow;
+    } */
+
+    .bloco10 .pai2 .pai22 {
+        margin: 0 auto;
+        /* background-color: black; */
+        width: 100%;
+        /* text-align: center; */
+        justify-content: center;
+        /* align-items: center; */
+        display: flex;
+    }
+
+    .bloco10 .pai2 .pai22 p {
+        color: #f2f2f2;
+        font-family: 'Exo', sans-serif;
+        font-size: 20px;
+        text-align: left;
+        line-height: 30px;
+        font-weight: bold;
+        letter-spacing: 1px;
+        margin: 0px 10px;
+    }
+
+    /* bloco 10 */
 }
