@@ -9,7 +9,7 @@
     /* bloco 7*/
     .bloco7 {
         background-color: #0C0807;
-        padding: 50px 0px 50px 0px;
+        padding: 50px 0px 40px 0px;
     }
 
     .bloco7 h1 {
@@ -27,12 +27,12 @@
 
     .bloco7 p {
         color: #f2f2f2;
-        margin-bottom: 60px;
+        margin-bottom: 40px;
         margin-top: 5px;
         padding: 0px 20px;
         font-family: 'Exo', sans-serif;
-        font-weight: normal;
-        font-size: 18px;
+        font-weight: bold;
+        font-size: 16px;
         letter-spacing: 1px;
     }
 
@@ -45,24 +45,24 @@
         transition: 0.2s;
         cursor: pointer;
         background-color: #f2f2f2;
-        color: rgba(0, 0, 0, 0.7);
+        color: #181719;
         text-align: left;
         letter-spacing: 1px;
-        font-size: 13px;
-        line-height: 18px;
-        font-family: 'Cinzel', serif;
+        font-size: 16px;
+        line-height: 21px;
+        font-family: 'Exo', sans-serif;
         font-weight: bold;
         display: flex;
         align-items: center;
-        border: 2px solid #FFD700;
+        border: 1px solid #181719;
         width: calc(100% - 20px);
-        padding: 10px;
+        padding: 15px 10px;
     }
 
     .pergunta i {
-        margin: 0px 15px 0px 0px;
-        border: 1px solid #FFD700;
-        color: #FFD700;
+        margin: 0px 10px 0px 0px;
+        border: 1px solid #181719;
+        color: #181719;
         padding: 5px;
         font-weight: normal;
     }
@@ -77,9 +77,9 @@
         width: 100%;
         display: none;
         background-color: white;
-        border-left: 2px solid #FFD700;
-        border-right: 2px solid #FFD700;
-        border-bottom: 2px solid #FFD700;
+        border-left: 1px solid #181719;
+        border-right: 1px solid #181719;
+        border-bottom: 1px solid #181719;
     }
 
     .resposta p {
@@ -90,11 +90,11 @@
         justify-content: center;
         color: black;
         box-sizing: border-box;
-        font-size: 16px;
-        font-weight: normal;
+        font-size: 15px;
+        font-weight: bold;
         letter-spacing: 1px;
         font-family: 'Exo', sans-serif;
-        line-height: 21px;
+        line-height: 20px;
     }
 
     /* bloco 7*/
@@ -105,29 +105,32 @@
 
     /* bloco 7*/
     .bloco7 {
-        background-color: #0C0807;
-        padding-top: 60px;
+        background-color: #181719;
+        padding-top: 80px;
         padding-bottom: 80px;
     }
 
     .bloco7 h1 {
         color: white;
+        margin-top: -10px;
+        margin-bottom: -10px;
         font-family: 'Cinzel', serif;
         font-size: 45px;
-        letter-spacing: 1px;
+        letter-spacing: 0px;
         justify-content: center;
         text-align: center;
         font-weight: normal;
         width: 100%;
-        background-color: #0C0807;
+        background-color: #181719;
     }
 
     .bloco7 p {
         color: #f2f2f2;
-        margin-bottom: 60px;
+        margin-top: 10px;
+        margin-bottom: 80px;
         font-family: 'Exo', sans-serif;
-        font-weight: normal;
-        font-size: 25px;
+        font-weight: bold;
+        font-size: 20px;
         letter-spacing: 1px;
     }
 
@@ -143,21 +146,21 @@
         color: black;
         text-align: left;
         letter-spacing: 1px;
-        font-size: 16px;
-        line-height: 21px;
-        font-family: 'Cinzel', serif;
+        font-size: 20px;
+        line-height: 25px;
+        font-family: 'Exo', sans-serif;
         font-weight: bold;
         display: flex;
         align-items: center;
-        border: 2px solid #FFD700;
+        border: 2px solid #490315;
         width: calc(100% - 20px);
         padding: 20px 10px;
     }
 
     .pergunta i {
         margin: 0px 30px;
-        border: 1px solid #FFD700;
-        color: #FFD700;
+        border: 1px solid #490315;
+        color: #490315;
         padding: 5px;
         font-weight: normal;
     }
@@ -172,9 +175,9 @@
         width: 100%;
         display: none;
         background-color: white;
-        border-left: 2px solid #FFD700;
-        border-right: 2px solid #FFD700;
-        border-bottom: 2px solid #FFD700;
+        border-left: 2px solid #490315;
+        border-right: 2px solid #490315;
+        border-bottom: 2px solid #490315;
     }
 
     .resposta p {
@@ -183,13 +186,13 @@
         text-align: center;
         align-items: center;
         justify-content: center;
-        color: rgba(0, 0, 0, 0.8);
+        color: #490315;
         box-sizing: border-box;
-        font-size: 20px;
+        font-size: 17px;
         font-weight: bold;
         letter-spacing: 1px;
         font-family: 'Exo', sans-serif;
-        line-height: 25px;
+        line-height: 22px;
     }
 
     /* bloco 7*/

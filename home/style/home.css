@@ -13,11 +13,15 @@
         display: none;
     }
 
+    .link9-pc {
+        display: none;
+    }
+
     /* bloco1 */
 
     .bloco1-cel {
         display: flex;
-        padding: 30px 0px 20px 0px;
+        padding: 50px 0px 20px 0px;
         background-color: #040404;
     }
 
@@ -65,7 +69,7 @@
     }
 
     .blocob22-cel img {
-        width: 100%;
+        width: 70%;
         object-fit: cover;
         display: flex;
     }
@@ -104,27 +108,26 @@
     .blocoa h1 {
         font-family: 'Cinzel', serif;
         font-weight: normal;
-        font-size: 25px;
+        font-size: 22px;
         color: white;
         margin-top: 50px;
         text-align: center;
-        margin-bottom: 50px;
+        margin-bottom: 0px;
         letter-spacing: 1px;
+        padding: 0px 10px;
     }
 
-    .blocoa p {
-        line-height: 26px;
-        color: #f2f2f2;
-        text-align: center;
-        margin: 0 auto;
-        font-size: 16px;
-        padding: 0px 20px;
-        font-weight: bold;
+    .blocoa h2 {
+        background-color: #f2f2f2;
         font-family: 'Exo', sans-serif;
-        margin-bottom: 50px;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 23px;
+        color: #490315;
+        text-align: center;
         letter-spacing: 1px;
-        border-bottom: 1px solid white;
-        padding-bottom: 5px;
+        width: 80%;
+        padding: 20px;
     }
 
     .blocoa a {
@@ -132,18 +135,19 @@
         align-items: center;
         justify-content: center;
         padding: 15px;
+        margin-top: 50px;
         margin-bottom: 50px;
         text-decoration: none;
         cursor: pointer;
         text-decoration: none;
-        background-color: white;
+        background-color: #f2f2f2;
         color: black;
         letter-spacing: 1px;
         font-weight: bold;
         font-size: 13px;
         font-family: 'Cinzel', serif;
         transition: 0.2s;
-        border: 2px solid white;
+        border: 2px solid #f2f2f2;
     }
 
     .blocoa .fa-rocket {
@@ -153,8 +157,8 @@
 
     .blocoa a:hover {
         background-color: #490315;
-        color: white;
-        border: 2px solid white;
+        color: #f2f2f2;
+        border: 2px solid #f2f2f2;
         transition: 0.2s;
     }
 
@@ -191,17 +195,19 @@
         width: 100%;
         background-color: #0C0807;
         display: flex;
+
         height: 100%;
     }
 
     .paragrafo1 {
         width: 100%;
+        /* margin-bottom: 100px; */
     }
 
     .paragrafo1 {
         justify-content: top;
         align-items: top;
-        padding: 0px 20px;
+        padding: 0px 20px 60px 20px;
         background-color: #181719;
     }
 
@@ -211,13 +217,15 @@
         font-family: 'Exo', sans-serif;
         font-size: 16px;
         letter-spacing: 1px;
-        line-height: 26px;
+        line-height: 21px;
         text-align: left;
         font-weight: bold;
+        margin-bottom: 60px;
+
     }
 
     .bloco4 a {
-        display: flex;
+        /* display: flex;
         align-items: center;
         justify-content: center;
         padding: 15px;
@@ -233,12 +241,28 @@
         font-size: 13px;
         font-family: 'Cinzel', serif;
         transition: 0.2s;
+        border: 2px solid white; */
+
+        align-items: center;
+        justify-content: center;
+        padding: 15px;
+        width: 50%;
+        text-decoration: none;
+        cursor: pointer;
+        text-decoration: none;
+        background-color: white;
+        color: black;
+        letter-spacing: 1px;
+        font-weight: bold;
+        font-size: 13px;
+        font-family: 'Cinzel', serif;
+        transition: 0.2s;
         border: 2px solid white;
     }
 
     .bloco4 .fa-lightbulb {
         font-size: 15px;
-        margin-right: 20px;
+        margin-right: 15px;
     }
 
     .bloco4 a:hover {
@@ -302,8 +326,8 @@
         /* width: 100%; */
         text-align: center;
         font-family: Arial, Helvetica, sans-serif;
-        font-size: 15px;
-        line-height: 20px;
+        font-size: 16px;
+        line-height: 21px;
         padding: 20px 20px 0px 20px;
     }
 
@@ -321,8 +345,8 @@
 
     .blocod2 h2 {
         font-family: Arial, Helvetica, sans-serif;
-        font-size: 13px;
-        padding: 8px 0px;
+        font-size: 15px;
+        padding: 10px 0px;
         border-radius: 5px;
         display: flex;
         width: 100%;
@@ -374,18 +398,68 @@
         letter-spacing: 1px;
     }
 
+    .bloco8 .pai-texto {
+        text-align: center;
+        width: 90%;
+        margin: 0 auto;
+    }
+
     .bloco8 .pai-texto p {
         color: #f2f2f2;
         font-family: 'Exo', sans-serif;
-        font-size: 15px;
-        line-height: 25px;
-        text-align: center;
+        font-size: 16px;
+        line-height: 21px;
+        text-align: left;
         font-weight: bold;
         letter-spacing: 1px;
-        padding: 0px 20px;
+        /* padding: 0px 20px; */
     }
 
     /* bloco 8 */
+
+    /* link 8 */
+    .link8 {
+        width: 100%;
+        background-color: #490315;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        padding-bottom: 50px;
+    }
+
+    .link8 a {
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 12px;
+        text-decoration: none;
+        cursor: pointer;
+        text-decoration: none;
+        background-color: white;
+        color: black;
+        letter-spacing: 1px;
+        font-weight: bold;
+        font-size: 12px;
+        font-family: 'Cinzel', serif;
+        transition: 0.2s;
+        border: 2px solid white;
+    }
+
+    .link8 .fa-bolt {
+        font-size: 15px;
+        margin-right: 15px;
+    }
+
+    .link8 a:hover {
+        box-shadow: none;
+        border: 2px solid white;
+        color: white;
+        background-color: #490315;
+        transition: 0.2s;
+    }
+
+    /* link 8 */
 
     /* bloco 9 */
     .bloco9-cel .pai-cel {
@@ -400,6 +474,51 @@
     }
 
     /* bloco 9 cel */
+
+
+    /* link9-cel */
+    .link9-cel {
+        width: 100%;
+        background-color: #181719;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        padding-bottom: 50px;
+    }
+
+    .link9-cel a {
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+        text-decoration: none;
+        cursor: pointer;
+        text-decoration: none;
+        background-color: white;
+        color: black;
+        letter-spacing: 1px;
+        font-weight: bold;
+        font-size: 13px;
+        font-family: 'Cinzel', serif;
+        transition: 0.2s;
+        border: 2px solid white;
+    }
+
+    .link9-cel .fa-chart-line {
+        font-size: 13px;
+        margin-right: 10px;
+    }
+
+    .link9-cel a:hover {
+        box-shadow: none;
+        border: 2px solid white;
+        color: white;
+        background-color: #181719;
+        transition: 0.2s;
+    }
+
+    /* link9-cel */
 
     /* bloco 10 */
     .bloco10 {
@@ -460,15 +579,59 @@
     .bloco10 .pai2 .pai22 p {
         color: #f2f2f2;
         font-family: 'Exo', sans-serif;
-        font-size: 15px;
+        font-size: 16px;
         text-align: left;
-        line-height: 25px;
+        line-height: 21px;
         font-weight: bold;
         letter-spacing: 1px;
         margin-top: 50px;
     }
 
     /* bloco 10 */
+
+    /* link10 */
+    .link10 {
+        width: 100%;
+        background-color: #490315;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        padding-bottom: 50px;
+    }
+
+    .link10 a {
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 12px;
+        text-decoration: none;
+        cursor: pointer;
+        text-decoration: none;
+        background-color: white;
+        color: black;
+        letter-spacing: 1px;
+        font-weight: bold;
+        font-size: 12px;
+        font-family: 'Cinzel', serif;
+        transition: 0.2s;
+        border: 2px solid white;
+    }
+
+    .link10 .fa-tachometer-alt {
+        font-size: 15px;
+        margin-right: 15px;
+    }
+
+    .link10 a:hover {
+        box-shadow: none;
+        border: 2px solid white;
+        color: white;
+        background-color: #490315;
+        transition: 0.2s;
+    }
+
+    /* link10 */
 }
 
 @media (min-width: 768px) {
@@ -481,11 +644,15 @@
         display: none;
     }
 
+    .link9-cel {
+        display: none;
+    }
+
     /* bloco1 */
 
     .bloco1 {
         display: flex;
-        padding: 30px 0px;
+        padding: 70px 0px;
         background-color: #040404;
     }
 
@@ -572,27 +739,26 @@
     .blocoa h1 {
         font-family: 'Cinzel', serif;
         font-weight: normal;
-        font-size: 45px;
+        font-size: 35px;
+        line-height: 35px;
         color: white;
         margin-top: 90px;
         text-align: center;
-        margin-bottom: 60px;
+        margin-bottom: 0px;
         letter-spacing: 1px;
+        margin-bottom: 80px;
     }
 
-    .blocoa p {
-        line-height: 40px;
-        color: #f2f2f2;
-        text-align: center;
-        margin: 0 auto;
-        font-size: 20px;
-        padding: 0px 30px;
-        font-weight: bold;
+    .blocoa h2 {
+        background-color: #f2f2f2;
         font-family: 'Exo', sans-serif;
-        margin-bottom: 90px;
+        font-weight: bold;
+        font-size: 25px;
+        color: #490315;
+        text-align: center;
         letter-spacing: 1px;
-        border-bottom: 1px solid white;
-        padding-bottom: 10px;
+        width: 80%;
+        padding: 30px 0px;
     }
 
     .blocoa a {
@@ -600,29 +766,30 @@
         align-items: center;
         justify-content: center;
         padding: 15px 50px;
+        margin-top: 80px;
         margin-bottom: 100px;
         text-decoration: none;
         cursor: pointer;
         text-decoration: none;
-        background-color: white;
+        background-color: #f2f2f2;
         color: black;
         letter-spacing: 1px;
         font-weight: bold;
         font-size: 18px;
         font-family: 'Cinzel', serif;
         transition: 0.2s;
-        border: 2px solid white;
+        border: 2px solid #f2f2f2;
     }
 
     .blocoa .fa-rocket {
         font-size: 15px;
-        margin-right: 15px;
+        margin-right: 20px;
     }
 
     .blocoa a:hover {
         background-color: #490315;
-        color: white;
-        border: 2px solid white;
+        color: #f2f2f2;
+        border: 2px solid #f2f2f2;
         transition: 0.2s;
     }
 
@@ -732,7 +899,6 @@
         display: flex;
     }
 
-
     .bloco5 .blocod,
     .blococ {
         width: 50%;
@@ -834,11 +1000,10 @@
 
     /* bloco 5 */
 
-
     /* bloco 8 */
     .bloco8 .pai {
         background-color: #490315;
-        padding: 100px 0px;
+        padding: 100px 0px 0px 0px;
     }
 
     .bloco8 .pai-titulo h1 {
@@ -858,13 +1023,58 @@
         line-height: 30px;
         font-weight: bold;
         letter-spacing: 1px;
+        padding-bottom: 50px;
     }
 
     /* bloco 8 */
 
+    /* link 8 */
+    .link8 {
+        width: 100%;
+        background-color: #490315;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        padding-bottom: 100px;
+    }
+
+    .link8 a {
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 15px 50px;
+        text-decoration: none;
+        cursor: pointer;
+        text-decoration: none;
+        background-color: white;
+        color: black;
+        letter-spacing: 1px;
+        font-weight: bold;
+        font-size: 18px;
+        font-family: 'Cinzel', serif;
+        transition: 0.2s;
+        border: 2px solid white;
+    }
+
+    .link8 .fa-bolt {
+        font-size: 15px;
+        margin-right: 20px;
+    }
+
+    .link8 a:hover {
+        box-shadow: none;
+        border: 2px solid white;
+        color: white;
+        background-color: #490315;
+        transition: 0.2s;
+    }
+
+    /* link 8 */
+
     /* bloco 9 */
     .bloco9 .pai {
-        padding: 100px 0px;
+        padding: 100px 0px 50px 0px;
         background-color: #181719;
         margin: 0 auto;
     }
@@ -875,6 +1085,50 @@
     }
 
     /* bloco 9 */
+
+    /* link9-pc */
+    .link9-pc {
+        width: 100%;
+        background-color: #181719;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        padding-bottom: 100px;
+    }
+
+    .link9-pc a {
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 15px 50px;
+        text-decoration: none;
+        cursor: pointer;
+        text-decoration: none;
+        background-color: white;
+        color: black;
+        letter-spacing: 1px;
+        font-weight: bold;
+        font-size: 18px;
+        font-family: 'Cinzel', serif;
+        transition: 0.2s;
+        border: 2px solid white;
+    }
+
+    .link9-pc .fa-chart-line {
+        font-size: 15px;
+        margin-right: 20px;
+    }
+
+    .link9-pc a:hover {
+        box-shadow: none;
+        border: 2px solid white;
+        color: white;
+        background-color: #181719;
+        transition: 0.2s;
+    }
+
+    /* link9-pc */
 
     /* bloco 10 */
     .bloco10 {
@@ -944,4 +1198,48 @@
     }
 
     /* bloco 10 */
+
+    /* link10 */
+    .link10 {
+        width: 100%;
+        background-color: #490315;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        padding-bottom: 100px;
+    }
+
+    .link10 a {
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 15px 50px;
+        text-decoration: none;
+        cursor: pointer;
+        text-decoration: none;
+        background-color: white;
+        color: black;
+        letter-spacing: 1px;
+        font-weight: bold;
+        font-size: 18px;
+        font-family: 'Cinzel', serif;
+        transition: 0.2s;
+        border: 2px solid white;
+    }
+
+    .link10 .fa-tachometer-alt {
+        font-size: 15px;
+        margin-right: 20px;
+    }
+
+    .link10 a:hover {
+        box-shadow: none;
+        border: 2px solid white;
+        color: white;
+        background-color: #490315;
+        transition: 0.2s;
+    }
+
+    /* link10 */
 }
