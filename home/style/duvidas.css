@@ -32,7 +32,7 @@
         padding: 0px 20px;
         font-family: 'Exo', sans-serif;
         font-weight: bold;
-        font-size: 16px;
+        font-size: 15px;
         letter-spacing: 1px;
     }
 
@@ -48,8 +48,8 @@
         color: #181719;
         text-align: left;
         letter-spacing: 1px;
-        font-size: 16px;
-        line-height: 21px;
+        font-size: 18px;
+        line-height: 23px;
         font-family: 'Exo', sans-serif;
         font-weight: bold;
         display: flex;
@@ -60,7 +60,7 @@
     }
 
     .pergunta i {
-        margin: 0px 10px 0px 0px;
+        margin: 0px 15px 0px 0px;
         border: 1px solid #181719;
         color: #181719;
         padding: 5px;
