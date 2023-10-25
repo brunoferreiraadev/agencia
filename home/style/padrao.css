@@ -419,50 +419,6 @@
 
     /* topo */
 
-    /* efeitos */
-    /* efeito opacity normal */
-    .init-hidden-normal {
-        opacity: 0;
-        transition: opacity 0.5 linear;
-    }
-
-    .init-hidden-off-normal {
-        opacity: 1;
-        transition: opacity 0.5s linear;
-    }
-
-    /* efeito opacity normal */
-
-    /* efeito de cima para baixo */
-    .init-hidden-cima {
-        opacity: 0;
-        transition: opacity 0.5s linear, transform 0.5s ease-in-out;
-        transform: translateY(-50%);
-    }
-
-    .init-from-cima {
-        opacity: 1;
-        transform: translateY(0);
-    }
-
-    /* efeito de cima para baixo */
-
-    /* efeito de esquerda para direita */
-    .init-hidden-esquerda {
-        opacity: 0;
-        transition: opacity 0.5s linear;
-        transform: translateX(-70%);
-    }
-
-    .init-from-esquerda {
-        opacity: 1;
-        transform: translateX(0);
-        transition: opacity 0.5s linear, transform 0.5s ease-in-out;
-    }
-
-    /* efeito de esquerda para direita */
-    /* efeitos */
-
     /* preloader */
     #preloader {
         position: fixed;

@@ -4,7 +4,214 @@
 /* font-family: 'Cinzel', serif; */
 /* font-family: 'Exo', sans-serif; */
 
-@media (max-width: 767px) {}
+@media (max-width: 767px) {
+    /* contato-titulo */
+
+    .contato-titulo {
+        background-color: #490315;
+        padding: 50px 0px;
+    }
+
+    .contato-titulo h1 {
+        font-family: 'Cinzel', serif;
+        font-size: 25px;
+        line-height: 25px;
+        padding: 0px 20px;
+        color: #f2f2f2;
+        letter-spacing: 1px;
+        font-weight: normal;
+    }
+
+    .contato-titulo p {
+        margin-top: 5px;
+        color: #f2f2f2;
+        font-family: 'Exo', sans-serif;
+        font-size: 15px;
+        text-align: center;
+        line-height: 20px;
+        padding: 0px 20px;
+        font-weight: bold;
+        letter-spacing: 1px;
+    }
+
+    /* contato-titulo */
+
+    /* box1 */
+
+    .box1 .filho1 {
+        background-color: #490315;
+        padding: 20px 0px;
+        border-top: 15px solid #ccc;
+        border-left: 15px solid #ccc;
+        border-right: 15px solid #ccc;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .box1 .filho1 h1 {
+        color: white;
+        font-family: 'Cinzel', serif;
+        font-weight: normal;
+        font-size: 20px;
+        letter-spacing: 1px;
+    }
+
+    .box1 .filho2 {
+        background-color: white;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        border-left: 15px solid #ccc;
+        border-right: 15px solid #ccc;
+        border-bottom: 40px solid #ccc;
+    }
+
+    .box1 .filho2 a {
+        padding: 12px 0px;
+        text-decoration: none;
+        width: 100%;
+        color: #490315;
+        text-align: center;
+        font-family: 'Exo', sans-serif;
+        font-weight: bold;
+        font-size: 15px;
+        letter-spacing: 1px;
+        transition: 0.2s;
+    }
+
+    .box1 .filho2 a:hover {
+        background-color: #f2f2f2;
+        transition: 0.2s;
+    }
+
+    .box1 .filho2 .fa-whatsapp {
+        margin-right: 15px;
+        margin-bottom: 1px;
+        font-size: 20px;
+        color: lime;
+        font-weight: bold;
+        vertical-align: middle;
+    }
+
+    /* box1 */
+
+    /* box2 */
+
+    .box2 .filho1 {
+        background-color: #490315;
+        padding: 20px 0px;
+        border-left: 15px solid #ccc;
+        border-right: 15px solid #ccc;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .box2 .filho1 h1 {
+        color: white;
+        font-family: 'Cinzel', serif;
+        font-weight: normal;
+        font-size: 20px;
+        letter-spacing: 1px;
+    }
+
+    .box2 .filho2 {
+        background-color: white;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        border-left: 15px solid #ccc;
+        border-right: 15px solid #ccc;
+        border-bottom: 40px solid #ccc;
+    }
+
+    .box2 .filho2 a {
+        padding: 12px 0px;
+        text-decoration: none;
+        width: 100%;
+        color: #490315;
+        text-align: center;
+        font-family: 'Exo', sans-serif;
+        font-weight: bold;
+        font-size: 15px;
+        letter-spacing: 1px;
+        transition: 0.2s;
+    }
+
+    .box2 .filho2 a:hover {
+        background-color: #f2f2f2;
+        transition: 0.2s;
+    }
+
+    .box2 .filho2 .fa-map-marker-alt {
+        margin-right: 15px;
+        margin-bottom: 1px;
+        font-size: 18px;
+        color: red;
+        font-weight: bold;
+        vertical-align: middle;
+    }
+
+    /* box2 */
+
+    /* box3*/
+
+    .box3 {
+        background-color: #ccc;
+        padding-bottom: 50px;
+    }
+
+    .box3 .filho1 {
+        background-color: #490315;
+        padding: 20px 0px;
+        border-left: 15px solid #ccc;
+        border-right: 15px solid #ccc;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .box3 .filho1 h1 {
+        color: white;
+        font-family: 'Cinzel', serif;
+        font-weight: normal;
+        font-size: 20px;
+        letter-spacing: 1px;
+    }
+
+    .box3 .filho2 {
+        background-color: white;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        border-left: 15px solid #ccc;
+        border-right: 15px solid #ccc;
+    }
+
+    .box3 .filho2 p {
+        padding: 12px 0px;
+        text-decoration: none;
+        width: 100%;
+        color: #490315;
+        text-align: center;
+        font-family: 'Exo', sans-serif;
+        font-weight: bold;
+        font-size: 15px;
+        letter-spacing: 1px;
+    }
+
+    .box3 .filho2 .fa-clock {
+        margin-right: 15px;
+        font-size: 15px;
+        margin-bottom: 3px;
+        vertical-align: middle;
+        font-weight: bold;
+        color: yellow;
+    }
+
+    /* box3 */
+}
 
 @media (min-width: 768px) {
 
@@ -45,11 +252,11 @@
     .box1 .filho1 {
         width: 40%;
         background-color: #490315;
-        padding: 30px 0px;
-        border-top: 6px solid #ccc;
-        border-left: 6px solid #ccc;
-        border-right: 3px solid #ccc;
-        border-bottom: 6px solid #ccc;
+        padding: 25px 0px;
+        border-top: 10px solid #ccc;
+        border-left: 10px solid #ccc;
+        border-right: 5px solid #ccc;
+        border-bottom: 5px solid #ccc;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -59,7 +266,7 @@
         color: white;
         font-family: 'Cinzel', serif;
         font-weight: normal;
-        font-size: 25px;
+        font-size: 23px;
         letter-spacing: 1px;
     }
 
@@ -69,10 +276,10 @@
         justify-content: center;
         align-items: center;
         display: flex;
-        border-top: 6px solid #ccc;
-        border-left: 3px solid #ccc;
-        border-right: 6px solid #ccc;
-        border-bottom: 6px solid #ccc;
+        border-top: 10px solid #ccc;
+        border-left: 5px solid #ccc;
+        border-right: 10px solid #ccc;
+        border-bottom: 5px solid #ccc;
     }
 
     .box1 .filho2 a {
@@ -80,8 +287,7 @@
         text-decoration: none;
         width: 100%;
         color: #490315;
-        text-align: left;
-        padding-left: 170px;
+        text-align: center;
         font-family: 'Exo', sans-serif;
         font-weight: bold;
         font-size: 18px;
@@ -100,6 +306,7 @@
         color: lime;
         font-weight: bold;
         vertical-align: middle;
+        margin-bottom: 1px;
     }
 
     /* box1 */
@@ -113,11 +320,11 @@
     .box2 .filho1 {
         width: 40%;
         background-color: #490315;
-        padding: 30px 0px;
-        border-top: 3px solid #ccc;
-        border-left: 6px solid #ccc;
-        border-right: 3px solid #ccc;
-        border-bottom: 6px solid #ccc;
+        padding: 25px 0px;
+        border-top: 5px solid #ccc;
+        border-left: 10px solid #ccc;
+        border-right: 5px solid #ccc;
+        border-bottom: 5px solid #ccc;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -127,7 +334,7 @@
         color: white;
         font-family: 'Cinzel', serif;
         font-weight: normal;
-        font-size: 25px;
+        font-size: 23px;
         letter-spacing: 1px;
     }
 
@@ -137,10 +344,10 @@
         justify-content: center;
         align-items: center;
         display: flex;
-        border-top: 3px solid #ccc;
-        border-left: 3px solid #ccc;
-        border-right: 6px solid #ccc;
-        border-bottom: 6px solid #ccc;
+        border-top: 5px solid #ccc;
+        border-left: 5px solid #ccc;
+        border-right: 10px solid #ccc;
+        border-bottom: 5px solid #ccc;
     }
 
     .box2 .filho2 a {
@@ -148,8 +355,7 @@
         text-decoration: none;
         width: 100%;
         color: #490315;
-        text-align: left;
-        padding-left: 170px;
+        text-align: center;
         font-family: 'Exo', sans-serif;
         font-weight: bold;
         font-size: 18px;
@@ -166,6 +372,7 @@
         font-size: 20px;
         vertical-align: middle;
         color: red;
+        margin-bottom: 3px;
     }
 
     /* box2 */
@@ -174,16 +381,17 @@
 
     .box3 {
         display: flex;
+        background-color: #ccc;
+        padding-bottom: 100px;
     }
 
     .box3 .filho1 {
         width: 40%;
         background-color: #490315;
-        padding: 30px 0px;
-        border-top: 3px solid #ccc;
-        border-left: 6px solid #ccc;
-        border-right: 3px solid #ccc;
-        border-bottom: 6px solid #ccc;
+        padding: 25px 0px;
+        border-top: 5px solid #ccc;
+        border-left: 10px solid #ccc;
+        border-right: 5px solid #ccc;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -193,7 +401,7 @@
         color: white;
         font-family: 'Cinzel', serif;
         font-weight: normal;
-        font-size: 25px;
+        font-size: 23px;
         letter-spacing: 1px;
     }
 
@@ -203,10 +411,10 @@
         justify-content: center;
         align-items: center;
         display: flex;
-        border-top: 3px solid #ccc;
-        border-left: 3px solid #ccc;
-        border-right: 6px solid #ccc;
-        border-bottom: 6px solid #ccc;
+        border-top: 5px solid #ccc;
+        border-left: 5px solid #ccc;
+        border-right: 10px solid #ccc;
+        border-bottom: 0px solid #ccc;
     }
 
     .box3 .filho2 p {
@@ -214,12 +422,12 @@
         text-decoration: none;
         width: 100%;
         color: #490315;
-        text-align: left;
-        padding-left: 170px;
+        text-align: center;
         font-family: 'Exo', sans-serif;
         font-weight: bold;
         font-size: 18px;
         letter-spacing: 1px;
+
     }
 
     .box3 .filho2 .fa-clock {
